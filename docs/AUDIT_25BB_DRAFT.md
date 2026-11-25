@@ -25,3 +25,6 @@ Matriz de 1.521 registros, 888 classes com ação visível, 633 sem ação atrib
 O código gerado é material de revisão, não uma fórmula autônoma. Nenhum consumidor foi conectado a src/DeepGT.txt. Fold observado e ausência de reach devem ser separados. Confirmar identidade do histórico/posição/stacks iniciais e valores de raise total (6 vs 8), e eventual discrepância com sizing R10i. Não confundir stack restante com inicial. Não mapear misturas para RFF/RCF/RCC/RRC sem a árvore correspondente. Preservar ownership e fallback explícito para nós não cobertos. Gate 01 nativo e aprovação de cobertura/sizing antes de qualquer ativação. Preferir modo do aplicativo que mostre frequências numéricas ou desative peso vertical de reach, se disponível; pedir exportação ou detalhe de mão especialmente para o nó 5.
 
 Commits: CSV cd1aa35d9286c03b1ef920f419f6169632e18ea0; predicates 26a4c754d03693858979d75d734ca6d63f56b706.
+
+## Adendo — esqueleto
+As 49 seções de listas/charts acima foram copiadas para o fim de src/DeepGT.txt juntamente com 12 helpers de stack, sem consumidores ativos. A afirmação anterior de que nenhum consumidor foi conectado continua válida. A grade foi definida em PREFLOP_POLICY.md. As divergências e bloqueios não mudaram.
