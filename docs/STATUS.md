@@ -73,3 +73,6 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 
 ## Experimento monotônico 25 BB — 2026-11-25
 35 charts auditadas estruturalmente, 70 inversões em nove; 30 nós com comparação numérica, 34 avaliações contando leituras HU. MonoFixed e MonoRobust sem inversões no suporte avaliado. MonoRobust candidata preferencial, não homologada; nenhuma chart alterada. Ver OPTIMIZED_MONOTONIC_STUDY.md.
+
+## Catálogo híbrido v0.2 experimental (25 BB)
+56 selecionadas individualmente: 8 modificadas, 48 preservadas, 16 pendente (alternativa não selecionada). 53.880.000 amostras MC novas; 66/70 inversões nas famílias auditadas eliminadas. 42 inclui reparo JTo com nova amostra. 31 Conservadora revisada TT+/AK. Nenhuma promoção; perdas em alguns modelos e ranges hipotéticos explicitados. [OPTIMIZED_HYBRID_25BB_V02.md](OPTIMIZED_HYBRID_25BB_V02.md). Pure intacto.
