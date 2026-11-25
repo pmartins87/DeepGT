@@ -28,3 +28,5 @@ Requisito transversal: aplicar revisão estratégica documentada aos nós de est
 Checkpoint 25 BB: prints 1–39 codificados em rascunho; cinco lacunas identificadas no painel. Fechar esses ramos antes de considerar captura 25 BB concluída. Gate 01 nativo/validação de roteamento e revisão estratégica permanecem. EX-001 implementada no rascunho; não alterar grade nem postflop.
 
 Checkpoint: 42/44 nós conhecidos a 25 BB, dois prints iniciais faltantes. Completar captura, seguir grade definida. Nova decisão: referência pura primeiro; variante ajustada posterior e separada, com critérios de comparação offline definidos antes de implementação. EX-001 revertida. Gates anteriores permanecem.
+
+Checkpoint 25 BB: 44/44 nós conhecidos 3-handed de origem e 10/12 HU nativo codificados em rascunho. Fechar dois nós HU restantes antes de 23 BB. Preservar separação de topologia, tamanhos e referência pura; gates nativos continuam pendentes.
