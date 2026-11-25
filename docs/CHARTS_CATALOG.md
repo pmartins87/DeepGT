@@ -19,4 +19,6 @@ R = raise total, C = call, F = fold, J = shove. Cinza representa ausência de re
 
 Nó 5: BLOQUEADO para homologação pela divergência 3,154 p.p. (call estimado 59,084%). Nó 8: seis classes com reach estimado no pai e sem ação visível no filho; massa estimada não resolvida ~1,019% do reach ponderado do pai. Nó 9: falta chart inicial do BB vs BTN R2 + SB C, que é pai estratégico do squeeze; reach só inferido da altura. Todos os nós precisam de revisão da fonte. J6s no nó 1 aparece raise puro; leitura anterior de 97% não confirmada.
 
-Ainda faltam os outros ramos, a grade de stacks e Gate 01 nativo. Não ativar em src/DeepGT.txt. Ver [auditoria](AUDIT_25BB_DRAFT.md).
+Ainda faltam os outros ramos e Gate 01 nativo. Grade definida em PREFLOP_POLICY.md. Os predicados foram acrescentados a src/DeepGT.txt sem consumidores ativos; não ativar até homologação. Ver [auditoria](AUDIT_25BB_DRAFT.md).
+
+Registro por stack/nó: [PREFLOP_REGISTRY.json](../charts/PREFLOP_REGISTRY.json). Originais: [manifesto](../sources/25bb/manifest.csv) (JPGs preparados, upload binário pendente). Todos os dados permanecem preliminares.
