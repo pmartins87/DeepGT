@@ -77,3 +77,23 @@ Segmentação das matrizes 709×1536 em 169 células, classificação cromática
 
 ## Prints 40–42 e reversão EX-001
 Extração por proximidade cromática azul/verde em matriz 13×13, faixa colorida inferior e voto por coluna nas últimas oito linhas visíveis. Estimativas call: 40=73,967% vs 72,80%, 41=32,101% vs 31,71%, 42=15,017% vs 15,06%. Reach fino/JPEG limitam precisão; 507 classes, 306 visíveis, 30906 verificações de partição modelada. 12 seções adicionadas; sem homologação nativa. EX-001 anteriormente aplicada foi revertida no src e predicados isolados; T3o 69/31 restaurado, CSV bruto preservado. A auditoria histórica 20–39 descreve o estado anterior à reversão. Nenhuma realocação de combos nesta versão.
+
+## Prints 43–54
+Extração por distância RGB à paleta, regiões 13×13, altura colorida inferior e voto por coluna das últimas oito linhas; arredondamento inteiro. A legenda do shove do print 47 está cortada; não inferir último decimal. A compressão JPEG e as transições vermelho/salmão podem produzir falsas faixas estreitas; revisão necessária antes de homologar. Print 49 possui reach particularmente fino; divergência elevada não foi corrigida artificialmente. Agregados aproximados por altura e multiplicidade de combos.
+
+| Print | Fonte F/C/R/J (%) | Estimativa F/C/R/J (%) | Desvio máximo p.p. | Visíveis |
+|---:|---|---|---:|---:|
+| 43 | 29.17/51.89/3.63/15.28 | 29.119/51.923/3.448/15.51 | 0.23 | 169 |
+| 44 | 31.73/35.11/32.5/0.63 | 31.756/34.635/31.611/1.998 | 1.368 | 169 |
+| 45 | 6.42/53.41/40.15/0 | 6.434/54.719/38.846/0 | 1.309 | 169 |
+| 46 | 0/60.73/24.42/14.82 | 0/60.492/23.299/16.21 | 1.39 | 169 |
+| 47 | 31.2/62.5/3.22/truncado | 31.241/62.761/2.542/3.456 | 0.678 | 156 |
+| 48 | 46.89/36.88/0/16.19 | 45.648/38.537/0/15.815 | 1.657 | 126 |
+| 49 | 35.8/64.2/0/0 | 24.343/75.657/0/0 | 11.457 | 21 |
+| 50 | 74.59/25.37/0/0 | 73.603/26.397/0/0 | 1.027 | 126 |
+| 51 | 86.51/13.49/0/0 | 86.486/13.514/0/0 | 0.024 | 156 |
+| 52 | 17.5/58.66/11.82/11.97 | 17.538/58.531/10.959/12.971 | 1.001 | 169 |
+| 53 | 49.58/37.68/0/12.73 | 49.272/38.494/0/12.234 | 0.814 | 137 |
+| 54 | 47.06/52.94/0/0 | 44.375/55.625/0/0 | 2.685 | 64 |
+
+2028 células, 1631 visíveis, 164731 testes de partição modelada. 72 seções novas, 1553 totais. Zero alterações deliberadas nos combos; referência pura, sem ativação. A divergência do print 49 bloqueia homologação, não a captura dos próximos prints.
