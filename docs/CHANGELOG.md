@@ -43,3 +43,7 @@
 
 ## 2026-11-24 — prints 43–54 e HU nativo
 - Acrescentadas 12 charts, 72 seções; 1553 totais. 54/56 nós conhecidos, 44/44 de origem 3-handed, 10/12 HU nativo. Lista global e árvores separadas por origem atualizadas. CSV, manifesto e auditoria publicados. Referência pura preservada, nenhuma ativação.
+
+## 2026-11-24 — fechamento de captura 25 BB
+- Prints 55–56 incorporados ao candidato offline (4 predicados, 4 listas; 1561 seções totais). Registry v7 e painel: 56/56 nós conhecidos, 44 3-handed e 12 HU. Próximo print 57 (23 BB).
+- CSV, auditoria e manifesto publicados; ZIP 56 originais local, binários remotos pendentes. Referência pura e baseline/postflop preservados; validação e integração ainda pendentes.
