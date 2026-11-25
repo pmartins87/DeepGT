@@ -25,3 +25,6 @@ Registro por stack/nó: [PREFLOP_REGISTRY.json](../charts/PREFLOP_REGISTRY.json)
 
 ## Segundo lote 25 BB — recebido, extração pendente
 Ver registry e painel para as dez sequências dos prints 10–19. Frequências da legenda registradas no registry, não são frequências individuais extraídas. Os prefixos anteriores aos três últimos blocos foram reconstruídos por continuidade e devem ser conferidos. Correção do usuário: print 18, BB shove/BTN fold/SB, 79,39% fold e 20,61% call; print 19, BB shove/BTN call/SB, 96,58% fold e 3,41% call. Print 14 é outro ramo: BB squeeze 8/BTN shove/SB, 99,97% fold e 0,03% call. Os três não devem ser fundidos. Arquivamento binário pendente.
+
+## Segundo lote — extração e código concluídos em rascunho
+[CSV com as 169 classes por nó](../charts/draft_25bb/frequencies_25bb_lote2.csv) · [Predicados isolados](../charts/draft_25bb/DeepGT_25BB_lote2_DRAFT.txt) · [Manifesto dos originais](../sources/25bb/manifest_lote2.csv). As dez charts estão também em src/DeepGT.txt, sem consumidores ativos. Ver auditoria para diferenças agregadas e alcance visível; não confundir codificação com homologação. Todos os 19 prints foram organizados em pacote local; JPGs remotos pendentes.
