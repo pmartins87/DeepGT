@@ -70,3 +70,6 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 
 ## Seleção experimental Optimized All-in 25 BB v0.1 — 2026-11-25
 56 charts entregues individualmente: 55 fontes preservadas e 31 Conservadora condicional (não homologada), alternativa Maximin 42 separada. 21 mistas fora do escopo, 30 preservadas após comparação, 4 preservadas sem reach nominal, 1 exceção condicional. Zero promoção, zero alteração em src/registry. Ver [OPTIMIZED_25BB_SELECTION.md](OPTIMIZED_25BB_SELECTION.md). Captura 23 BB permanece a partir do print 57.
+
+## Experimento monotônico 25 BB — 2026-11-25
+35 charts auditadas estruturalmente, 70 inversões em nove; 30 nós com comparação numérica, 34 avaliações contando leituras HU. MonoFixed e MonoRobust sem inversões no suporte avaliado. MonoRobust candidata preferencial, não homologada; nenhuma chart alterada. Ver OPTIMIZED_MONOTONIC_STUDY.md.
