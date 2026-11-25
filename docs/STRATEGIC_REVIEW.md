@@ -29,3 +29,5 @@ Ver [OPTIMIZED_PROPOSAL.md](OPTIMIZED_PROPOSAL.md): critérios de EV, realocaç�
 Piloto 01 autorizado e executado offline: [OPTIMIZED_PILOT_01.md](OPTIMIZED_PILOT_01.md). Nenhuma exceção aplicada à referência. Não há evidência para promover a variante.
 
 Piloto 02 [resultado](OPTIMIZED_PILOT_02.md): sensibilidade significativa à extração. Nenhuma exceção aplicada; EX-001 permanece hipótese futura, não conclusão de EV. Preservar Pure.
+
+Estudo amplo autorizado: [OPTIMIZED_25BB_BATCH_STUDY.md](OPTIMIZED_25BB_BATCH_STUDY.md). Conservadora do 31 não generalizou, Fixed e Maximin não homologadas. EX-001 segue hipótese; referência não alterada. Só reabrir com evidência nova.
