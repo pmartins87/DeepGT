@@ -22,3 +22,5 @@ Acompanhamento transversal obrigatório: atualizar painel visual e registry no m
 Segundo lote 25 BB: dez charts recebidas e registradas, extração pendente; confirmar prefixos truncados e obter chart pai BB vs BTN + SB. Não avançar gates com base apenas em recebimento. Aplicar protocolo de histórico parcial.
 
 Checkpoint: segundo lote 25 BB codificado em rascunho, 19/20 cenários identificados. Painel simplificado; prosseguir com prints e codificação no mesmo ciclo. A chart pai BB vs BTN open + SB call segue ausente; ressalvas internas documentadas, gates de integração/validação não alterados.
+
+Requisito transversal: aplicar revisão estratégica documentada aos nós de estudo antes da validação final, sem alterar grade, ordem de captura nem gates; preservar fonte e registrar ajustes específicos. Ver STRATEGIC_REVIEW.md. A lista contínua no painel deve orientar a próxima captura.
