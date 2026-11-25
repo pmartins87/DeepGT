@@ -36,3 +36,7 @@
 ## 2026-11-24 — prints 20–39
 - 20 charts acrescentadas ao candidato offline, 49 predicados e 46 listas; 1469 seções totais. Registro e painel atualizados para 39/44 cenários conhecidos, próximo print 40.
 - EX-001 T3o aplicada apenas no print 31, mantendo extração bruta. Manifesto, auditoria e CSV publicados. ZIP cumulativo de originais preparado; upload remoto de JPGs pendente.
+
+## 2026-11-24 — prints 40–42 e referência pura
+- Acrescentadas três charts offline, 12 seções; painel 42/44, próximo 43. CSV, manifesto, auditoria e predicados publicados.
+- Revertida EX-001 no código e no rascunho isolado; restaurada estimativa original T3o. Usuário decidiu preservar referência pura e estudar variante de realocação depois. Sem alteração postflop ou roteamento.
