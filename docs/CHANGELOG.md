@@ -47,3 +47,5 @@
 ## 2026-11-24 — fechamento de captura 25 BB
 - Prints 55–56 incorporados ao candidato offline (4 predicados, 4 listas; 1561 seções totais). Registry v7 e painel: 56/56 nós conhecidos, 44 3-handed e 12 HU. Próximo print 57 (23 BB).
 - CSV, auditoria e manifesto publicados; ZIP 56 originais local, binários remotos pendentes. Referência pura e baseline/postflop preservados; validação e integração ainda pendentes.
+
+2026-11-24: registrada proposta de metodologia offline para variante otimizada (OPTIMIZED_PROPOSAL.md); sem mudanças de código, estratégia ou roadmap vigente.
