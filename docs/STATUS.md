@@ -43,3 +43,8 @@
 - src/DeepGT.txt atualizado no commit 087b8ca4f02080bc0d333a30980efce02c261c5c, blob 3712a1dfbcd850b80c09dea417c5cd477768c2e5. 95 novas seções (49 charts, 46 listas), 1374 → 1469, prefixo anterior íntegro. 3380 classes extraídas, 2279 visíveis, 230179 verificações de partição em modelo PASS. Nenhum consumidor ativo; zero alteração postflop ou baseline.
 - EX-001 implementada no rascunho do print 31: T3o fold 100%, source CSV preserva estimativa 69% fold / 31% call. Não afirmar EV exata sem ranges. Nós 32 e 35 têm divergência raster elevada; detalhes em auditoria. Outras decisões contraintuitivas requerem análise antes da ativação.
 - Originais 1–39 em ZIP local, manifestos no GitHub; binários remotos continuam pendentes. Gates nativos e integração não concluídos.
+
+## Checkpoint atual — prints 40–42 e referência pura
+- 42 charts codificadas de 44 cenários conhecidos a 25 BB; último print 42, próximo 43. Faltam somente dois nós conhecidos: BTN raise 2 → SB call → BB age; BTN fold → SB age. Confirmar cobertura do aplicativo antes de avançar a 23 BB.
+- src/DeepGT.txt commit d20c72e073284c49ad27832fca1529d3375ce6a4, blob 423ab386822dac07fa04dfd12a95429ea8e50557: 12 seções novas (6 predicados, 6 listas), 1481 totais; 507 classes, 306 visíveis, 30906 testes de partição modelados. Sem consumidores ativos, sem mudança postflop. EX-001 revertida: T3o 69/31 estimado restaurado em src e predicados isolados. Variante ajustada não criada.
+- Desvios estimados de call nos prints 40/41/42: 1,167/0,391/0,043 p.p. (fonte raster, não homologada). Originais organizados em ZIP local e manifesto publicado; JPGs no GitHub ainda pendentes.
