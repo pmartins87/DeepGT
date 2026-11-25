@@ -46,3 +46,31 @@ Recortes 13×13 dos JPG originais 709×1536, classes por limiares cromáticos az
 |19|96,58/3,41/0|96,761/3,239/0|40|
 
 Nos nós 12 e 14, a ação minoritária da legenda não foi localizada com segurança em uma mão; preservar a ressalva em vez de inventar a distribuição. O nó 5 permanece discrepante; teste adicional com reach do pai no CSV inicial deu ~58,073% de call, versus 55,93% da fonte, e não resolve o desvio. O painel não apresenta mais estados internos de revisão. A validação nativa continua obrigatória antes de qualquer ativação. 40.804 testes de partição em modelo sobre as 404 classes visíveis; ausência de colisão entre seções e prefixo anterior preservado. 21 predicados e 17 listas acrescentados, 1.374 seções totais.
+
+## Prints 20–39 — extração e conferência
+Segmentação das matrizes 709×1536 em 169 células, classificação cromática por distância à paleta, máscara de texto e bordas, altura de reach visível, voto por coluna nas últimas oito linhas coloridas, preenchimento de pixels sem classificação pelo vizinho válido mais próximo e arredondamento por maiores restos. Resultados são estimativas raster, não exportação do solver. Check no print 32 está na coluna C. Cinza sem ação atribuída. Sem calibração para forçar legenda. Em nós com vermelho = shove, mapeamento conforme legenda. Bordas JPEG podem confundir vermelho e salmão, particularmente nó 32; reach de poucos pixels pode causar erro agregado, particularmente nó 35.
+
+| Print | Fonte F/C/R/J (%) | Estimativa bruta F/C/R/J (%) | Desvio máx. p.p. | Visíveis |
+|---:|---|---|---:|---:|
+| 20 | 90.69/0/0/9.31 | 90.798/0/0/9.202 | 0.108 | 169 |
+| 21 | 51.21/27.63/0/21.12 | 51.385/27.93/0/20.685 | 0.435 | 86 |
+| 22 | 40.37/59.63/0/0 | 40.085/59.915/0/0 | 0.285 | 40 |
+| 23 | 88.96/11.03/0/0 | 88.952/11.048/0/0 | 0.018 | 86 |
+| 24 | 45.81/54.18/0/0 | 45.242/54.758/0/0 | 0.578 | 40 |
+| 25 | 63.01/36.99/0/0 | 62.394/37.606/0/0 | 0.616 | 40 |
+| 26 | 91.48/8.52/0/0 | 91.464/8.536/0/0 | 0.016 | 169 |
+| 27 | 70.28/29.72/0/0 | 70.233/29.767/0/0 | 0.047 | 86 |
+| 28 | 86.63/13.37/0/0 | 86.569/13.431/0/0 | 0.061 | 86 |
+| 29 | 88/11.99/0/0 | 88.018/11.982/0/0 | 0.018 | 169 |
+| 30 | 85.87/14.12/0/0 | 85.839/14.161/0/0 | 0.041 | 169 |
+| 31 | 84.73/15.26/0/0 | 84.839/15.161/0/0 | 0.109 | 169 |
+| 32 | 0/63.74/31.83/4.39 | 0/63.336/30.628/6.035 | 1.645 | 169 |
+| 33 | 39.81/48.14/1.42/10.59 | 40.15/47.883/1.196/10.772 | 0.34 | 124 |
+| 34 | 59.76/12.26/0/27.97 | 59.73/12.638/0/27.632 | 0.378 | 129 |
+| 35 | 12.73/87.27/0/0 | 8.977/91.023/0/0 | 3.753 | 11 |
+| 36 | 67.5/32.49/0/0 | 66.965/33.035/0/0 | 0.545 | 129 |
+| 37 | 85.37/14.62/0/0 | 85.465/14.535/0/0 | 0.095 | 124 |
+| 38 | 36.39/51.6/4.36/7.62 | 36.393/51.549/3.948/8.11 | 0.49 | 169 |
+| 39 | 60.64/14.04/0/25.3 | 60.912/14.286/0/24.802 | 0.498 | 115 |
+
+3380 células, 2279 visíveis, 230179 testes de partição do rascunho. 95 seções novas sem colisão; prefixo anterior íntegro. EX-001: print 31, T3o, 69/31/0/0 original estimado → 100/0/0/0 no rascunho por decisão explícita do usuário; sem redistribuição. Os demais valores não foram ajustados sem justificativa. Revisão estratégica de outros calls estranhos no ramo de shove 0% e validação dos nós 32/35 ainda necessárias antes de ativação. Os cinco cenários faltantes permanecem sem ação inventada.
