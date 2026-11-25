@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "mode": "offline_draft",
   "source": "GTO Ranges+ / SPINS Classic",
   "stack_policy": {
@@ -94,7 +94,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "BTN Open",
+      "hero": "BTN",
+      "histories": {
+        "25": {
+          "sequence": "Pote não aberto",
+          "parent_id": null,
+          "edge": null,
+          "print": 1
+        }
+      }
     },
     {
       "id": "SBvBTN_Open2",
@@ -113,7 +123,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "SB vs BTN",
+      "hero": "SB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2",
+          "parent_id": "BTN_Open",
+          "edge": "BTN raise 2",
+          "print": 2
+        }
+      }
     },
     {
       "id": "3wBBvBTN_Open2_SBFold",
@@ -132,7 +152,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "BB vs BTN (SB fold)",
+      "hero": "BB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB fold",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB fold",
+          "print": 3
+        }
+      }
     },
     {
       "id": "BTNvBB_3bet6_SBFold",
@@ -151,7 +181,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "BTN vs BB 3bet",
+      "hero": "BTN",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB fold → BB raise 6",
+          "parent_id": "3wBBvBTN_Open2_SBFold",
+          "edge": "BB raise 6",
+          "print": 4
+        }
+      }
     },
     {
       "id": "3wBBvBTN_4betShove_SBFold",
@@ -170,7 +210,17 @@
         "23": "MISSING",
         "25": "BLOCKED_AGGREGATE"
       },
-      "active": false
+      "active": false,
+      "label": "BB vs BTN 4bet AI",
+      "hero": "BB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove",
+          "parent_id": "BTNvBB_3bet6_SBFold",
+          "edge": "BTN shove",
+          "print": 5
+        }
+      }
     },
     {
       "id": "BTNvBB_3betShove_SBFold",
@@ -189,7 +239,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "BTN vs BB shove",
+      "hero": "BTN",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB fold → BB shove",
+          "parent_id": "3wBBvBTN_Open2_SBFold",
+          "edge": "BB shove",
+          "print": 6
+        }
+      }
     },
     {
       "id": "BTNvBB_Squeeze8_SBCall",
@@ -208,7 +268,17 @@
         "23": "MISSING",
         "25": "DRAFT_REVIEW"
       },
-      "active": false
+      "active": false,
+      "label": "BTN vs squeeze",
+      "hero": "BTN",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB call → BB raise 8",
+          "parent_id": "3wBBvBTN_Open2_SBCall",
+          "edge": "BB raise 8",
+          "print": 7
+        }
+      }
     },
     {
       "id": "SBvBB_Squeeze8_BTNFold",
@@ -227,7 +297,17 @@
         "23": "MISSING",
         "25": "REVIEW_MISSING_REACH"
       },
-      "active": false
+      "active": false,
+      "label": "SB vs squeeze",
+      "hero": "SB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN fold",
+          "parent_id": "BTNvBB_Squeeze8_SBCall",
+          "edge": "BTN fold",
+          "print": 8
+        }
+      }
     },
     {
       "id": "3wBBvSB_4betShove_AfterSqueeze8_BTNFold",
@@ -246,7 +326,17 @@
         "23": "MISSING",
         "25": "REVIEW_MISSING_PARENT"
       },
-      "active": false
+      "active": false,
+      "label": "BB vs SB 4bet AI",
+      "hero": "BB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove",
+          "parent_id": "SBvBB_Squeeze8_BTNFold",
+          "edge": "SB shove",
+          "print": 9
+        }
+      }
     },
     {
       "id": "3wBBvBTN_Open2_SBCall",
@@ -265,7 +355,17 @@
         "23": "MISSING",
         "25": "MISSING"
       },
-      "active": false
+      "active": false,
+      "label": "BB vs BTN + SB",
+      "hero": "BB",
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB call",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB call",
+          "print": null
+        }
+      }
     }
   ],
   "additional_families": [
@@ -275,5 +375,6 @@
     "HUSB open and defense",
     "HUBB defense and continuations"
   ],
-  "notes": "Slots are intake placeholders, not claims that identical sizes/histories exist at every stack. Never generate a fold or a fake range for missing data. Confirm legal actions and full history separately per source. No active dispatch."
+  "notes": "Slots are intake placeholders, not claims that identical sizes/histories exist at every stack. Never generate a fold or a fake range for missing data. Confirm legal actions and full history separately per source. No active dispatch.",
+  "dashboard_policy": "Histories are stack-specific. Add exact sequence, parent and edge for each newly mapped stack; do not infer from 25 BB. Dashboard generated from registry."
 }
