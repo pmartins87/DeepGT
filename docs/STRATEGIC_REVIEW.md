@@ -33,3 +33,5 @@ Piloto 02 [resultado](OPTIMIZED_PILOT_02.md): sensibilidade significativa à ext
 Estudo amplo autorizado: [OPTIMIZED_25BB_BATCH_STUDY.md](OPTIMIZED_25BB_BATCH_STUDY.md). Conservadora do 31 não generalizou, Fixed e Maximin não homologadas. EX-001 segue hipótese; referência não alterada. Só reabrir com evidência nova.
 
 EX-001: a Conservadora completa do print 31 foi incluída no catálogo Optimized All-in v0.1 experimental, separada da Pure, conforme solicitação de seleção individual. Não é promoção/homologação e não altera a referência. Print 42 Maximin reconstituído, arquivado sem seleção. Ver OPTIMIZED_25BB_SELECTION.md.
+
+Print 42: MonoFixed e MonoRobust eliminam inversão KQo/KJo/KTo, escolhendo fold para as três. MonoRobust candidata, não homologada. Ver OPTIMIZED_MONOTONIC_STUDY.md. Catálogo anterior permanece histórico.
