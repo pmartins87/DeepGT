@@ -4,7 +4,7 @@
 
 Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.
 
-**Último print registrado: 39. Próximo print novo: 40.**
+**Último print registrado: 42. Próximo print novo: 43.**
 
 | Print | Stack (BB) | Sequência anterior | Hero | Estado |
 |---:|---:|---|:---:|---|
@@ -47,6 +47,9 @@ Numeração global, permanente, por ordem de recebimento (todos os stacks). Não
 | 37 | 25 | BTN fold → SB limp 0.5 → BB shove 25 | SB | 🟢 Codificada |
 | 38 | 25 | BTN fold → SB raise 3 | BB | 🟢 Codificada |
 | 39 | 25 | BTN fold → SB raise 3 → BB raise 9 | SB | 🟢 Codificada |
+| 40 | 25 | BTN fold → SB raise 3 → BB raise 9 → SB shove 25 | BB | 🟢 Codificada |
+| 41 | 25 | BTN fold → SB raise 3 → BB shove 25 | SB | 🟢 Codificada |
+| 42 | 25 | BTN fold → SB shove 25 | BB | 🟢 Codificada |
 
 ## 2. Matriz de cobertura
 
@@ -97,13 +100,13 @@ Codificada significa que a chart já está no arquivo de desenvolvimento, não q
 | SB vs BB iso shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | BB vs SB open 3 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | SB vs BB 3bet 9 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB open shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB 3bet shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB 4bet shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB open shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB 3bet shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 4bet shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 
 | Stack | Codificadas | Falta print | Recebidas a codificar |
 |---:|---:|---:|---:|
-| 25 | 39 | 5 | 0 |
+| 25 | 42 | 2 | 0 |
 | 23 | 0 | 44 | 0 |
 | 20 | 0 | 44 | 0 |
 | 17 | 0 | 44 | 0 |
@@ -204,11 +207,11 @@ flowchart TD
   N21 -->|"SB raise 3"| N40
   N41["39 · SB vs BB 3bet 9"]
   N40 -->|"BB raise 9"| N41
-  N42["? · BB vs SB open shove"]
+  N42["42 · BB vs SB open shove"]
   N21 -->|"SB shove 25"| N42
-  N43["? · SB vs BB 3bet shove"]
+  N43["41 · SB vs BB 3bet shove"]
   N40 -->|"BB shove 25"| N43
-  N44["? · BB vs SB 4bet shove"]
+  N44["40 · BB vs SB 4bet shove"]
   N41 -->|"SB shove 25"| N44
   classDef coded fill:#d8f1dc,stroke:#438747,color:#222
   classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
@@ -254,9 +257,9 @@ flowchart TD
   class N39 coded
   class N40 coded
   class N41 coded
-  class N42 pending
-  class N43 pending
-  class N44 pending
+  class N42 coded
+  class N43 coded
+  class N44 coded
 ```
 
 ## 4. Cenários conhecidos sem print
@@ -267,9 +270,6 @@ Não recebem número até o recebimento da imagem.
 |---:|---|:---:|
 | 25 | BTN raise 2 → SB call | BB |
 | 25 | BTN fold | SB |
-| 25 | BTN fold → SB shove 25 | BB |
-| 25 | BTN fold → SB raise 3 → BB shove 25 | SB |
-| 25 | BTN fold → SB raise 3 → BB raise 9 → SB shove 25 | BB |
 
 ## 5. Referências
 
