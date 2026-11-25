@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "mode": "offline_draft",
+  "source": "GTO Ranges+ / SPINS Classic",
+  "stack_policy": {
+    "levels": [
+      25,
+      23,
+      20,
+      17,
+      15,
+      12,
+      10,
+      8,
+      6,
+      4,
+      2
+    ],
+    "bounds": [
+      {
+        "level": 25,
+        "min_exclusive": 23,
+        "max_inclusive": null
+      },
+      {
+        "level": 23,
+        "min_exclusive": 20,
+        "max_inclusive": 23
+      },
+      {
+        "level": 20,
+        "min_exclusive": 17,
+        "max_inclusive": 20
+      },
+      {
+        "level": 17,
+        "min_exclusive": 15,
+        "max_inclusive": 17
+      },
+      {
+        "level": 15,
+        "min_exclusive": 12,
+        "max_inclusive": 15
+      },
+      {
+        "level": 12,
+        "min_exclusive": 10,
+        "max_inclusive": 12
+      },
+      {
+        "level": 10,
+        "min_exclusive": 8,
+        "max_inclusive": 10
+      },
+      {
+        "level": 8,
+        "min_exclusive": 6,
+        "max_inclusive": 8
+      },
+      {
+        "level": 6,
+        "min_exclusive": 4,
+        "max_inclusive": 6
+      },
+      {
+        "level": 4,
+        "min_exclusive": 2,
+        "max_inclusive": 4
+      },
+      {
+        "level": 2,
+        "min_exclusive": 0,
+        "max_inclusive": 2
+      }
+    ],
+    "invalid": "<=0 or unknown",
+    "stack_source": "Legacy f$EffectiveStack_BKP is provisional for scaffold; verify initial stacks and topology per node before activation."
+  },
+  "nodes": [
+    {
+      "id": "BTN_Open",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/01_BTN_Open.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "SBvBTN_Open2",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/02_SBvBTN_Open2.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "3wBBvBTN_Open2_SBFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/03_3wBBvBTN_Open2_SBFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "BTNvBB_3bet6_SBFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/04_BTNvBB_3bet6_SBFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "3wBBvBTN_4betShove_SBFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/05_3wBBvBTN_4betShove_SBFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "BLOCKED_AGGREGATE"
+      },
+      "active": false
+    },
+    {
+      "id": "BTNvBB_3betShove_SBFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/06_BTNvBB_3betShove_SBFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "BTNvBB_Squeeze8_SBCall",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/07_BTNvBB_Squeeze8_SBCall.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false
+    },
+    {
+      "id": "SBvBB_Squeeze8_BTNFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/08_SBvBB_Squeeze8_BTNFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "REVIEW_MISSING_REACH"
+      },
+      "active": false
+    },
+    {
+      "id": "3wBBvSB_4betShove_AfterSqueeze8_BTNFold",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/09_3wBBvSB_4betShove_AfterSqueeze8_BTNFold.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "REVIEW_MISSING_PARENT"
+      },
+      "active": false
+    },
+    {
+      "id": "3wBBvBTN_Open2_SBCall",
+      "scope": "3-handed origin",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false
+    }
+  ],
+  "additional_families": [
+    "3wBTN other response histories",
+    "3wSB open and defense",
+    "3wBB defense and continuations",
+    "HUSB open and defense",
+    "HUBB defense and continuations"
+  ],
+  "notes": "Slots are intake placeholders, not claims that identical sizes/histories exist at every stack. Never generate a fold or a fake range for missing data. Confirm legal actions and full history separately per source. No active dispatch."
+}
