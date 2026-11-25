@@ -30,3 +30,6 @@ O painel inicia com a lista global de prints ordenada por número contínuo; lac
 
 ## Referência pura (decisão vigente)
 A cada lote, converter a fonte sem ajustes deliberados de combos; preservar dados brutos, registrar hipóteses estratégicas separadamente. A futura variante será avaliada após consolidar a referência, conforme STRATEGIC_REVIEW.md. A revisão de leitura, cobertura e validação nativa não muda.
+
+## Origem da mão
+A topologia inicial distingue 3-handed de origem e HU nativo, mesmo com dois jogadores ativos. Usar scope no registry e prefixos HUSB/HUBB nos nós nativos; respeitar sizing da fonte por stack. Painel separa árvores e conserva numeração global.
