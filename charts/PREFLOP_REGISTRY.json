@@ -384,7 +384,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -402,7 +402,18 @@
             "raise": 0,
             "shove": 4.54
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": {
+              "fold": 82.448,
+              "call": 12.977,
+              "shove": 4.575
+            },
+            "max_deviation_pp": 0.723,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -423,7 +434,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -441,7 +452,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 41,
+            "estimated_pct": {
+              "fold": 6.018,
+              "call": 93.982,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.498,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -462,7 +484,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -480,7 +502,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 18,
+            "estimated_pct": {
+              "fold": 0,
+              "call": 100,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.15,
+            "code": "DRAFT_IN_SRC",
+            "notes": "0.15% fold in legend not resolved by pixels; visible estimate only"
+          }
         }
       }
     },
@@ -501,7 +534,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -519,7 +552,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 18,
+            "estimated_pct": {
+              "fold": 0,
+              "call": 100,
+              "shove": 0
+            },
+            "max_deviation_pp": 0,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -540,7 +584,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -558,7 +602,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": {
+              "fold": 100,
+              "call": 0,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.03,
+            "code": "DRAFT_IN_SRC",
+            "notes": "0.03% call in legend not resolved by pixels; visible estimate only"
+          }
         }
       }
     },
@@ -579,7 +634,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -597,7 +652,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 41,
+            "estimated_pct": {
+              "fold": 9.155,
+              "call": 90.845,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.775,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -618,7 +684,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -636,7 +702,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": {
+              "fold": 47.43,
+              "call": 52.57,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.64,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -657,7 +734,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -675,7 +752,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 86,
+            "estimated_pct": {
+              "fold": 68.634,
+              "call": 31.366,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.184,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -696,7 +784,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -714,7 +802,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": {
+              "fold": 79.751,
+              "call": 20.249,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.361,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     },
@@ -735,7 +834,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "RECEIVED_PENDING_EXTRACTION"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -753,7 +852,18 @@
             "raise": 0,
             "shove": 0
           },
-          "original_archive": "PENDING_BINARY_UPLOAD"
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": {
+              "fold": 96.761,
+              "call": 3.239,
+              "shove": 0
+            },
+            "max_deviation_pp": 0.181,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Rounded visual estimate; native and history validation pending"
+          }
         }
       }
     }
