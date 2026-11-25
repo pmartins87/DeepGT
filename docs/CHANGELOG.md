@@ -28,3 +28,7 @@
 - Acrescentadas dez charts ao candidato offline, 38 novas seções; sem ativação e sem mudanças nas seções anteriores. CSV, predicados e manifesto publicados.
 - Painel principal simplificado por solicitação do usuário: codificada, falta print, recebida ainda a codificar apenas se necessário. Ressalvas de precisão e homologação permanecem em auditoria. 19 charts codificadas de 20 cenários identificados no stack 25 BB.
 - ZIP único com 19 originais e hashes conferidos preparado; transferência de JPGs ao GitHub pendente por limitação do conector.
+
+## 2026-11-24 — lista cumulativa e revisão de decisões contraintuitivas
+- Painel inicia com lista global 1–19; próximo print 20. Cenários sem fonte separados. Gerador verifica numeração sem lacunas/duplicatas.
+- Política de revisão estratégica e candidato EX-001 (T3o, fonte ainda não recebida) registrados; sem alterações de ranges/código nesta etapa.
