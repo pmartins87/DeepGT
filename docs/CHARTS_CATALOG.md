@@ -28,3 +28,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## Segundo lote — extração e código concluídos em rascunho
 [CSV com as 169 classes por nó](../charts/draft_25bb/frequencies_25bb_lote2.csv) · [Predicados isolados](../charts/draft_25bb/DeepGT_25BB_lote2_DRAFT.txt) · [Manifesto dos originais](../sources/25bb/manifest_lote2.csv). As dez charts estão também em src/DeepGT.txt, sem consumidores ativos. Ver auditoria para diferenças agregadas e alcance visível; não confundir codificação com homologação. Todos os 19 prints foram organizados em pacote local; JPGs remotos pendentes.
+
+## Prints 20–39 — lote 3 e 4 codificados em rascunho
+[Dados brutos por mão](../charts/draft_25bb/frequencies_25bb_20_39.csv) · [Predicados de estudo](../charts/draft_25bb/DeepGT_25BB_20_39_DRAFT.txt) · [Auditoria numérica](../charts/draft_25bb/audit_20_39.json) · [Manifesto](../sources/25bb/manifest_20_39.csv). Numeração e sequência no painel. Print 32: coluna call_or_check representa CHECK, não call. Print 31: EX-001 aplicada somente na estratégia de estudo, CSV bruto intacto. O ramo BTN fold é 3-handed de origem, não HU nativo. Cinco nós sem imagem conhecidos; não numerar antes do recebimento. Ver auditoria e status.
