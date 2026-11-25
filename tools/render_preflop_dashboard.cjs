@@ -7,15 +7,15 @@ function render(reg){
  const esc=s=>String(s).replace(/\|/g,"\\|").replace(/\r?\n/g," ");
  const entries=nodes.flatMap(n=>Object.entries(n.histories||{}).filter(([l,h])=>h.print!=null).map(([l,h])=>({n,l,h}))).sort((a,b)=>a.h.print-b.h.print);
  for(let i=0;i<entries.length;i++){if(entries[i].h.print!==i+1)throw Error("Numeração não contínua ou duplicada: "+entries[i].h.print);}
- const out=["# Painel preflop — DeepGT","","## 1. Lista contínua dos prints","","Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.","",`**Último print registrado: ${entries.length}. Próximo print novo: ${entries.length+1}.**`,"","| Print | Stack (BB) | Sequência anterior | Hero | Estado |","|---:|---:|---|:---:|---|"];
- for(const {n,l,h} of entries)out.push(`| ${h.print} | ${l} | ${esc(h.sequence)} | ${esc(n.hero)} | ${code(n.stack_slots[l])} ${name(n.stack_slots[l])} |`);
+ const out=["# Painel preflop — DeepGT","","## 1. Lista contínua dos prints","","Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.","",`**Último print registrado: ${entries.length}. Próximo print novo: ${entries.length+1}.**`,"","| Print | Stack (BB) | Origem | Sequência anterior | Hero | Estado |","|---:|---:|---|---|:---:|---|"];
+ for(const {n,l,h} of entries)out.push(`| ${h.print} | ${l} | ${n.scope==="HU native"?"HU nativo":"3-handed"} | ${esc(h.sequence)} | ${esc(n.hero)} | ${code(n.stack_slots[l])} ${name(n.stack_slots[l])} |`);
  out.push("","## 2. Matriz de cobertura","","🟢 Codificada · ⚪ Falta print · 🔵 Recebida, falta codificar · — Não aplicável.","","Codificada significa que a chart já está no arquivo de desenvolvimento, não que esteja homologada ou ativa. As ressalvas ficam na [auditoria técnica](AUDIT_25BB_DRAFT.md).","","| Cenário | "+levels.join(" | ")+" |","|---|"+levels.map(()=>":---:").join("|")+"|");
  for(const n of nodes)out.push("| "+esc(n.label||n.id)+" | "+levels.map(l=>code(n.stack_slots[l])).join(" | ")+" |");
  out.push("","| Stack | Codificadas | Falta print | Recebidas a codificar |","|---:|---:|---:|---:|");
  for(const l of levels){const s=nodes.map(n=>n.stack_slots[l]);out.push(`| ${l} | ${s.filter(x=>code(x)==="🟢").length} | ${s.filter(x=>x==="MISSING").length} | ${s.filter(x=>x==="RECEIVED_PENDING_EXTRACTION").length} |`);}
  out.push("","Somente famílias identificadas; os espaços vazios nos demais stacks não confirmam que os históricos sejam aplicáveis.","","## 3. Árvores por stack");
- for(const l of levels){const g=nodes.filter(n=>n.histories?.[l]);if(!g.length)continue;
- out.push("",`### ${l} BB`,"","```mermaid","flowchart TD");
+ for(const l of levels) for(const scope of ["3-handed origin","HU native"]){const g=nodes.filter(n=>n.histories?.[l]&&n.scope===scope);if(!g.length)continue;
+ out.push("",`### ${l} BB — ${scope==="HU native"?"HU nativo":"3-handed de origem"}`,"","```mermaid","flowchart TD");
  const map=new Map(g.map((n,i)=>[n.id,"N"+(i+1)]));const safe=s=>String(s).replace(/"/g,"&quot;").replace(/[\r\n]/g," ");
  for(const n of g){const h=n.histories[l],id=map.get(n.id);out.push(`  ${id}["${h.print??"?"} · ${safe(n.label||n.id)}"]`);if(h.parent_id){if(!map.has(h.parent_id))throw Error("Pai sem histórico");out.push(`  ${map.get(h.parent_id)} -->|"${safe(h.edge)}"| ${id}`);}}
  out.push("  classDef coded fill:#d8f1dc,stroke:#438747,color:#222","  classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222","  classDef received fill:#dbeafe,stroke:#3477bc,color:#222");
