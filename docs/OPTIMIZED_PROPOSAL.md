@@ -25,3 +25,6 @@ C. Piloto HU 25 BB, print 55 (open 2, BB shove, SB fold/call), com caminho não 
 D. Comparar Pure / frequências fixas / frequências flexíveis sob cenários predefinidos, com amostra e orçamento predefinidos, sementes reproduzíveis, intervalos e relatório de desvios. Encerrar piloto após avaliação única fora da amostra; em falha material identificar causa, no máximo uma rodada corretiva previamente delimitada, ou preservar Pure.
 E. Somente se piloto justificar, ampliar a shoves, depois non-all-in e outros stacks. Não executar sem decisão posterior. Captura de 23 BB continua como planejado, próximo print 57.
 Referências conceituais: Johanson et al., Computing Robust Counter-Strategies (NeurIPS 2007), https://papers.nips.cc/paper_files/paper/2007/hash/6e7b33fdea3adc80ebd648fffb665bb8-Abstract.html ; Johanson e Bowling, Data Biased Robust Counter Strategies (AISTATS 2009), https://proceedings.mlr.press/v5/johanson09a.html . Referências motivam robustez, não validam esta proposta.
+
+## Execução autorizada — piloto 01
+Usuário autorizou estudo offline. Resultados em [OPTIMIZED_PILOT_01.md](OPTIMIZED_PILOT_01.md). Gate de promoção não atingido; não alterar referência ou ativar variante. Critérios permanecem sujeitos à evidência. Próximo passo recomendado: revisão focada de reach e replicação no print 54.
