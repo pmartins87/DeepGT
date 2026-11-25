@@ -15,3 +15,7 @@
 - Decisão vinculante de 11 níveis e limites conforme PREFLOP_POLICY.md.
 - Acrescentadas 61 seções isoladas a src/DeepGT.txt, sem consumidores ativos: bucket, 11 helpers, 26 charts e 23 listas. 24 testes modelados de fronteira PASS; prefixo Gate 01 intacto.
 - Registry extensível, manifesto dos nove JPGs e política de ingestão publicados. Binários organizados em ZIP entregue ao usuário; upload remoto pendente. Atualização contínua de docs obrigatória.
+
+## 2026-11-24 — painel visual permanente
+- Preferência explícita do usuário registrada: sequência/Hero, árvore e matriz visual sempre disponíveis e atualizadas no GitHub.
+- Registry v2, painel Markdown/Mermaid e gerador versionados; README oferece acesso direto. Sem mudança estratégica.
