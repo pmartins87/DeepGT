@@ -57,3 +57,5 @@
 2026-11-24: estudo amplo All-in de 56 charts auditadas/30 comparadas, validação amostral de ranking multiway, sem promoção nem alteração de código. Relatório OPTIMIZED_25BB_BATCH_STUDY.md.
 
 2026-11-25: catálogo experimental de seleção individual das 56 charts 25 BB (55 preservadas, 31 Conservadora condicional), alternativa 42 Maximin separada, manifesto e frequências publicados. Sem promoção ou mudança em src/registry. Ver OPTIMIZED_25BB_SELECTION.md.
+
+2026-11-25: experimento MonoFixed/MonoRobust offline, auditadas 35 charts binárias e 30 comparadas numericamente. Sem alteração de charts, código ou registry. Relatório OPTIMIZED_MONOTONIC_STUDY.md.
