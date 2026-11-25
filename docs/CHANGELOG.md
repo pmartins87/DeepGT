@@ -32,3 +32,7 @@
 ## 2026-11-24 — lista cumulativa e revisão de decisões contraintuitivas
 - Painel inicia com lista global 1–19; próximo print 20. Cenários sem fonte separados. Gerador verifica numeração sem lacunas/duplicatas.
 - Política de revisão estratégica e candidato EX-001 (T3o, fonte ainda não recebida) registrados; sem alterações de ranges/código nesta etapa.
+
+## 2026-11-24 — prints 20–39
+- 20 charts acrescentadas ao candidato offline, 49 predicados e 46 listas; 1469 seções totais. Registro e painel atualizados para 39/44 cenários conhecidos, próximo print 40.
+- EX-001 T3o aplicada apenas no print 31, mantendo extração bruta. Manifesto, auditoria e CSV publicados. ZIP cumulativo de originais preparado; upload remoto de JPGs pendente.
