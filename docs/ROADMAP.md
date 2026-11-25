@@ -18,3 +18,5 @@ Lote 25 BB recebido: nove nós foram catalogados antecipadamente, inclusive defe
 2026-11-24: grade confirmada pelo usuário e helpers isolados adicionados. Registro extensível de dez famílias já conhecidas × onze slots (nove rascunhos de 25 BB e um pai ausente nesse stack; outros slots MISSING, não pressupõem que a história/sizing seja legal). Arquivamento binário dos nove JPGs está pendente de upload, manifesto publicado. Ver PREFLOP_POLICY.md. Receber novos prints, atualizar código sem ativar roteamento até gates.
 
 Acompanhamento transversal obrigatório: atualizar painel visual e registry no mesmo ciclo de cada lote; consultar docs/PREFLOP_DASHBOARD.md para identificar lacunas, sem alterar ordem ou critérios dos gates.
+
+Segundo lote 25 BB: dez charts recebidas e registradas, extração pendente; confirmar prefixos truncados e obter chart pai BB vs BTN + SB. Não avançar gates com base apenas em recebimento. Aplicar protocolo de histórico parcial.
