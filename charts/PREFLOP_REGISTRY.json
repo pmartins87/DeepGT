@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "mode": "offline_draft",
   "source": "GTO Ranges+ / SPINS Classic",
   "stack_policy": {
@@ -341,7 +341,7 @@
     {
       "id": "3wBBvBTN_Open2_SBCall",
       "scope": "3-handed origin",
-      "source_25": null,
+      "source_25": "sources/25bb/43_Screenshot_20261124_214447_GTO Ranges+.jpg",
       "stack_slots": {
         "2": "MISSING",
         "4": "MISSING",
@@ -353,7 +353,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "MISSING"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "label": "BB vs BTN + SB",
@@ -363,7 +363,29 @@
           "sequence": "BTN raise 2 → SB call",
           "parent_id": "SBvBTN_Open2",
           "edge": "SB call",
-          "print": null
+          "print": 43,
+          "source_filename": "Screenshot_20261124_214447_GTO Ranges+.jpg",
+          "visible_tail": "BTN raise 2 → SB call",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 29.17,
+            "call_check_limp": 51.89,
+            "raise": 3.63,
+            "shove": 15.28
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              29.119,
+              51.923,
+              3.448,
+              15.51
+            ],
+            "max_deviation_pp": 0.23,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
         }
       }
     },
@@ -872,7 +894,7 @@
       "label": "SB open (BTN fold)",
       "hero": "SB",
       "scope": "3-handed origin",
-      "source_25": null,
+      "source_25": "sources/25bb/44_Screenshot_20261124_214510_GTO Ranges+.jpg",
       "stack_slots": {
         "2": "MISSING",
         "4": "MISSING",
@@ -884,7 +906,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "MISSING"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -892,7 +914,29 @@
           "sequence": "BTN fold",
           "parent_id": "BTN_Open",
           "edge": "BTN fold",
-          "print": null
+          "print": 44,
+          "source_filename": "Screenshot_20261124_214510_GTO Ranges+.jpg",
+          "visible_tail": "BTN fold",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 31.73,
+            "call_check_limp": 35.11,
+            "raise": 32.5,
+            "shove": 0.63
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              31.756,
+              34.635,
+              31.611,
+              1.998
+            ],
+            "max_deviation_pp": 1.368,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
         }
       }
     },
@@ -2066,6 +2110,574 @@
             "max_deviation_pp": 1.1672131147541052,
             "code": "DRAFT_IN_SRC"
           }
+        }
+      }
+    },
+    {
+      "id": "HUSB_Open",
+      "label": "HU SB open",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/45_Screenshot_20261124_215035_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "Pote não aberto",
+          "parent_id": null,
+          "edge": null,
+          "print": 45,
+          "source_filename": "Screenshot_20261124_215035_GTO Ranges+.jpg",
+          "visible_tail": "Pote não aberto",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 6.42,
+            "call_check_limp": 53.41,
+            "raise": 40.15,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              6.434,
+              54.719,
+              38.846,
+              0
+            ],
+            "max_deviation_pp": 1.309,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_Limp",
+      "label": "HU BB vs limp",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/46_Screenshot_20261124_215044_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5",
+          "parent_id": "HUSB_Open",
+          "edge": "SB limp 0.5",
+          "print": 46,
+          "source_filename": "Screenshot_20261124_215044_GTO Ranges+.jpg",
+          "visible_tail": "SB limp 0.5",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 0,
+            "call_check_limp": 60.73,
+            "raise": 24.42,
+            "shove": 14.82
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              0,
+              60.492,
+              23.299,
+              16.21
+            ],
+            "max_deviation_pp": 1.39,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUSBvBB_ISO2p5",
+      "label": "HU SB vs iso 2.5",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/47_Screenshot_20261124_215058_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5 → BB raise 2.5",
+          "parent_id": "HUBBvSB_Limp",
+          "edge": "BB raise 2.5",
+          "print": 47,
+          "source_filename": "Screenshot_20261124_215058_GTO Ranges+.jpg",
+          "visible_tail": "SB limp 0.5 → BB raise 2.5",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 31.2,
+            "call_check_limp": 62.5,
+            "raise": 3.22,
+            "shove": null
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 156,
+            "estimated_pct": [
+              31.241,
+              62.761,
+              2.542,
+              3.456
+            ],
+            "max_deviation_pp": 0.678,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Shove legend clipped; exact value unconfirmed"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_LimpReraise7p5",
+      "label": "HU BB vs limp-reraise 7.5",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/48_Screenshot_20261124_215113_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+          "parent_id": "HUSBvBB_ISO2p5",
+          "edge": "SB raise 7.5",
+          "print": 48,
+          "source_filename": "Screenshot_20261124_215113_GTO Ranges+.jpg",
+          "visible_tail": "BB raise 2.5 → SB raise 7.5",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 46.89,
+            "call_check_limp": 36.88,
+            "raise": 0,
+            "shove": 16.19
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 126,
+            "estimated_pct": [
+              45.648,
+              38.537,
+              0,
+              15.815
+            ],
+            "max_deviation_pp": 1.657,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUSBvBB_Shove_AfterLimpReraise7p5",
+      "label": "HU SB vs shove (limp-reraise)",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/49_Screenshot_20261124_215124_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "BLOCKED_AGGREGATE"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 25",
+          "parent_id": "HUBBvSB_LimpReraise7p5",
+          "edge": "BB shove 25",
+          "print": 49,
+          "source_filename": "Screenshot_20261124_215124_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 7.5 → BB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 35.8,
+            "call_check_limp": 64.2,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 21,
+            "estimated_pct": [
+              24.343,
+              75.657,
+              0,
+              0
+            ],
+            "max_deviation_pp": 11.457,
+            "code": "DRAFT_IN_SRC",
+            "notes": "High aggregate deviation due to thin reach; not homologated"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_LimpShove",
+      "label": "HU BB vs limp-shove",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/50_Screenshot_20261124_215142_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 25",
+          "parent_id": "HUSBvBB_ISO2p5",
+          "edge": "SB shove 25",
+          "print": 50,
+          "source_filename": "Screenshot_20261124_215142_GTO Ranges+.jpg",
+          "visible_tail": "BB raise 2.5 → SB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 74.59,
+            "call_check_limp": 25.37,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 126,
+            "estimated_pct": [
+              73.603,
+              26.397,
+              0,
+              0
+            ],
+            "max_deviation_pp": 1.027,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUSBvBB_ISOShove",
+      "label": "HU SB vs iso shove",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/51_Screenshot_20261124_215153_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB limp 0.5 → BB shove 25",
+          "parent_id": "HUBBvSB_Limp",
+          "edge": "BB shove 25",
+          "print": 51,
+          "source_filename": "Screenshot_20261124_215153_GTO Ranges+.jpg",
+          "visible_tail": "SB limp 0.5 → BB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 86.51,
+            "call_check_limp": 13.49,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 156,
+            "estimated_pct": [
+              86.486,
+              13.514,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.024,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_Open2",
+      "label": "HU BB vs open 2",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/52_Screenshot_20261124_215202_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB raise 2",
+          "parent_id": "HUSB_Open",
+          "edge": "SB raise 2",
+          "print": 52,
+          "source_filename": "Screenshot_20261124_215202_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 2",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 17.5,
+            "call_check_limp": 58.66,
+            "raise": 11.82,
+            "shove": 11.97
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              17.538,
+              58.531,
+              10.959,
+              12.971
+            ],
+            "max_deviation_pp": 1.001,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUSBvBB_3bet6",
+      "label": "HU SB vs 3bet 6",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/53_Screenshot_20261124_215251_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB raise 2 → BB raise 6",
+          "parent_id": "HUBBvSB_Open2",
+          "edge": "BB raise 6",
+          "print": 53,
+          "source_filename": "Screenshot_20261124_215251_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 2 → BB raise 6",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 49.58,
+            "call_check_limp": 37.68,
+            "raise": 0,
+            "shove": 12.73
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 137,
+            "estimated_pct": [
+              49.272,
+              38.494,
+              0,
+              12.234
+            ],
+            "max_deviation_pp": 0.814,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_4betShove",
+      "label": "HU BB vs 4bet shove",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": "sources/25bb/54_Screenshot_20261124_215259_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB raise 2 → BB raise 6 → SB shove 25",
+          "parent_id": "HUSBvBB_3bet6",
+          "edge": "SB shove 25",
+          "print": 54,
+          "source_filename": "Screenshot_20261124_215259_GTO Ranges+.jpg",
+          "visible_tail": "BB raise 6 → SB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 47.06,
+            "call_check_limp": 52.94,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 64,
+            "estimated_pct": [
+              44.375,
+              55.625,
+              0,
+              0
+            ],
+            "max_deviation_pp": 2.685,
+            "code": "DRAFT_IN_SRC",
+            "notes": "Raster approximation; inspect color boundaries"
+          }
+        }
+      }
+    },
+    {
+      "id": "HUSBvBB_3betShove",
+      "label": "HU SB vs 3bet shove",
+      "hero": "SB",
+      "scope": "HU native",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB raise 2 → BB shove 25",
+          "parent_id": "HUBBvSB_Open2",
+          "edge": "BB shove 25",
+          "print": null
+        }
+      }
+    },
+    {
+      "id": "HUBBvSB_OpenShove",
+      "label": "HU BB vs open shove",
+      "hero": "BB",
+      "scope": "HU native",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "SB shove 25",
+          "parent_id": "HUSB_Open",
+          "edge": "SB shove 25",
+          "print": null
         }
       }
     }
