@@ -1,10 +1,38 @@
 # Painel preflop — DeepGT
 
-🟢 Codificada · ⚪ Falta print · 🔵 Recebida, falta codificar (apenas se houver trabalho realmente pendente) · — Não aplicável.
+## 1. Lista contínua dos prints
 
-Codificada significa que a chart já está no arquivo de desenvolvimento; não significa estratégia homologada ou ativa. As ressalvas de precisão e validação ficam na [auditoria técnica](AUDIT_25BB_DRAFT.md), sob responsabilidade do desenvolvimento.
+Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.
 
-## 1. Matriz de cobertura
+**Último print registrado: 19. Próximo print novo: 20.**
+
+| Print | Stack (BB) | Sequência anterior | Hero | Estado |
+|---:|---:|---|:---:|---|
+| 1 | 25 | Pote não aberto | BTN | 🟢 Codificada |
+| 2 | 25 | BTN raise 2 | SB | 🟢 Codificada |
+| 3 | 25 | BTN raise 2 → SB fold | BB | 🟢 Codificada |
+| 4 | 25 | BTN raise 2 → SB fold → BB raise 6 | BTN | 🟢 Codificada |
+| 5 | 25 | BTN raise 2 → SB fold → BB raise 6 → BTN shove | BB | 🟢 Codificada |
+| 6 | 25 | BTN raise 2 → SB fold → BB shove | BTN | 🟢 Codificada |
+| 7 | 25 | BTN raise 2 → SB call → BB raise 8 | BTN | 🟢 Codificada |
+| 8 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN fold | SB | 🟢 Codificada |
+| 9 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove | BB | 🟢 Codificada |
+| 10 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 | SB | 🟢 Codificada |
+| 11 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 | BB | 🟢 Codificada |
+| 12 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB fold | BTN | 🟢 Codificada |
+| 13 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB call 17 | BTN | 🟢 Codificada |
+| 14 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 | SB | 🟢 Codificada |
+| 15 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB fold | BB | 🟢 Codificada |
+| 16 | 25 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB call 23 | BB | 🟢 Codificada |
+| 17 | 25 | BTN raise 2 → SB call → BB shove 25 | BTN | 🟢 Codificada |
+| 18 | 25 | BTN raise 2 → SB call → BB shove 25 → BTN fold | SB | 🟢 Codificada |
+| 19 | 25 | BTN raise 2 → SB call → BB shove 25 → BTN call 23 | SB | 🟢 Codificada |
+
+## 2. Matriz de cobertura
+
+🟢 Codificada · ⚪ Falta print · 🔵 Recebida, falta codificar · — Não aplicável.
+
+Codificada significa que a chart já está no arquivo de desenvolvimento, não que esteja homologada ou ativa. As ressalvas ficam na [auditoria técnica](AUDIT_25BB_DRAFT.md).
 
 | Cenário | 25 | 23 | 20 | 17 | 15 | 12 | 10 | 8 | 6 | 4 | 2 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -43,34 +71,11 @@ Codificada significa que a chart já está no arquivo de desenvolvimento; não s
 | 4 | 0 | 20 | 0 |
 | 2 | 0 | 20 | 0 |
 
-Somente famílias identificadas; a matriz cresce conforme novos cenários são mapeados. Os espaços vazios nos demais stacks não confirmam que os históricos sejam aplicáveis.
+Somente famílias identificadas; os espaços vazios nos demais stacks não confirmam que os históricos sejam aplicáveis.
 
-## 2. Sequências e árvores por stack
+## 3. Árvores por stack
 
 ### 25 BB
-
-| Print | Sequência anterior | Hero | Estado |
-|---:|---|---|---|
-| 1 | Pote não aberto | BTN | 🟢 Codificada |
-| 2 | BTN raise 2 | SB | 🟢 Codificada |
-| 3 | BTN raise 2 → SB fold | BB | 🟢 Codificada |
-| 4 | BTN raise 2 → SB fold → BB raise 6 | BTN | 🟢 Codificada |
-| 5 | BTN raise 2 → SB fold → BB raise 6 → BTN shove | BB | 🟢 Codificada |
-| 6 | BTN raise 2 → SB fold → BB shove | BTN | 🟢 Codificada |
-| 7 | BTN raise 2 → SB call → BB raise 8 | BTN | 🟢 Codificada |
-| 8 | BTN raise 2 → SB call → BB raise 8 → BTN fold | SB | 🟢 Codificada |
-| 9 | BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove | BB | 🟢 Codificada |
-| — | BTN raise 2 → SB call | BB | ⚪ Falta print |
-| 10 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 | SB | 🟢 Codificada |
-| 11 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 | BB | 🟢 Codificada |
-| 12 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB fold | BTN | 🟢 Codificada |
-| 13 | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB call 17 | BTN | 🟢 Codificada |
-| 14 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 | SB | 🟢 Codificada |
-| 15 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB fold | BB | 🟢 Codificada |
-| 16 | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB call 23 | BB | 🟢 Codificada |
-| 17 | BTN raise 2 → SB call → BB shove 25 | BTN | 🟢 Codificada |
-| 18 | BTN raise 2 → SB call → BB shove 25 → BTN fold | SB | 🟢 Codificada |
-| 19 | BTN raise 2 → SB call → BB shove 25 → BTN call 23 | SB | 🟢 Codificada |
 
 ```mermaid
 flowchart TD
@@ -138,9 +143,18 @@ flowchart TD
   class N20 coded
 ```
 
-## 3. Referências
+## 4. Cenários conhecidos sem print
 
-- [Registro fonte](../charts/PREFLOP_REGISTRY.json) — histórico, fontes, detalhes técnicos.
+Não recebem número até o recebimento da imagem.
+
+| Stack | Sequência anterior | Hero |
+|---:|---|:---:|
+| 25 | BTN raise 2 → SB call | BB |
+
+## 5. Referências
+
+- [Registro fonte](../charts/PREFLOP_REGISTRY.json) — históricos, fontes, detalhes técnicos.
 - [Catálogo](CHARTS_CATALOG.md) — frequências e arquivos.
 - [Status](STATUS.md) — situação e pendências reais.
 - [Política de ingestão](PREFLOP_POLICY.md) — fluxo obrigatório.
+- [Política de revisão estratégica](STRATEGIC_REVIEW.md) — tratamento de decisões contraintuitivas.
