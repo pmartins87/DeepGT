@@ -42,3 +42,5 @@ Piloto 02 offline concluído sem promoção (OPTIMIZED_PILOT_02.md). Não amplia
 Estudo All-in 25 BB autorizado e executado: OPTIMIZED_25BB_BATCH_STUDY.md. Nenhuma política promovida. Manter Pure, suspender expansão experimental até nova evidência de precisão/ranges/EV. Próximo print 57, 23 BB; gates e roadmap principal preservados.
 
 Solicitação de fechar catálogo experimental 25 BB antes de 23 BB atendida: 56 charts selecionadas, apenas print 31 modificado condicionalmente; 42 alternativa não selecionada. Ver OPTIMIZED_25BB_SELECTION.md. Gates de promoção não alterados; próximo print 57. Nenhuma nova rodada de testes sem evidência adicional.
+
+Experimento monotônico concluído, sem promoção (OPTIMIZED_MONOTONIC_STUDY.md). Próxima etapa de pesquisa recomendada: validação independente focada no print 42 e dados de reach dos bloqueados. Sem alteração do roadmap de captura ou código.
