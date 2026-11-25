@@ -67,3 +67,6 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 
 ## Estudo amplo All-in 25 BB
 56 fontes auditadas; 35 candidatas binárias, 30 comparações diagnósticas (25 origem 3-handed, 5 HU), 5 sem reach nominal identificável, 21 mistas preservadas. 40.632.000 amostras MC, ranking 300.000 testes independentes iguais. 13 dos 25 nós 3-handed passam gate preliminar local, nenhum ganho com IC positivo em todos os modelos retidos; nenhum HU passa nas duas leituras. Sem promoção. Ver OPTIMIZED_25BB_BATCH_STUDY.md. src/registry preservados; próximo print 57.
+
+## Seleção experimental Optimized All-in 25 BB v0.1 — 2026-11-25
+56 charts entregues individualmente: 55 fontes preservadas e 31 Conservadora condicional (não homologada), alternativa Maximin 42 separada. 21 mistas fora do escopo, 30 preservadas após comparação, 4 preservadas sem reach nominal, 1 exceção condicional. Zero promoção, zero alteração em src/registry. Ver [OPTIMIZED_25BB_SELECTION.md](OPTIMIZED_25BB_SELECTION.md). Captura 23 BB permanece a partir do print 57.
