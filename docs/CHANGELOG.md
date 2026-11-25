@@ -40,3 +40,6 @@
 ## 2026-11-24 — prints 40–42 e referência pura
 - Acrescentadas três charts offline, 12 seções; painel 42/44, próximo 43. CSV, manifesto, auditoria e predicados publicados.
 - Revertida EX-001 no código e no rascunho isolado; restaurada estimativa original T3o. Usuário decidiu preservar referência pura e estudar variante de realocação depois. Sem alteração postflop ou roteamento.
+
+## 2026-11-24 — prints 43–54 e HU nativo
+- Acrescentadas 12 charts, 72 seções; 1553 totais. 54/56 nós conhecidos, 44/44 de origem 3-handed, 10/12 HU nativo. Lista global e árvores separadas por origem atualizadas. CSV, manifesto e auditoria publicados. Referência pura preservada, nenhuma ativação.
