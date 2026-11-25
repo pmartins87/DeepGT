@@ -40,3 +40,6 @@ Usuário aprovou abranger ambos: fold/call all-in e fold/shove, preservando dema
 
 ## Estudo amplo autorizado e concluído
 [OPTIMIZED_25BB_BATCH_STUDY.md](OPTIMIZED_25BB_BATCH_STUDY.md): 56 auditadas, 35 candidatas, 30 comparadas numericamente, cinco sem reach identificável; 40.632.000 amostras 3-handed mais expectativa HU. Nenhuma variante passou promoção. Recomenda-se hipótese seletiva de ganho robusto frente a Pure, não implementada. Não repetir testes sem nova evidência.
+
+## Entrega de seleção individual experimental
+[OPTIMIZED_25BB_SELECTION.md](OPTIMIZED_25BB_SELECTION.md): 56 charts, 55 preservadas, uma exceção condicional (31 Conservadora) e alternativa 42 não selecionada. Nenhuma política promovida; não confundir escolha experimental com validação. Sem alteração de estratégia ativa ou gates.
