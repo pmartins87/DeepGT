@@ -15,3 +15,6 @@ Data: 2026-11-24. Decisão explícita do usuário.
 
 ## Estrutura
 sources/ originais; charts/ dados, predicados e registry; src/DeepGT.txt candidato incremental; baseline/ R10i imutável; docs/ decisões e auditorias. Registry é catálogo extensível de intake e não prova que todas as histórias são legais em todos os stacks.
+
+## Painel de acompanhamento obrigatório
+Após cada mudança no registry, registrar label, hero e histories por stack (sequence, parent_id, edge, print), quando conhecidos. Gerar docs/PREFLOP_DASHBOARD.md com `node tools/render_preflop_dashboard.cjs` e conferir com `node tools/render_preflop_dashboard.cjs --check`. O painel reúne tabela de sequências, árvore Mermaid por stack e matriz de cobertura. Consultar no começo de cada lote e atualizar junto do registro. Não editar a tabela/árvore manualmente. Estados preliminares não equivalem a validação ou ativação. O número total de famílias pode crescer; não interpretar a matriz como cobertura exaustiva.
