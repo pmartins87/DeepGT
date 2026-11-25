@@ -37,3 +37,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## Prints 43–54
 [CSV](../charts/draft_25bb/frequencies_25bb_43_54.csv) · [Predicados](../charts/draft_25bb/DeepGT_25BB_43_54_DRAFT.txt) · [Auditoria](../charts/draft_25bb/audit_43_54.json) · [Manifesto](../sources/25bb/manifest_43_54.csv). Prints 43–44 encerram os nós conhecidos de origem 3-handed; 45–54 são HU nativo. Coluna call_check_limp significa limp nos prints 44/45, check no 46 e call nos demais. Frequências raster aproximadas; nó 49 requer revisão técnica. Dois nós HU sem print no painel.
+
+## Prints 55–56 — últimas charts HU 25 BB
+[CSV](../charts/draft_25bb/frequencies_25bb_55_56.csv) · [Predicados offline](../charts/draft_25bb/DeepGT_25BB_55_56_DRAFT.txt) · [Auditoria](../charts/draft_25bb/audit_55_56.json) · [Manifesto](../sources/25bb/manifest_55_56.csv). Print 55: SB raise 2 → BB shove, Hero SB, fold/call 75,29/24,70. Print 56: SB open shove, Hero BB, fold/call 79,21/20,79. 56/56 nós conhecidos capturados. Nenhuma alteração deliberada de combos.
