@@ -49,3 +49,5 @@
 - CSV, auditoria e manifesto publicados; ZIP 56 originais local, binários remotos pendentes. Referência pura e baseline/postflop preservados; validação e integração ainda pendentes.
 
 2026-11-24: registrada proposta de metodologia offline para variante otimizada (OPTIMIZED_PROPOSAL.md); sem mudanças de código, estratégia ou roadmap vigente.
+
+2026-11-24: piloto 01 de otimização offline realizado, resultados/limitações documentados; nenhuma alteração de código estratégico.
