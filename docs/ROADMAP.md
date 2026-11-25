@@ -16,3 +16,5 @@ Gate 01 precede a ativação das charts. Pode catalogar imagens enquanto aguarda
 Lote 25 BB recebido: nove nós foram catalogados antecipadamente, inclusive defesa (Gate 04), sem modificar a ordem de ativação. Gate 02 depende do Gate 01 nativo, confirmação da medição de stack por cenário e revisão do nó raiz. Gate 04 exige também resolução de discrepância nó 5, reach não legível nó 8 e pai ausente nó 9. Ver AUDIT_25BB_DRAFT.md.
 
 2026-11-24: grade confirmada pelo usuário e helpers isolados adicionados. Registro extensível de dez famílias já conhecidas × onze slots (nove rascunhos de 25 BB e um pai ausente nesse stack; outros slots MISSING, não pressupõem que a história/sizing seja legal). Arquivamento binário dos nove JPGs está pendente de upload, manifesto publicado. Ver PREFLOP_POLICY.md. Receber novos prints, atualizar código sem ativar roteamento até gates.
+
+Acompanhamento transversal obrigatório: atualizar painel visual e registry no mesmo ciclo de cada lote; consultar docs/PREFLOP_DASHBOARD.md para identificar lacunas, sem alterar ordem ou critérios dos gates.
