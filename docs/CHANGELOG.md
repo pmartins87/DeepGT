@@ -10,3 +10,8 @@
 ## 2026-11-24 — lote 25 BB (rascunho)
 - Reconstruídos nove históricos preflop, CSV 169 classes por nó, código isolado de 26 predicados e auditoria condicional à chegada ao nó.
 - Nenhuma integração em src. Cinza não equivale a fold; revisão obrigatória para faixa estreita/ausente. Nó 5 bloqueado; nó 9 sem pai de squeeze. Gate 01 e buckets permanecem pendentes.
+
+## 2026-11-24 — definição de buckets e esqueleto
+- Decisão vinculante de 11 níveis e limites conforme PREFLOP_POLICY.md.
+- Acrescentadas 61 seções isoladas a src/DeepGT.txt, sem consumidores ativos: bucket, 11 helpers, 26 charts e 23 listas. 24 testes modelados de fronteira PASS; prefixo Gate 01 intacto.
+- Registry extensível, manifesto dos nove JPGs e política de ingestão publicados. Binários organizados em ZIP entregue ao usuário; upload remoto pendente. Atualização contínua de docs obrigatória.
