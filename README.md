@@ -11,4 +11,8 @@ Fork estratégico incremental do DeepCrusher R10i para estudo e validação offl
 - [Gate 01](docs/GATE_01_RNG.md) — desenho, riscos e validação offline.
 - [Baseline congelado](baseline/DeepCrusher_R10i.txt) e [candidato](src/DeepGT.txt).
 
+- [Política de buckets e ingestão](docs/PREFLOP_POLICY.md) — decisão vinculante de 11 stacks e fluxo obrigatório.
+- [Registro preflop](charts/PREFLOP_REGISTRY.json) — cobertura por nó e stack.
+- [Manifesto dos prints 25 BB](sources/25bb/manifest.csv) — hashes dos originais; upload binário pendente.
+
 Antes de qualquer mudança, consultar essas páginas e atualizar as afetadas no mesmo ciclo. Nenhuma promoção operacional foi feita. Utilizar apenas em ambiente offline/autorizado, respeitando as regras da plataforma.
