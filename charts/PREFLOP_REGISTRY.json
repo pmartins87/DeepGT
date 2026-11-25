@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "mode": "offline_draft",
   "source": "GTO Ranges+ / SPINS Classic",
   "stack_policy": {
@@ -2628,7 +2628,7 @@
       "label": "HU SB vs 3bet shove",
       "hero": "SB",
       "scope": "HU native",
-      "source_25": null,
+      "source_25": "sources/25bb/55_Screenshot_20261124_215309_GTO Ranges+.jpg",
       "stack_slots": {
         "2": "MISSING",
         "4": "MISSING",
@@ -2640,7 +2640,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "MISSING"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -2648,7 +2648,29 @@
           "sequence": "SB raise 2 → BB shove 25",
           "parent_id": "HUBBvSB_Open2",
           "edge": "BB shove 25",
-          "print": null
+          "print": 55,
+          "source_filename": "Screenshot_20261124_215309_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 2 → BB shove 25",
+          "history_status": "VISIBLE_ACTIONS_CONFIRMED",
+          "legend_pct": {
+            "fold": 75.29,
+            "call": 24.7,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 132,
+            "estimated_pct": [
+              75.33575746229701,
+              24.664242537702993,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.04575746229700428,
+            "code": "DRAFT_IN_SRC",
+            "notes": "RGB raster estimate; unresolved thin cells remain unassigned"
+          }
         }
       }
     },
@@ -2657,7 +2679,7 @@
       "label": "HU BB vs open shove",
       "hero": "BB",
       "scope": "HU native",
-      "source_25": null,
+      "source_25": "sources/25bb/56_Screenshot_20261124_215325_GTO Ranges+.jpg",
       "stack_slots": {
         "2": "MISSING",
         "4": "MISSING",
@@ -2669,7 +2691,7 @@
         "17": "MISSING",
         "20": "MISSING",
         "23": "MISSING",
-        "25": "MISSING"
+        "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
@@ -2677,7 +2699,29 @@
           "sequence": "SB shove 25",
           "parent_id": "HUSB_Open",
           "edge": "SB shove 25",
-          "print": null
+          "print": 56,
+          "source_filename": "Screenshot_20261124_215325_GTO Ranges+.jpg",
+          "visible_tail": "SB shove 25",
+          "history_status": "VISIBLE_ACTIONS_CONFIRMED",
+          "legend_pct": {
+            "fold": 79.21,
+            "call": 20.79,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              79.38326593429328,
+              20.616734065706726,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.1732659342932834,
+            "code": "DRAFT_IN_SRC",
+            "notes": "RGB raster estimate; unresolved thin cells remain unassigned"
+          }
         }
       }
     }
