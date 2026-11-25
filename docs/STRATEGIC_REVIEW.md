@@ -37,3 +37,5 @@ EX-001: a Conservadora completa do print 31 foi incluída no catálogo Optimized
 Print 42: MonoFixed e MonoRobust eliminam inversão KQo/KJo/KTo, escolhendo fold para as três. MonoRobust candidata, não homologada. Ver OPTIMIZED_MONOTONIC_STUDY.md. Catálogo anterior permanece histórico.
 
 Seleção híbrida reafirmada: MonoRobust é mais uma candidata, não método obrigatório. Print 31 Conservadora condicional segue referência experimental local; MonoRobust ainda não foi testada nesse nó. Print 42 MonoRobust candidata local. Nenhuma alteração de código ou chart nesta discussão.
+
+V0.2 híbrida: 31 Conservadora TT+/AK (99 retirado sob hipótese tight adicional), 42 MonoRobust + JTo fold após confirmação MC em mesmas distribuições sintéticas. 16 não selecionada. Ver OPTIMIZED_HYBRID_25BB_V02.md; nenhuma alteração da referência ou promoção.
