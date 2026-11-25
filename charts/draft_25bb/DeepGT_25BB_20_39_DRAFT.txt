@@ -448,12 +448,12 @@ When Others Return false Force
 
 // PRINT 31 - BBvBTN_OpenShove_SBCall - Screenshot_20261124_203214_GTO Ranges+.jpg
 // BTN shove 25 -> SB call 24.5
-// EX-001 T3o: source estimates call 31%, fold 69%; deliberate user veto: fold 100%.
+// Pure reference: T3o source estimates fold 69%, call 31%; EX-001 deferred to variant.
 
 ##list_BBvBTN_OpenShove_SBCall_Fold_25##
 55 22
 A6s A5s A4s A3s A2s KTs K5s K4s QTs Q8s Q6s Q5s Q4s Q3s Q2s JTs J6s J4s J2s T9s T7s T6s T4s T3s T2s 97s 96s 95s 94s 93s 92s 85s 84s 75s 73s 72s 65s 64s 62s 54s 42s 32s
-QJo KTo A9o K9o J9o A8o Q8o T8o 98o A7o J7o T7o 87o A6o K6o Q6o J6o T6o 96o 86o 76o A5o K5o Q5o J5o T5o 95o 85o 75o 65o A4o K4o Q4o J4o T4o 94o 84o 74o 64o 54o A3o K3o Q3o J3o T3o 93o 83o 73o 63o 53o 43o A2o K2o Q2o J2o T2o 92o 82o 72o 62o 52o 42o 32o
+QJo KTo A9o K9o J9o A8o Q8o T8o 98o A7o J7o T7o 87o A6o K6o Q6o J6o T6o 96o 86o 76o A5o K5o Q5o J5o T5o 95o 85o 75o 65o A4o K4o Q4o J4o T4o 94o 84o 74o 64o 54o A3o K3o Q3o J3o 93o 83o 73o 63o 53o 43o A2o K2o Q2o J2o T2o 92o 82o 72o 62o 52o 42o 32o
 
 ##f$chart_BBvBTN_OpenShove_SBCall_Fold_25##
 When !f$GT_RandomReady Return false Force
@@ -506,6 +506,7 @@ When hand$53s && f$GT_Random <= 0.67 Return true Force
 When hand$52s && f$GT_Random <= 0.87 Return true Force
 When hand$43s && f$GT_Random <= 0.83 Return true Force
 When hand$33 && f$GT_Random <= 0.35 Return true Force
+When hand$T3o && f$GT_Random <= 0.69 Return true Force
 When Others Return false Force
 
 ##list_BBvBTN_OpenShove_SBCall_Call_25##
@@ -564,6 +565,7 @@ When hand$53s && f$GT_Random > 0.67 Return true Force
 When hand$52s && f$GT_Random > 0.87 Return true Force
 When hand$43s && f$GT_Random > 0.83 Return true Force
 When hand$33 && f$GT_Random > 0.35 Return true Force
+When hand$T3o && f$GT_Random > 0.69 Return true Force
 When Others Return false Force
 
 // PRINT 32 - 3wBBvSB_Limp - Screenshot_20261124_211431_GTO Ranges+.jpg
