@@ -1,0 +1,701 @@
+{
+  "version": "0.2-experimental",
+  "stack_bb": 25,
+  "pure_source_blob": "0ba9bb04669e866a15f9723c25083a1da952af15",
+  "registry_blob": "80ddf4b32435c1190abad55f10d578df25ec5184",
+  "activation": false,
+  "promotion_count": 0,
+  "selected_count": 56,
+  "modified_count": 8,
+  "unchanged_count": 48,
+  "unresolved_family_inversions": [
+    16
+  ],
+  "family_inversions_before": 70,
+  "family_inversions_remaining": 4,
+  "new_mc_accepted_samples": 53880000,
+  "rows": [
+    {
+      "print": 1,
+      "hero": "BTN",
+      "history": "Pote não aberto",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/01_BTN_Open.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 2,
+      "hero": "SB",
+      "history": "BTN raise 2",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/02_SBvBTN_Open2.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 3,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/03_3wBBvBTN_Open2_SBFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 4,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB fold → BB raise 6",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/04_BTNvBB_3bet6_SBFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 5,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB fold → BB raise 6 → BTN shove",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/05_3wBBvBTN_4betShove_SBFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 6,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB fold → BB shove",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/06_BTNvBB_3betShove_SBFold.jpg",
+      "selected_method": "MonoFixed",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 6,
+        "method": "MonoFixed",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/06_MonoFixed.csv",
+        "before": 1,
+        "after": 0,
+        "changes": 8,
+        "freq": 28.781633100596245,
+        "worst": -0.004108551772734137,
+        "lower": -0.009062190103007987,
+        "absolute": null,
+        "reason": "Coerência estrutural e frequência reconstruída preservada; pequeno custo de EV em teste novo."
+      }
+    },
+    {
+      "print": 7,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB call → BB raise 8",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/07_BTNvBB_Squeeze8_SBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 8,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/08_SBvBB_Squeeze8_BTNFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 9,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/09_3wBBvSB_4betShove_AfterSqueeze8_BTNFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 10,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN call 6",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/10_SBvBB_Squeeze8_BTNCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 11,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/11_BBvSB_4betShove_Squeeze8_BTNCall.jpg",
+      "selected_method": "Maximin",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 11,
+        "method": "Maximin",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/11_Maximin.csv",
+        "before": 1,
+        "after": 0,
+        "changes": 5,
+        "freq": 95.8962798742678,
+        "worst": 0.051272631277324766,
+        "lower": 0.047738262411054576,
+        "absolute": null,
+        "reason": "Ganho estimado nos três novos modelos; fonte e reach raro impedem homologação."
+      }
+    },
+    {
+      "print": 12,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/12_BTNvSB_Shove_Squeeze8_BBFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 13,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB call 17",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/13_BTNvSB_Shove_Squeeze8_BBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 14,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/14_SBvBTN_4betShove_Squeeze8.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 15,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/15_BBvBTN_4betShove_Squeeze8_SBFold.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 16,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB call 23",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/16_BBvBTN_4betShove_Squeeze8_SBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED_BLOCKED",
+      "diagnostic": {
+        "print": 16,
+        "method": "Conservadora_visivel",
+        "selected": false,
+        "frequency_file": "charts/optimized_25bb/v0_2/16_Conservadora_visivel_NOT_SELECTED.csv",
+        "before": 4,
+        "after": 4,
+        "changes": 18,
+        "freq": 89.60096831777926,
+        "worst": 1.7362068391090681,
+        "lower": 1.689159762706065,
+        "absolute": 11.5983188295367,
+        "reason": "Alternativa NÃO SELECIONADA: SB call sem range identificável, aumento extremo de frequência; hipóteses não suficientes."
+      }
+    },
+    {
+      "print": 17,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB call → BB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/17_BTNvBB_Shove_SBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 18,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB call → BB shove 25 → BTN fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/18_SBvBB_Shove_BTNFold_AfterSBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 19,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB call → BB shove 25 → BTN call 23",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/19_SBvBB_Shove_BTNCall_AfterSBCall.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 20,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB raise 6",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/20_Screenshot_20261124_202937_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 21,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB raise 6 → BB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/21_Screenshot_20261124_202949_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 22,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/22_Screenshot_20261124_203000_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 23,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB raise 6 → BB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/23_Screenshot_20261124_203014_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 24,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/24_Screenshot_20261124_203025_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 25,
+      "hero": "SB",
+      "history": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN call 23",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/25_Screenshot_20261124_203038_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 26,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/26_Screenshot_20261124_203053_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 27,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB shove 25 → BB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/27_Screenshot_20261124_203100_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 28,
+      "hero": "BTN",
+      "history": "BTN raise 2 → SB shove 25 → BB call 24",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/28_Screenshot_20261124_203114_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 29,
+      "hero": "SB",
+      "history": "BTN shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/29_Screenshot_20261124_203135_GTO Ranges+.jpg",
+      "selected_method": "Conservadora",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 29,
+        "method": "Conservadora",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/29_Conservadora.csv",
+        "before": 6,
+        "after": 0,
+        "changes": 30,
+        "freq": 3.469079939668175,
+        "worst": -0.5052696924334937,
+        "lower": -0.5128060364948688,
+        "absolute": 0.1289846668667467,
+        "reason": "Range nominal de shove não identificável; prioriza pior EV absoluto, com perda relativa em modelo loose; BB ainda a agir."
+      }
+    },
+    {
+      "print": 30,
+      "hero": "BB",
+      "history": "BTN shove 25 → SB fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/30_Screenshot_20261124_203145_GTO Ranges+.jpg",
+      "selected_method": "Conservadora",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 30,
+        "method": "Conservadora",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/30_Conservadora.csv",
+        "before": 11,
+        "after": 0,
+        "changes": 37,
+        "freq": 3.5119568450737493,
+        "worst": -0.628363496512789,
+        "lower": -0.6361061897096422,
+        "absolute": 0.1351119264355399,
+        "reason": "Range nominal de shove não identificável; prioriza pior EV absoluto, com perda relativa em modelo loose."
+      }
+    },
+    {
+      "print": 31,
+      "hero": "BB",
+      "history": "BTN shove 25 → SB call 24.5",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/31_Screenshot_20261124_203214_GTO Ranges+.jpg",
+      "selected_method": "Conservadora",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 31,
+        "method": "Conservadora",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/31_Conservadora.csv",
+        "before": 27,
+        "after": 0,
+        "changes": 51,
+        "freq": 3.1564654385244033,
+        "worst": 0.2288456152730125,
+        "lower": 0.21895075370605682,
+        "absolute": 0.21133872058420644,
+        "reason": "TT+ AKs AKo; conserva EV absoluto positivo nos três novos modelos hipotéticos; 99 retirado por margem de segurança e EV negativo no modelo tight."
+      }
+    },
+    {
+      "print": 32,
+      "hero": "BB",
+      "history": "BTN fold → SB limp 0.5",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/32_Screenshot_20261124_211431_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 33,
+      "hero": "SB",
+      "history": "BTN fold → SB limp 0.5 → BB raise 3",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/33_Screenshot_20261124_211446_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 34,
+      "hero": "BB",
+      "history": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/34_Screenshot_20261124_211500_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 35,
+      "hero": "SB",
+      "history": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/35_Screenshot_20261124_211513_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 36,
+      "hero": "BB",
+      "history": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/36_Screenshot_20261124_211535_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 37,
+      "hero": "SB",
+      "history": "BTN fold → SB limp 0.5 → BB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/37_Screenshot_20261124_211545_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 38,
+      "hero": "BB",
+      "history": "BTN fold → SB raise 3",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/38_Screenshot_20261124_211558_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 39,
+      "hero": "SB",
+      "history": "BTN fold → SB raise 3 → BB raise 9",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/39_Screenshot_20261124_211734_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 40,
+      "hero": "BB",
+      "history": "BTN fold → SB raise 3 → BB raise 9 → SB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/40_Screenshot_20261124_211743_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 41,
+      "hero": "SB",
+      "history": "BTN fold → SB raise 3 → BB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/41_Screenshot_20261124_211756_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 42,
+      "hero": "BB",
+      "history": "BTN fold → SB shove 25",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/42_Screenshot_20261124_211824_GTO Ranges+.jpg",
+      "selected_method": "MonoRobust_AjusteJTo",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 42,
+        "method": "MonoRobust_AjusteJTo",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/42_MonoRobust_AjusteJTo.csv",
+        "before": 2,
+        "after": 0,
+        "changes": 9,
+        "freq": 15.202866619838787,
+        "worst": 0.0028427829715720484,
+        "lower": 0.00160843247446266,
+        "absolute": null,
+        "reason": "Reparo JTo posterior à auditoria e nova confirmação com 2.700.000 amostras e novas sementes; mesmos ranges sintéticos."
+      }
+    },
+    {
+      "print": 43,
+      "hero": "BB",
+      "history": "BTN raise 2 → SB call",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/43_Screenshot_20261124_214447_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 44,
+      "hero": "SB",
+      "history": "BTN fold",
+      "scope": "3-handed origin",
+      "source": "sources/25bb/44_Screenshot_20261124_214510_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 45,
+      "hero": "SB",
+      "history": "Pote não aberto",
+      "scope": "HU native",
+      "source": "sources/25bb/45_Screenshot_20261124_215035_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 46,
+      "hero": "BB",
+      "history": "SB limp 0.5",
+      "scope": "HU native",
+      "source": "sources/25bb/46_Screenshot_20261124_215044_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 47,
+      "hero": "SB",
+      "history": "SB limp 0.5 → BB raise 2.5",
+      "scope": "HU native",
+      "source": "sources/25bb/47_Screenshot_20261124_215058_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 48,
+      "hero": "BB",
+      "history": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+      "scope": "HU native",
+      "source": "sources/25bb/48_Screenshot_20261124_215113_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 49,
+      "hero": "SB",
+      "history": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/49_Screenshot_20261124_215124_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 50,
+      "hero": "BB",
+      "history": "SB limp 0.5 → BB raise 2.5 → SB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/50_Screenshot_20261124_215142_GTO Ranges+.jpg",
+      "selected_method": "Segunda_MonoRobust",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 50,
+        "method": "Segunda_MonoRobust",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/50_Segunda_MonoRobust.csv",
+        "before": 1,
+        "after": 0,
+        "changes": 4,
+        "freq": 24.542375383962984,
+        "worst": 0.0005101270583710352,
+        "lower": 0.0005101270583710352,
+        "absolute": null,
+        "reason": "Mesmo vetor comparado nas duas reconstruções HU; seleção retrospectiva, fonte não passa gate."
+      }
+    },
+    {
+      "print": 51,
+      "hero": "SB",
+      "history": "SB limp 0.5 → BB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/51_Screenshot_20261124_215153_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 52,
+      "hero": "BB",
+      "history": "SB raise 2",
+      "scope": "HU native",
+      "source": "sources/25bb/52_Screenshot_20261124_215202_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 53,
+      "hero": "SB",
+      "history": "SB raise 2 → BB raise 6",
+      "scope": "HU native",
+      "source": "sources/25bb/53_Screenshot_20261124_215251_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Fora do escopo binário"
+    },
+    {
+      "print": 54,
+      "hero": "BB",
+      "history": "SB raise 2 → BB raise 6 → SB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/54_Screenshot_20261124_215259_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 55,
+      "hero": "SB",
+      "history": "SB raise 2 → BB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/55_Screenshot_20261124_215309_GTO Ranges+.jpg",
+      "selected_method": "Pure",
+      "status": "PRESERVED",
+      "reason": "Sem inversões nas famílias inicialmente auditadas; nenhum ganho robusto suficiente para substituir fonte"
+    },
+    {
+      "print": 56,
+      "hero": "BB",
+      "history": "SB shove 25",
+      "scope": "HU native",
+      "source": "sources/25bb/56_Screenshot_20261124_215325_GTO Ranges+.jpg",
+      "selected_method": "Conservadora",
+      "status": "EXPERIMENTAL_NOT_PROMOTED",
+      "diagnostic": {
+        "print": 56,
+        "method": "Conservadora",
+        "selected": true,
+        "frequency_file": "charts/optimized_25bb/v0_2/56_Conservadora.csv",
+        "before": 17,
+        "after": 0,
+        "changes": 50,
+        "freq": 3.469079939668175,
+        "worst": -0.7632350952206195,
+        "lower": -0.7632350952206195,
+        "absolute": 0.12507695078031214,
+        "reason": "Range nominal de open shove HU não identificado; pior EV absoluto positivo, perda de oportunidade relevante contra loose."
+      }
+    }
+  ],
+  "local_artifacts": {
+    "pdf_sha256": "f0e2901c78fc1447cf1efdb54ce6079436c2ffaa8129fad4a472221a6073506b",
+    "catalog_zip_sha256": "8de0c6e0b92fca9103fcba676eebdbd5236f775cffac92bd06fe023bff3b1fc4",
+    "repro_zip_sha256": "3dfce04182d1c896812a93b02805fa6b1e69f58bd209d30689f91e1a48c3a467"
+  }
+}
