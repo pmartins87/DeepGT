@@ -27,3 +27,6 @@ Receber prints → organizar → identificar histórico → extrair frequências
 
 ## Continuidade da captura e revisão estratégica
 O painel inicia com a lista global de prints ordenada por número contínuo; lacunas da árvore não recebem número até o recebimento. Em cada lote, devolver no chat pelo menos os últimos prints numerados e o próximo número. Antes de consolidar estratégia de estudo, aplicar STRATEGIC_REVIEW.md, preservando frequências brutas e separando desvios deliberados de erros de extração. Não alterar mãos apenas por aparência; exceções justificadas ou restrições explícitas do usuário são registradas.
+
+## Referência pura (decisão vigente)
+A cada lote, converter a fonte sem ajustes deliberados de combos; preservar dados brutos, registrar hipóteses estratégicas separadamente. A futura variante será avaliada após consolidar a referência, conforme STRATEGIC_REVIEW.md. A revisão de leitura, cobertura e validação nativa não muda.
