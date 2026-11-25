@@ -53,3 +53,5 @@
 2026-11-24: piloto 01 de otimização offline realizado, resultados/limitações documentados; nenhuma alteração de código estratégico.
 
 2026-11-24: piloto 02 de replicação e sensibilidade raster concluído, sem promoção nem alteração de código/registry. Relatório OPTIMIZED_PILOT_02.md.
+
+2026-11-24: estudo amplo All-in de 56 charts auditadas/30 comparadas, validação amostral de ranking multiway, sem promoção nem alteração de código. Relatório OPTIMIZED_25BB_BATCH_STUDY.md.
