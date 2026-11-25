@@ -22,3 +22,8 @@
 ## Painel visual permanente
 - Registry v2 com metadados de história por stack e relação pai/aresta para dez nós conhecidos a 25 BB. Painel em docs/PREFLOP_DASHBOARD.md: 9 recebidos de 10 identificados nesse stack (6 revisão normal, 2 revisão especial, 1 bloqueado, 1 pendente). Zero homologados/ativos. Não representa cobertura total da árvore.
 - Gerador em tools/render_preflop_dashboard.cjs; atualização obrigatória a cada lote. Nenhuma alteração em src, ranges, gates ou baseline neste checkpoint.
+
+## Checkpoint — segundo lote de 25 BB e correção de histórico
+- 10 prints adicionais registrados, nós 10–19, com frequências da legenda, trecho visível, pai proposto e prefixo reconstruído a conferir. Não houve extração por mão nem alteração de src neste checkpoint. Os originais binários desse lote ainda não foram arquivados remotamente.
+- Correção confirmada pelo usuário: BB shove → BTN fold → SB: fold 79,39%, call 20,61%; BB shove → BTN call → SB: fold 96,58%, call 3,41%. São nós distintos, sem contradição.
+- Painel v3: 19 charts recebidas em 20 cenários identificados a 25 BB; 10 a extrair (azul), 6 codificadas em revisão normal, 2 revisão especial, 1 bloqueada, 1 sem print (pai BB vs BTN + SB). Zero homologadas/ativas. Prefixos ocultos não confirmados pelo print isolado; revisar antes de codificar. Não representa toda a árvore.
