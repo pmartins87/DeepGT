@@ -37,3 +37,9 @@
 ## Checkpoint — lista contínua e revisão estratégica
 - Painel e gerador atualizados: lista global 1–19 no topo, próximo print 20; cenários sem print separados. Nenhum print novo recebido neste checkpoint. Código e baseline não modificados.
 - Política de revisão estratégica criada (STRATEGIC_REVIEW.md). Exemplo T3o em BB contra BTN open shove 25 e SB call registrado como candidato EX-001, fonte ainda não recebida. Não confundir com nó 16. Não afirmar EV sem ranges/premissas nem aplicar ajuste a outros nós. As 19 charts continuam como referência extraída em rascunho offline.
+
+## Checkpoint atual — prints 20–39, 25 BB
+- 39 charts codificadas em rascunho de 44 nós conhecidos; nenhuma recebida sem codificação. Último print 39, próximo 40. Cinco lacunas: BTN R2/SB call/BB; BTN fold/SB open; BTN fold/SB shove/BB; BTN fold/SB R3/BB shove/SB; BTN fold/SB R3/BB R9/SB shove/BB.
+- src/DeepGT.txt atualizado no commit 087b8ca4f02080bc0d333a30980efce02c261c5c, blob 3712a1dfbcd850b80c09dea417c5cd477768c2e5. 95 novas seções (49 charts, 46 listas), 1374 → 1469, prefixo anterior íntegro. 3380 classes extraídas, 2279 visíveis, 230179 verificações de partição em modelo PASS. Nenhum consumidor ativo; zero alteração postflop ou baseline.
+- EX-001 implementada no rascunho do print 31: T3o fold 100%, source CSV preserva estimativa 69% fold / 31% call. Não afirmar EV exata sem ranges. Nós 32 e 35 têm divergência raster elevada; detalhes em auditoria. Outras decisões contraintuitivas requerem análise antes da ativação.
+- Originais 1–39 em ZIP local, manifestos no GitHub; binários remotos continuam pendentes. Gates nativos e integração não concluídos.
