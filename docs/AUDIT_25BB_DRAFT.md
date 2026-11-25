@@ -97,3 +97,6 @@ Extração por distância RGB à paleta, regiões 13×13, altura colorida inferi
 | 54 | 47.06/52.94/0/0 | 44.375/55.625/0/0 | 2.685 | 64 |
 
 2028 células, 1631 visíveis, 164731 testes de partição modelada. 72 seções novas, 1553 totais. Zero alterações deliberadas nos combos; referência pura, sem ativação. A divergência do print 49 bloqueia homologação, não a captura dos próximos prints.
+
+## Prints 55–56 — HU nativo, fechamento de captura
+Segmentação 13×13, classificação por distância RGB a azul, verde e cinza, exclusão de pixels distantes da paleta, seleção de linhas com pelo menos 36% de pixels classificados como ação, voto por coluna nas últimas oito linhas coloridas e arredondamento percentual. As faixas não resolvidas ficam sem atribuição. 55: 132 classes resolvidas, call 24,664% vs 24,70% da fonte. 56: 169 classes resolvidas, call 20,617% vs 20,79%. Comparação agregada não valida cada mão. 338 células, 301 resolvidas, 30401 verificações de partição em modelo. 8 novas seções, sem duplicação, prefixo anterior preservado. Não houve teste nativo nem ativação. Ressalvas anteriores permanecem.
