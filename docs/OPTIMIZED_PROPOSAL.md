@@ -37,3 +37,6 @@ Sugestão do usuário: restringir a futura variante a decisões de all-in ou fol
 
 ## Escopo aprovado e demonstração — print 31
 Usuário aprovou abranger ambos: fold/call all-in e fold/shove, preservando demais charts. A aprovação define o escopo de pesquisa, não homologa uma variante. Para calls terminais, equity contextual e pot odds; para shoves, EV incluindo fold equity e respostas. Pure intacto. Demonstração numérica do print 31 em OPTIMIZED_T3O_CASE.md. Pilotos anteriores continuam não promovidos; não alterar roadmap de captura nem src.
+
+## Estudo amplo autorizado e concluído
+[OPTIMIZED_25BB_BATCH_STUDY.md](OPTIMIZED_25BB_BATCH_STUDY.md): 56 auditadas, 35 candidatas, 30 comparadas numericamente, cinco sem reach identificável; 40.632.000 amostras 3-handed mais expectativa HU. Nenhuma variante passou promoção. Recomenda-se hipótese seletiva de ganho robusto frente a Pure, não implementada. Não repetir testes sem nova evidência.
