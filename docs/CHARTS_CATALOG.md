@@ -22,3 +22,6 @@ Nó 5: BLOQUEADO para homologação pela divergência 3,154 p.p. (call estimado 
 Ainda faltam os outros ramos e Gate 01 nativo. Grade definida em PREFLOP_POLICY.md. Os predicados foram acrescentados a src/DeepGT.txt sem consumidores ativos; não ativar até homologação. Ver [auditoria](AUDIT_25BB_DRAFT.md).
 
 Registro por stack/nó: [PREFLOP_REGISTRY.json](../charts/PREFLOP_REGISTRY.json). Originais: [manifesto](../sources/25bb/manifest.csv) (JPGs preparados, upload binário pendente). Todos os dados permanecem preliminares.
+
+## Segundo lote 25 BB — recebido, extração pendente
+Ver registry e painel para as dez sequências dos prints 10–19. Frequências da legenda registradas no registry, não são frequências individuais extraídas. Os prefixos anteriores aos três últimos blocos foram reconstruídos por continuidade e devem ser conferidos. Correção do usuário: print 18, BB shove/BTN fold/SB, 79,39% fold e 20,61% call; print 19, BB shove/BTN call/SB, 96,58% fold e 3,41% call. Print 14 é outro ramo: BB squeeze 8/BTN shove/SB, 99,97% fold e 0,03% call. Os três não devem ser fundidos. Arquivamento binário pendente.
