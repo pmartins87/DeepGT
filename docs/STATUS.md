@@ -33,3 +33,7 @@
 - 25 BB: 19 charts codificadas de 20 cenários identificados, 0 recebidas a codificar. Falta a chart pai BB vs BTN raise 2 + SB call. Isso não significa cobertura total da árvore. Os históricos do lote 2 foram reconstruídos a partir dos pais e dos blocos visíveis; ainda devem ser conferidos antes de ativar.
 - Detalhes de precisão (incluindo nó 5 do lote 1, resíduos 0,15% e 0,03% nos nós 12/14) ficam na auditoria, não são tarefas delegadas ao usuário. Gate 01 nativo e validação de integração seguem pendentes. O painel simplificado contabiliza código escrito, não homologação.
 - 19 JPG originais organizados em ZIP único, hashes locais conferidos 19/19; manifestos de ambos lotes no GitHub. Upload dos binários ao GitHub continua não realizado pelo limite do conector. Não pedir reenvio das imagens existentes. Arquivo principal, CSVs, painel e documentação estão no GitHub.
+
+## Checkpoint — lista contínua e revisão estratégica
+- Painel e gerador atualizados: lista global 1–19 no topo, próximo print 20; cenários sem print separados. Nenhum print novo recebido neste checkpoint. Código e baseline não modificados.
+- Política de revisão estratégica criada (STRATEGIC_REVIEW.md). Exemplo T3o em BB contra BTN open shove 25 e SB call registrado como candidato EX-001, fonte ainda não recebida. Não confundir com nó 16. Não afirmar EV sem ranges/premissas nem aplicar ajuste a outros nós. As 19 charts continuam como referência extraída em rascunho offline.
