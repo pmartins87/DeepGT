@@ -59,3 +59,5 @@
 2026-11-25: catálogo experimental de seleção individual das 56 charts 25 BB (55 preservadas, 31 Conservadora condicional), alternativa 42 Maximin separada, manifesto e frequências publicados. Sem promoção ou mudança em src/registry. Ver OPTIMIZED_25BB_SELECTION.md.
 
 2026-11-25: experimento MonoFixed/MonoRobust offline, auditadas 35 charts binárias e 30 comparadas numericamente. Sem alteração de charts, código ou registry. Relatório OPTIMIZED_MONOTONIC_STUDY.md.
+
+2026-11-25: catálogo de pesquisa híbrido v0.2, 56 charts, oito modificadas experimentalmente, 16 pendente; 53.880.000 amostras novas. Manifesto/frequências versionadas, sem alteração de src ou registry.
