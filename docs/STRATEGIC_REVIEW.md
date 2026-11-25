@@ -27,3 +27,5 @@ Após consolidar a referência, estudar separadamente variante de realocação d
 Ver [OPTIMIZED_PROPOSAL.md](OPTIMIZED_PROPOSAL.md): critérios de EV, realocação de massa de ação, robustez e piloto offline. Proposta não aprovada para execução; referência pura continua intacta.
 
 Piloto 01 autorizado e executado offline: [OPTIMIZED_PILOT_01.md](OPTIMIZED_PILOT_01.md). Nenhuma exceção aplicada à referência. Não há evidência para promover a variante.
+
+Piloto 02 [resultado](OPTIMIZED_PILOT_02.md): sensibilidade significativa à extração. Nenhuma exceção aplicada; EX-001 permanece hipótese futura, não conclusão de EV. Preservar Pure.
