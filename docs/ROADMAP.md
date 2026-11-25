@@ -30,3 +30,5 @@ Checkpoint 25 BB: prints 1–39 codificados em rascunho; cinco lacunas identific
 Checkpoint: 42/44 nós conhecidos a 25 BB, dois prints iniciais faltantes. Completar captura, seguir grade definida. Nova decisão: referência pura primeiro; variante ajustada posterior e separada, com critérios de comparação offline definidos antes de implementação. EX-001 revertida. Gates anteriores permanecem.
 
 Checkpoint 25 BB: 44/44 nós conhecidos 3-handed de origem e 10/12 HU nativo codificados em rascunho. Fechar dois nós HU restantes antes de 23 BB. Preservar separação de topologia, tamanhos e referência pura; gates nativos continuam pendentes.
+
+Checkpoint de captura 25 BB: 56/56 nós conhecidos (44 3-handed, 12 HU nativo) codificados em rascunho. Prosseguir com 23 BB a partir do print 57; não assumir que o número de nós ou os sizings de 25 BB se repetem nos demais stacks. Preservar referência pura, gates nativos e separação de origem. Fechamento de captura não autoriza ativação.
