@@ -7,6 +7,7 @@ Fork estratégico incremental do DeepCrusher R10i para estudo e validação offl
 **[Abrir painel preflop: cobertura, sequências e árvores por stack](docs/PREFLOP_DASHBOARD.md)**
 
 ## Fonte de verdade
+- [Revisão estratégica](docs/STRATEGIC_REVIEW.md) — critérios de desvios deliberados e registro de exceções.
 - [Diretrizes](docs/DIRETRIZES.md) — regras vinculantes do projeto.
 - [Roadmap](docs/ROADMAP.md) — gates, dependências e critérios de parada.
 - [Status](docs/STATUS.md) — estado atualizado, evidência e próximo passo.
