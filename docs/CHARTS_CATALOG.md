@@ -34,3 +34,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## Prints 40–42
 [CSV](../charts/draft_25bb/frequencies_25bb_40_42.csv) · [Predicados](../charts/draft_25bb/DeepGT_25BB_40_42_DRAFT.txt) · [Auditoria](../charts/draft_25bb/audit_40_42.json) · [Manifesto](../sources/25bb/manifest_40_42.csv). As três charts estão em src. EX-001 do print 31 revertida por decisão posterior; fonte bruta inalterada. Dois nós conhecidos sem print no painel.
+
+## Prints 43–54
+[CSV](../charts/draft_25bb/frequencies_25bb_43_54.csv) · [Predicados](../charts/draft_25bb/DeepGT_25BB_43_54_DRAFT.txt) · [Auditoria](../charts/draft_25bb/audit_43_54.json) · [Manifesto](../sources/25bb/manifest_43_54.csv). Prints 43–44 encerram os nós conhecidos de origem 3-handed; 45–54 são HU nativo. Coluna call_check_limp significa limp nos prints 44/45, check no 46 e call nos demais. Frequências raster aproximadas; nó 49 requer revisão técnica. Dois nós HU sem print no painel.
