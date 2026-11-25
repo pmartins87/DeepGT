@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "mode": "offline_draft",
   "source": "GTO Ranges+ / SPINS Classic",
   "stack_policy": {
@@ -864,6 +864,1145 @@
             "code": "DRAFT_IN_SRC",
             "notes": "Rounded visual estimate; native and history validation pending"
           }
+        }
+      }
+    },
+    {
+      "id": "3wSB_Open",
+      "label": "SB open (BTN fold)",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold",
+          "parent_id": "BTN_Open",
+          "edge": "BTN fold",
+          "print": null
+        }
+      }
+    },
+    {
+      "id": "BBvSB_3bet6_BTNOpen",
+      "label": "BB vs SB 3bet",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/20_Screenshot_20261124_202937_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB raise 6",
+          "print": 20,
+          "source": "sources/25bb/20_Screenshot_20261124_202937_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_202937_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 6",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 90.69,
+            "call_or_check": 0,
+            "raise": 0,
+            "shove": 9.31
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              90.798,
+              0,
+              0,
+              9.202
+            ],
+            "max_deviation_pp": 0.108,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BTNvSB_3bet6_BBFold",
+      "label": "BTN vs SB 3bet (BB fold)",
+      "hero": "BTN",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/21_Screenshot_20261124_202949_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6 → BB fold",
+          "parent_id": "BBvSB_3bet6_BTNOpen",
+          "edge": "BB fold",
+          "print": 21,
+          "source": "sources/25bb/21_Screenshot_20261124_202949_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_202949_GTO Ranges+.jpg",
+          "visible_tail": "BB fold",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 51.21,
+            "call_or_check": 27.63,
+            "raise": 0,
+            "shove": 21.12
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 86,
+            "estimated_pct": [
+              51.385,
+              27.93,
+              0,
+              20.685
+            ],
+            "max_deviation_pp": 0.435,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "SBvBTN_4betShove_BBFold",
+      "label": "SB vs BTN 4bet shove",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/22_Screenshot_20261124_203000_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 25",
+          "parent_id": "BTNvSB_3bet6_BBFold",
+          "edge": "BTN shove 25",
+          "print": 22,
+          "source": "sources/25bb/22_Screenshot_20261124_203000_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203000_GTO Ranges+.jpg",
+          "visible_tail": "BTN shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 40.37,
+            "call_or_check": 59.63,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": [
+              40.085,
+              59.915,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.285,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BTNvBB_4betShove_SB3bet",
+      "label": "BTN vs BB shove (SB 3bet)",
+      "hero": "BTN",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/23_Screenshot_20261124_203014_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 25",
+          "parent_id": "BBvSB_3bet6_BTNOpen",
+          "edge": "BB shove 25",
+          "print": 23,
+          "source": "sources/25bb/23_Screenshot_20261124_203014_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203014_GTO Ranges+.jpg",
+          "visible_tail": "BB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 88.96,
+            "call_or_check": 11.03,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 86,
+            "estimated_pct": [
+              88.952,
+              11.048,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.018,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "SBvBB_4betShove_BTNFold",
+      "label": "SB vs BB shove (BTN fold, SB 3bet)",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/24_Screenshot_20261124_203025_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN fold",
+          "parent_id": "BTNvBB_4betShove_SB3bet",
+          "edge": "BTN fold",
+          "print": 24,
+          "source": "sources/25bb/24_Screenshot_20261124_203025_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203025_GTO Ranges+.jpg",
+          "visible_tail": "BTN fold",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 45.81,
+            "call_or_check": 54.18,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": [
+              45.242,
+              54.758,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.578,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "SBvBB_4betShove_BTNCall",
+      "label": "SB vs BB shove (BTN call, SB 3bet)",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/25_Screenshot_20261124_203038_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN call 23",
+          "parent_id": "BTNvBB_4betShove_SB3bet",
+          "edge": "BTN call 23",
+          "print": 25,
+          "source": "sources/25bb/25_Screenshot_20261124_203038_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203038_GTO Ranges+.jpg",
+          "visible_tail": "BTN call 23",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 63.01,
+            "call_or_check": 36.99,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 40,
+            "estimated_pct": [
+              62.394,
+              37.606,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.616,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BBvSB_3betShove_BTNOpen",
+      "label": "BB vs SB shove (BTN open)",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/26_Screenshot_20261124_203053_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB shove 25",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB shove 25",
+          "print": 26,
+          "source": "sources/25bb/26_Screenshot_20261124_203053_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203053_GTO Ranges+.jpg",
+          "visible_tail": "SB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 91.48,
+            "call_or_check": 8.52,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              91.464,
+              8.536,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.016,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BTNvSB_3betShove_BBFold",
+      "label": "BTN vs SB shove (BB fold)",
+      "hero": "BTN",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/27_Screenshot_20261124_203100_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB shove 25 → BB fold",
+          "parent_id": "BBvSB_3betShove_BTNOpen",
+          "edge": "BB fold",
+          "print": 27,
+          "source": "sources/25bb/27_Screenshot_20261124_203100_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203100_GTO Ranges+.jpg",
+          "visible_tail": "BB fold",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 70.28,
+            "call_or_check": 29.72,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 86,
+            "estimated_pct": [
+              70.233,
+              29.767,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.047,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BTNvSB_3betShove_BBCall",
+      "label": "BTN vs SB shove (BB call)",
+      "hero": "BTN",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/28_Screenshot_20261124_203114_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN raise 2 → SB shove 25 → BB call 24",
+          "parent_id": "BBvSB_3betShove_BTNOpen",
+          "edge": "BB call 24",
+          "print": 28,
+          "source": "sources/25bb/28_Screenshot_20261124_203114_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203114_GTO Ranges+.jpg",
+          "visible_tail": "BB call 24",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 86.63,
+            "call_or_check": 13.37,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 86,
+            "estimated_pct": [
+              86.569,
+              13.431,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.061,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "SBvBTN_OpenShove",
+      "label": "SB vs BTN open shove",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/29_Screenshot_20261124_203135_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN shove 25",
+          "parent_id": "BTN_Open",
+          "edge": "BTN shove 25",
+          "print": 29,
+          "source": "sources/25bb/29_Screenshot_20261124_203135_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203135_GTO Ranges+.jpg",
+          "visible_tail": "BTN shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 88,
+            "call_or_check": 11.99,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              88.018,
+              11.982,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.018,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BBvBTN_OpenShove_SBFold",
+      "label": "BB vs BTN open shove (SB fold)",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/30_Screenshot_20261124_203145_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN shove 25 → SB fold",
+          "parent_id": "SBvBTN_OpenShove",
+          "edge": "SB fold",
+          "print": 30,
+          "source": "sources/25bb/30_Screenshot_20261124_203145_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203145_GTO Ranges+.jpg",
+          "visible_tail": "SB fold",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 85.87,
+            "call_or_check": 14.12,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              85.839,
+              14.161,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.041,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "BBvBTN_OpenShove_SBCall",
+      "label": "BB vs BTN open shove (SB call)",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/31_Screenshot_20261124_203214_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN shove 25 → SB call 24.5",
+          "parent_id": "SBvBTN_OpenShove",
+          "edge": "SB call 24.5",
+          "print": 31,
+          "source": "sources/25bb/31_Screenshot_20261124_203214_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_203214_GTO Ranges+.jpg",
+          "visible_tail": "SB call 24.5",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 84.73,
+            "call_or_check": 15.26,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              84.839,
+              15.161,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.109,
+            "code": "DRAFT_IN_SRC",
+            "exceptions": [
+              "EX-001"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_Limp",
+      "label": "BB vs SB limp",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/32_Screenshot_20261124_211431_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5",
+          "parent_id": "3wSB_Open",
+          "edge": "SB limp 0.5",
+          "print": 32,
+          "source": "sources/25bb/32_Screenshot_20261124_211431_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211431_GTO Ranges+.jpg",
+          "visible_tail": "BTN fold → SB limp 0.5",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 0,
+            "call_or_check": 63.74,
+            "raise": 31.83,
+            "shove": 4.39
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              0,
+              63.336,
+              30.628,
+              6.035
+            ],
+            "max_deviation_pp": 1.645,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wSBvBB_ISO3",
+      "label": "SB vs BB iso 3",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/33_Screenshot_20261124_211446_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
+          "parent_id": "3wBBvSB_Limp",
+          "edge": "BB raise 3",
+          "print": 33,
+          "source": "sources/25bb/33_Screenshot_20261124_211446_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211446_GTO Ranges+.jpg",
+          "visible_tail": "BB raise 3",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 39.81,
+            "call_or_check": 48.14,
+            "raise": 1.42,
+            "shove": 10.59
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 124,
+            "estimated_pct": [
+              40.15,
+              47.883,
+              1.196,
+              10.772
+            ],
+            "max_deviation_pp": 0.34,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_LimpReraise9",
+      "label": "BB vs SB limp-reraise 9",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/34_Screenshot_20261124_211500_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9",
+          "parent_id": "3wSBvBB_ISO3",
+          "edge": "SB raise 9",
+          "print": 34,
+          "source": "sources/25bb/34_Screenshot_20261124_211500_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211500_GTO Ranges+.jpg",
+          "visible_tail": "SB raise 9",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 59.76,
+            "call_or_check": 12.26,
+            "raise": 0,
+            "shove": 27.97
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 129,
+            "estimated_pct": [
+              59.73,
+              12.638,
+              0,
+              27.632
+            ],
+            "max_deviation_pp": 0.378,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wSBvBB_Shove_AfterLimpReraise9",
+      "label": "SB vs BB shove (limp-reraise)",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/35_Screenshot_20261124_211513_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 25",
+          "parent_id": "3wBBvSB_LimpReraise9",
+          "edge": "BB shove 25",
+          "print": 35,
+          "source": "sources/25bb/35_Screenshot_20261124_211513_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211513_GTO Ranges+.jpg",
+          "visible_tail": "BB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 12.73,
+            "call_or_check": 87.27,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 11,
+            "estimated_pct": [
+              8.977,
+              91.023,
+              0,
+              0
+            ],
+            "max_deviation_pp": 3.753,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_LimpShove",
+      "label": "BB vs SB limp-shove",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/36_Screenshot_20261124_211535_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 25",
+          "parent_id": "3wSBvBB_ISO3",
+          "edge": "SB shove 25",
+          "print": 36,
+          "source": "sources/25bb/36_Screenshot_20261124_211535_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211535_GTO Ranges+.jpg",
+          "visible_tail": "SB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 67.5,
+            "call_or_check": 32.49,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 129,
+            "estimated_pct": [
+              66.965,
+              33.035,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.545,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wSBvBB_ISOShove",
+      "label": "SB vs BB iso shove",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/37_Screenshot_20261124_211545_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB limp 0.5 → BB shove 25",
+          "parent_id": "3wBBvSB_Limp",
+          "edge": "BB shove 25",
+          "print": 37,
+          "source": "sources/25bb/37_Screenshot_20261124_211545_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211545_GTO Ranges+.jpg",
+          "visible_tail": "BB shove 25",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 85.37,
+            "call_or_check": 14.62,
+            "raise": 0,
+            "shove": 0
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 124,
+            "estimated_pct": [
+              85.465,
+              14.535,
+              0,
+              0
+            ],
+            "max_deviation_pp": 0.095,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_Open3",
+      "label": "BB vs SB open 3",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/38_Screenshot_20261124_211558_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB raise 3",
+          "parent_id": "3wSB_Open",
+          "edge": "SB raise 3",
+          "print": 38,
+          "source": "sources/25bb/38_Screenshot_20261124_211558_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211558_GTO Ranges+.jpg",
+          "visible_tail": "BTN fold → SB raise 3",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 36.39,
+            "call_or_check": 51.6,
+            "raise": 4.36,
+            "shove": 7.62
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 169,
+            "estimated_pct": [
+              36.393,
+              51.549,
+              3.948,
+              8.11
+            ],
+            "max_deviation_pp": 0.49,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wSBvBB_3bet9",
+      "label": "SB vs BB 3bet 9",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": "sources/25bb/39_Screenshot_20261124_211734_GTO Ranges+.jpg",
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "DRAFT_REVIEW"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB raise 3 → BB raise 9",
+          "parent_id": "3wBBvSB_Open3",
+          "edge": "BB raise 9",
+          "print": 39,
+          "source": "sources/25bb/39_Screenshot_20261124_211734_GTO Ranges+.jpg",
+          "source_filename": "Screenshot_20261124_211734_GTO Ranges+.jpg",
+          "visible_tail": "BB raise 9",
+          "history_status": "RECONSTRUCTED_FROM_SELECTED_ACTIONS_AND_PARENT",
+          "legend_pct": {
+            "fold": 60.64,
+            "call_or_check": 14.04,
+            "raise": 0,
+            "shove": 25.3
+          },
+          "original_archive": "PENDING_BINARY_UPLOAD",
+          "extraction": {
+            "visible_classes": 115,
+            "estimated_pct": [
+              60.912,
+              14.286,
+              0,
+              24.802
+            ],
+            "max_deviation_pp": 0.498,
+            "code": "DRAFT_IN_SRC"
+          }
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_OpenShove",
+      "label": "BB vs SB open shove",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB shove 25",
+          "parent_id": "3wSB_Open",
+          "edge": "SB shove 25",
+          "print": null
+        }
+      }
+    },
+    {
+      "id": "3wSBvBB_3betShove",
+      "label": "SB vs BB 3bet shove",
+      "hero": "SB",
+      "scope": "3-handed origin",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB raise 3 → BB shove 25",
+          "parent_id": "3wBBvSB_Open3",
+          "edge": "BB shove 25",
+          "print": null
+        }
+      }
+    },
+    {
+      "id": "3wBBvSB_4betShove",
+      "label": "BB vs SB 4bet shove",
+      "hero": "BB",
+      "scope": "3-handed origin",
+      "source_25": null,
+      "stack_slots": {
+        "2": "MISSING",
+        "4": "MISSING",
+        "6": "MISSING",
+        "8": "MISSING",
+        "10": "MISSING",
+        "12": "MISSING",
+        "15": "MISSING",
+        "17": "MISSING",
+        "20": "MISSING",
+        "23": "MISSING",
+        "25": "MISSING"
+      },
+      "active": false,
+      "histories": {
+        "25": {
+          "sequence": "BTN fold → SB raise 3 → BB raise 9 → SB shove 25",
+          "parent_id": "3wSBvBB_3bet9",
+          "edge": "SB shove 25",
+          "print": null
         }
       }
     }
