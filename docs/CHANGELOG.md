@@ -55,3 +55,5 @@
 2026-11-24: piloto 02 de replicação e sensibilidade raster concluído, sem promoção nem alteração de código/registry. Relatório OPTIMIZED_PILOT_02.md.
 
 2026-11-24: estudo amplo All-in de 56 charts auditadas/30 comparadas, validação amostral de ranking multiway, sem promoção nem alteração de código. Relatório OPTIMIZED_25BB_BATCH_STUDY.md.
+
+2026-11-25: catálogo experimental de seleção individual das 56 charts 25 BB (55 preservadas, 31 Conservadora condicional), alternativa 42 Maximin separada, manifesto e frequências publicados. Sem promoção ou mudança em src/registry. Ver OPTIMIZED_25BB_SELECTION.md.
