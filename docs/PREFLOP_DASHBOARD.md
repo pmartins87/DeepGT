@@ -4,7 +4,7 @@
 
 Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.
 
-**Último print registrado: 19. Próximo print novo: 20.**
+**Último print registrado: 39. Próximo print novo: 40.**
 
 | Print | Stack (BB) | Sequência anterior | Hero | Estado |
 |---:|---:|---|:---:|---|
@@ -27,6 +27,26 @@ Numeração global, permanente, por ordem de recebimento (todos os stacks). Não
 | 17 | 25 | BTN raise 2 → SB call → BB shove 25 | BTN | 🟢 Codificada |
 | 18 | 25 | BTN raise 2 → SB call → BB shove 25 → BTN fold | SB | 🟢 Codificada |
 | 19 | 25 | BTN raise 2 → SB call → BB shove 25 → BTN call 23 | SB | 🟢 Codificada |
+| 20 | 25 | BTN raise 2 → SB raise 6 | BB | 🟢 Codificada |
+| 21 | 25 | BTN raise 2 → SB raise 6 → BB fold | BTN | 🟢 Codificada |
+| 22 | 25 | BTN raise 2 → SB raise 6 → BB fold → BTN shove 25 | SB | 🟢 Codificada |
+| 23 | 25 | BTN raise 2 → SB raise 6 → BB shove 25 | BTN | 🟢 Codificada |
+| 24 | 25 | BTN raise 2 → SB raise 6 → BB shove 25 → BTN fold | SB | 🟢 Codificada |
+| 25 | 25 | BTN raise 2 → SB raise 6 → BB shove 25 → BTN call 23 | SB | 🟢 Codificada |
+| 26 | 25 | BTN raise 2 → SB shove 25 | BB | 🟢 Codificada |
+| 27 | 25 | BTN raise 2 → SB shove 25 → BB fold | BTN | 🟢 Codificada |
+| 28 | 25 | BTN raise 2 → SB shove 25 → BB call 24 | BTN | 🟢 Codificada |
+| 29 | 25 | BTN shove 25 | SB | 🟢 Codificada |
+| 30 | 25 | BTN shove 25 → SB fold | BB | 🟢 Codificada |
+| 31 | 25 | BTN shove 25 → SB call 24.5 | BB | 🟢 Codificada |
+| 32 | 25 | BTN fold → SB limp 0.5 | BB | 🟢 Codificada |
+| 33 | 25 | BTN fold → SB limp 0.5 → BB raise 3 | SB | 🟢 Codificada |
+| 34 | 25 | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 | BB | 🟢 Codificada |
+| 35 | 25 | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 25 | SB | 🟢 Codificada |
+| 36 | 25 | BTN fold → SB limp 0.5 → BB raise 3 → SB shove 25 | BB | 🟢 Codificada |
+| 37 | 25 | BTN fold → SB limp 0.5 → BB shove 25 | SB | 🟢 Codificada |
+| 38 | 25 | BTN fold → SB raise 3 | BB | 🟢 Codificada |
+| 39 | 25 | BTN fold → SB raise 3 → BB raise 9 | SB | 🟢 Codificada |
 
 ## 2. Matriz de cobertura
 
@@ -56,20 +76,44 @@ Codificada significa que a chart já está no arquivo de desenvolvimento, não q
 | BTN vs BB shove (SB call) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | SB vs BB shove (BTN fold) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | SB vs BB shove (BTN call) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB open (BTN fold) | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 3bet | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB 3bet (BB fold) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN 4bet shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs BB shove (SB 3bet) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN fold, SB 3bet) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN call, SB 3bet) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB shove (BTN open) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB fold) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB call) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN open shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN open shove (SB fold) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN open shove (SB call) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB iso 3 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp-reraise 9 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (limp-reraise) | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp-shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB iso shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB open 3 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB 3bet 9 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB open shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB 3bet shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 4bet shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 
 | Stack | Codificadas | Falta print | Recebidas a codificar |
 |---:|---:|---:|---:|
-| 25 | 19 | 1 | 0 |
-| 23 | 0 | 20 | 0 |
-| 20 | 0 | 20 | 0 |
-| 17 | 0 | 20 | 0 |
-| 15 | 0 | 20 | 0 |
-| 12 | 0 | 20 | 0 |
-| 10 | 0 | 20 | 0 |
-| 8 | 0 | 20 | 0 |
-| 6 | 0 | 20 | 0 |
-| 4 | 0 | 20 | 0 |
-| 2 | 0 | 20 | 0 |
+| 25 | 39 | 5 | 0 |
+| 23 | 0 | 44 | 0 |
+| 20 | 0 | 44 | 0 |
+| 17 | 0 | 44 | 0 |
+| 15 | 0 | 44 | 0 |
+| 12 | 0 | 44 | 0 |
+| 10 | 0 | 44 | 0 |
+| 8 | 0 | 44 | 0 |
+| 6 | 0 | 44 | 0 |
+| 4 | 0 | 44 | 0 |
+| 2 | 0 | 44 | 0 |
 
 Somente famílias identificadas; os espaços vazios nos demais stacks não confirmam que os históricos sejam aplicáveis.
 
@@ -118,6 +162,54 @@ flowchart TD
   N18 -->|"BTN fold"| N19
   N20["19 · SB vs BB shove (BTN call)"]
   N18 -->|"BTN call 23"| N20
+  N21["? · SB open (BTN fold)"]
+  N1 -->|"BTN fold"| N21
+  N22["20 · BB vs SB 3bet"]
+  N2 -->|"SB raise 6"| N22
+  N23["21 · BTN vs SB 3bet (BB fold)"]
+  N22 -->|"BB fold"| N23
+  N24["22 · SB vs BTN 4bet shove"]
+  N23 -->|"BTN shove 25"| N24
+  N25["23 · BTN vs BB shove (SB 3bet)"]
+  N22 -->|"BB shove 25"| N25
+  N26["24 · SB vs BB shove (BTN fold, SB 3bet)"]
+  N25 -->|"BTN fold"| N26
+  N27["25 · SB vs BB shove (BTN call, SB 3bet)"]
+  N25 -->|"BTN call 23"| N27
+  N28["26 · BB vs SB shove (BTN open)"]
+  N2 -->|"SB shove 25"| N28
+  N29["27 · BTN vs SB shove (BB fold)"]
+  N28 -->|"BB fold"| N29
+  N30["28 · BTN vs SB shove (BB call)"]
+  N28 -->|"BB call 24"| N30
+  N31["29 · SB vs BTN open shove"]
+  N1 -->|"BTN shove 25"| N31
+  N32["30 · BB vs BTN open shove (SB fold)"]
+  N31 -->|"SB fold"| N32
+  N33["31 · BB vs BTN open shove (SB call)"]
+  N31 -->|"SB call 24.5"| N33
+  N34["32 · BB vs SB limp"]
+  N21 -->|"SB limp 0.5"| N34
+  N35["33 · SB vs BB iso 3"]
+  N34 -->|"BB raise 3"| N35
+  N36["34 · BB vs SB limp-reraise 9"]
+  N35 -->|"SB raise 9"| N36
+  N37["35 · SB vs BB shove (limp-reraise)"]
+  N36 -->|"BB shove 25"| N37
+  N38["36 · BB vs SB limp-shove"]
+  N35 -->|"SB shove 25"| N38
+  N39["37 · SB vs BB iso shove"]
+  N34 -->|"BB shove 25"| N39
+  N40["38 · BB vs SB open 3"]
+  N21 -->|"SB raise 3"| N40
+  N41["39 · SB vs BB 3bet 9"]
+  N40 -->|"BB raise 9"| N41
+  N42["? · BB vs SB open shove"]
+  N21 -->|"SB shove 25"| N42
+  N43["? · SB vs BB 3bet shove"]
+  N40 -->|"BB shove 25"| N43
+  N44["? · BB vs SB 4bet shove"]
+  N41 -->|"SB shove 25"| N44
   classDef coded fill:#d8f1dc,stroke:#438747,color:#222
   classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
   classDef received fill:#dbeafe,stroke:#3477bc,color:#222
@@ -141,6 +233,30 @@ flowchart TD
   class N18 coded
   class N19 coded
   class N20 coded
+  class N21 pending
+  class N22 coded
+  class N23 coded
+  class N24 coded
+  class N25 coded
+  class N26 coded
+  class N27 coded
+  class N28 coded
+  class N29 coded
+  class N30 coded
+  class N31 coded
+  class N32 coded
+  class N33 coded
+  class N34 coded
+  class N35 coded
+  class N36 coded
+  class N37 coded
+  class N38 coded
+  class N39 coded
+  class N40 coded
+  class N41 coded
+  class N42 pending
+  class N43 pending
+  class N44 pending
 ```
 
 ## 4. Cenários conhecidos sem print
@@ -150,6 +266,10 @@ Não recebem número até o recebimento da imagem.
 | Stack | Sequência anterior | Hero |
 |---:|---|:---:|
 | 25 | BTN raise 2 → SB call | BB |
+| 25 | BTN fold | SB |
+| 25 | BTN fold → SB shove 25 | BB |
+| 25 | BTN fold → SB raise 3 → BB shove 25 | SB |
+| 25 | BTN fold → SB raise 3 → BB raise 9 → SB shove 25 | BB |
 
 ## 5. Referências
 
