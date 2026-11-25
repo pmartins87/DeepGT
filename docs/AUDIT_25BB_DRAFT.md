@@ -28,3 +28,21 @@ Commits: CSV cd1aa35d9286c03b1ef920f419f6169632e18ea0; predicates 26a4c754d03693
 
 ## Adendo — esqueleto
 As 49 seções de listas/charts acima foram copiadas para o fim de src/DeepGT.txt juntamente com 12 helpers de stack, sem consumidores ativos. A afirmação anterior de que nenhum consumidor foi conectado continua válida. A grade foi definida em PREFLOP_POLICY.md. As divergências e bloqueios não mudaram.
+
+## Lote 2 — extração raster e validação estática
+Recortes 13×13 dos JPG originais 709×1536, classes por limiares cromáticos azul/verde/vermelho. Seleção de faixa colorida contígua próxima à base; largura estimada por voto por coluna e preenchimento de lacunas de texto pela evidência mais próxima. Percentuais arredondados para inteiros; cinza sem ação atribuída. Bordas JPEG, faixas finas e reach rasterizado limitam a precisão. Agregados ponderados pela altura observada e número de combos; não constituem confirmação de cada frequência.
+
+| Nó | Fonte F/C/J (%) | Estimativa F/C/J (%) | Classes visíveis |
+|---:|---|---|---:|
+|10|81,76/13,70/4,54|82,448/12,977/4,575|40|
+|11|5,52/94,47/0|6,018/93,982/0|41|
+|12|0,15/99,86/0|0/100/0|18|
+|13|0/100/0|0/100/0|18|
+|14|99,97/0,03/0|100/0/0|40|
+|15|8,39/91,62/0|9,155/90,845/0|41|
+|16|46,79/53,21/0|47,430/52,570/0|40|
+|17|68,45/31,55/0|68,634/31,366/0|86|
+|18|79,39/20,61/0|79,751/20,249/0|40|
+|19|96,58/3,41/0|96,761/3,239/0|40|
+
+Nos nós 12 e 14, a ação minoritária da legenda não foi localizada com segurança em uma mão; preservar a ressalva em vez de inventar a distribuição. O nó 5 permanece discrepante; teste adicional com reach do pai no CSV inicial deu ~58,073% de call, versus 55,93% da fonte, e não resolve o desvio. O painel não apresenta mais estados internos de revisão. A validação nativa continua obrigatória antes de qualquer ativação. 40.804 testes de partição em modelo sobre as 404 classes visíveis; ausência de colisão entre seções e prefixo anterior preservado. 21 predicados e 17 listas acrescentados, 1.374 seções totais.
