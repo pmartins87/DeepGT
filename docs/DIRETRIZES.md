@@ -23,3 +23,5 @@ Data inicial: 2026-11-24.
 14. Manter lista contínua global de prints no painel, numerada por recebimento sem renumerar; cenários sem fonte ficam separados. Em cada resposta de processamento de lote, mostrar pelo menos os últimos registros (número, histórico, Hero, stack) e o próximo número. Aplicar revisão estratégica documentada em STRATEGIC_REVIEW.md; não copiar decisões suspeitas cegamente nem alterar fonte bruta. Ajustes são específicos, rastreáveis e não equivalem a GTO puro.
 
 15. Decisão posterior explícita do usuário: manter referência pura (estimativas originais por mão, sem substituição deliberada de combos); postergar exceções, inclusive EX-001, para variante separada. Esta regra prevalece sobre as diretrizes anteriores de aplicar ajustes no código de referência. Ver STRATEGIC_REVIEW.md.
+
+16. Manter HU nativo separado do HU resultante de BTN fold em mão iniciada 3-handed. Nos prints 25 BB, HU nativo usa open 2, iso 2,5, limp-reraise 7,5 e 3bet 6; ramo 3-handed usa open 3, iso 3 e reraise 9. Não inferir sizings dos demais stacks. Painel deve mostrar origem e árvores separadas por stack/origem.
