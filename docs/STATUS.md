@@ -61,3 +61,6 @@
 
 ## Piloto experimental Optimized 01
 Print 55 HU: tabela HU completa conferida, cinco confrontos verificados independentemente. Pure/Fixed 24,0845% call, Flexible 31,1467%; ganho nominal Fixed +0,002563 BB, Flexible +0,024909 BB por chegada. Contra modelo tight ambas perdem. Gate de promoção não atingido: divergência de reconstrução, falta avaliação independente real. Ver OPTIMIZED_PILOT_01.md. Sem alteração de src ou cobertura; 56 prints, próximo 57 (23 BB).
+
+## Piloto Optimized 02 — encerrado sem promoção
+Print 55 reproduzido; print 54 replicado. Segunda extração altera significativamente os ganhos: 55 Fixed +0,000100 e Flexible +0,000106 BB/chegada nominal, 54 ambos ~0. Divergências de call vs legenda >0,5 pp permanecem. Sem validação independente real ou resposta adaptativa. Uma rodada corretiva executada; não promover. Ver OPTIMIZED_PILOT_02.md. src/registry intactos; captura 23 BB pode prosseguir, print 57.
