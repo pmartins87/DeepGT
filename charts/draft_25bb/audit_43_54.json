@@ -1,0 +1,225 @@
+{
+  "audits": [
+    {
+      "n": 43,
+      "scope": "3-handed origin",
+      "legend": [
+        29.17,
+        51.89,
+        3.63,
+        15.28
+      ],
+      "estimate": [
+        29.119,
+        51.923,
+        3.448,
+        15.51
+      ],
+      "visible": 169,
+      "deviation_pp": 0.23
+    },
+    {
+      "n": 44,
+      "scope": "3-handed origin",
+      "legend": [
+        31.73,
+        35.11,
+        32.5,
+        0.63
+      ],
+      "estimate": [
+        31.756,
+        34.635,
+        31.611,
+        1.998
+      ],
+      "visible": 169,
+      "deviation_pp": 1.368
+    },
+    {
+      "n": 45,
+      "scope": "HU native",
+      "legend": [
+        6.42,
+        53.41,
+        40.15,
+        0
+      ],
+      "estimate": [
+        6.434,
+        54.719,
+        38.846,
+        0
+      ],
+      "visible": 169,
+      "deviation_pp": 1.309
+    },
+    {
+      "n": 46,
+      "scope": "HU native",
+      "legend": [
+        0,
+        60.73,
+        24.42,
+        14.82
+      ],
+      "estimate": [
+        0,
+        60.492,
+        23.299,
+        16.21
+      ],
+      "visible": 169,
+      "deviation_pp": 1.39
+    },
+    {
+      "n": 47,
+      "scope": "HU native",
+      "legend": [
+        31.2,
+        62.5,
+        3.22,
+        null
+      ],
+      "estimate": [
+        31.241,
+        62.761,
+        2.542,
+        3.456
+      ],
+      "visible": 156,
+      "deviation_pp": 0.678
+    },
+    {
+      "n": 48,
+      "scope": "HU native",
+      "legend": [
+        46.89,
+        36.88,
+        0,
+        16.19
+      ],
+      "estimate": [
+        45.648,
+        38.537,
+        0,
+        15.815
+      ],
+      "visible": 126,
+      "deviation_pp": 1.657
+    },
+    {
+      "n": 49,
+      "scope": "HU native",
+      "legend": [
+        35.8,
+        64.2,
+        0,
+        0
+      ],
+      "estimate": [
+        24.343,
+        75.657,
+        0,
+        0
+      ],
+      "visible": 21,
+      "deviation_pp": 11.457
+    },
+    {
+      "n": 50,
+      "scope": "HU native",
+      "legend": [
+        74.59,
+        25.37,
+        0,
+        0
+      ],
+      "estimate": [
+        73.603,
+        26.397,
+        0,
+        0
+      ],
+      "visible": 126,
+      "deviation_pp": 1.027
+    },
+    {
+      "n": 51,
+      "scope": "HU native",
+      "legend": [
+        86.51,
+        13.49,
+        0,
+        0
+      ],
+      "estimate": [
+        86.486,
+        13.514,
+        0,
+        0
+      ],
+      "visible": 156,
+      "deviation_pp": 0.024
+    },
+    {
+      "n": 52,
+      "scope": "HU native",
+      "legend": [
+        17.5,
+        58.66,
+        11.82,
+        11.97
+      ],
+      "estimate": [
+        17.538,
+        58.531,
+        10.959,
+        12.971
+      ],
+      "visible": 169,
+      "deviation_pp": 1.001
+    },
+    {
+      "n": 53,
+      "scope": "HU native",
+      "legend": [
+        49.58,
+        37.68,
+        0,
+        12.73
+      ],
+      "estimate": [
+        49.272,
+        38.494,
+        0,
+        12.234
+      ],
+      "visible": 137,
+      "deviation_pp": 0.814
+    },
+    {
+      "n": 54,
+      "scope": "HU native",
+      "legend": [
+        47.06,
+        52.94,
+        0,
+        0
+      ],
+      "estimate": [
+        44.375,
+        55.625,
+        0,
+        0
+      ],
+      "visible": 64,
+      "deviation_pp": 2.685
+    }
+  ],
+  "checks": 164731,
+  "predicates": 38,
+  "lists": 34,
+  "visible": 1631,
+  "sections": 1553
+}
