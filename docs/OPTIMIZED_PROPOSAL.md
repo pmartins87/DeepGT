@@ -28,3 +28,6 @@ Referências conceituais: Johanson et al., Computing Robust Counter-Strategies (
 
 ## Execução autorizada — piloto 01
 Usuário autorizou estudo offline. Resultados em [OPTIMIZED_PILOT_01.md](OPTIMIZED_PILOT_01.md). Gate de promoção não atingido; não alterar referência ou ativar variante. Critérios permanecem sujeitos à evidência. Próximo passo recomendado: revisão focada de reach e replicação no print 54.
+
+## Piloto 02 — rodada corretiva concluída
+Ver [OPTIMIZED_PILOT_02.md](OPTIMIZED_PILOT_02.md). Repetição do print 55 e replicação 54; ganho praticamente desaparece sob segunda leitura. Gate não atingido. Encerrar rodada de testes e preservar Pure; reabrir apenas com nova evidência de precisão ou ranges/EV. Não ampliar sem justificativa.
