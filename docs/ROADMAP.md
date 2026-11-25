@@ -20,3 +20,5 @@ Lote 25 BB recebido: nove nós foram catalogados antecipadamente, inclusive defe
 Acompanhamento transversal obrigatório: atualizar painel visual e registry no mesmo ciclo de cada lote; consultar docs/PREFLOP_DASHBOARD.md para identificar lacunas, sem alterar ordem ou critérios dos gates.
 
 Segundo lote 25 BB: dez charts recebidas e registradas, extração pendente; confirmar prefixos truncados e obter chart pai BB vs BTN + SB. Não avançar gates com base apenas em recebimento. Aplicar protocolo de histórico parcial.
+
+Checkpoint: segundo lote 25 BB codificado em rascunho, 19/20 cenários identificados. Painel simplificado; prosseguir com prints e codificação no mesmo ciclo. A chart pai BB vs BTN open + SB call segue ausente; ressalvas internas documentadas, gates de integração/validação não alterados.
