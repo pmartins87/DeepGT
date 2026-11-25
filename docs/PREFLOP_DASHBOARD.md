@@ -4,7 +4,7 @@
 
 Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.
 
-**Último print registrado: 54. Próximo print novo: 55.**
+**Último print registrado: 56. Próximo print novo: 57.**
 
 | Print | Stack (BB) | Origem | Sequência anterior | Hero | Estado |
 |---:|---:|---|---|:---:|---|
@@ -62,6 +62,8 @@ Numeração global, permanente, por ordem de recebimento (todos os stacks). Não
 | 52 | 25 | HU nativo | SB raise 2 | BB | 🟢 Codificada |
 | 53 | 25 | HU nativo | SB raise 2 → BB raise 6 | SB | 🟢 Codificada |
 | 54 | 25 | HU nativo | SB raise 2 → BB raise 6 → SB shove 25 | BB | 🟢 Codificada |
+| 55 | 25 | HU nativo | SB raise 2 → BB shove 25 | SB | 🟢 Codificada |
+| 56 | 25 | HU nativo | SB shove 25 | BB | 🟢 Codificada |
 
 ## 2. Matriz de cobertura
 
@@ -125,12 +127,12 @@ Codificada significa que a chart já está no arquivo de desenvolvimento, não q
 | HU BB vs open 2 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | HU SB vs 3bet 6 | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | HU BB vs 4bet shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs 3bet shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs open shove | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs 3bet shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs open shove | 🟢 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 
 | Stack | Codificadas | Falta print | Recebidas a codificar |
 |---:|---:|---:|---:|
-| 25 | 54 | 2 | 0 |
+| 25 | 56 | 0 | 0 |
 | 23 | 0 | 56 | 0 |
 | 20 | 0 | 56 | 0 |
 | 17 | 0 | 56 | 0 |
@@ -309,9 +311,9 @@ flowchart TD
   N8 -->|"BB raise 6"| N9
   N10["54 · HU BB vs 4bet shove"]
   N9 -->|"SB shove 25"| N10
-  N11["? · HU SB vs 3bet shove"]
+  N11["55 · HU SB vs 3bet shove"]
   N8 -->|"BB shove 25"| N11
-  N12["? · HU BB vs open shove"]
+  N12["56 · HU BB vs open shove"]
   N1 -->|"SB shove 25"| N12
   classDef coded fill:#d8f1dc,stroke:#438747,color:#222
   classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
@@ -326,8 +328,8 @@ flowchart TD
   class N8 coded
   class N9 coded
   class N10 coded
-  class N11 pending
-  class N12 pending
+  class N11 coded
+  class N12 coded
 ```
 
 ## 4. Cenários conhecidos sem print
@@ -336,8 +338,6 @@ Não recebem número até o recebimento da imagem.
 
 | Stack | Sequência anterior | Hero |
 |---:|---|:---:|
-| 25 | SB raise 2 → BB shove 25 | SB |
-| 25 | SB shove 25 | BB |
 
 ## 5. Referências
 
