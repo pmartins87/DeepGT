@@ -35,3 +35,5 @@ Estudo amplo autorizado: [OPTIMIZED_25BB_BATCH_STUDY.md](OPTIMIZED_25BB_BATCH_ST
 EX-001: a Conservadora completa do print 31 foi incluída no catálogo Optimized All-in v0.1 experimental, separada da Pure, conforme solicitação de seleção individual. Não é promoção/homologação e não altera a referência. Print 42 Maximin reconstituído, arquivado sem seleção. Ver OPTIMIZED_25BB_SELECTION.md.
 
 Print 42: MonoFixed e MonoRobust eliminam inversão KQo/KJo/KTo, escolhendo fold para as três. MonoRobust candidata, não homologada. Ver OPTIMIZED_MONOTONIC_STUDY.md. Catálogo anterior permanece histórico.
+
+Seleção híbrida reafirmada: MonoRobust é mais uma candidata, não método obrigatório. Print 31 Conservadora condicional segue referência experimental local; MonoRobust ainda não foi testada nesse nó. Print 42 MonoRobust candidata local. Nenhuma alteração de código ou chart nesta discussão.
