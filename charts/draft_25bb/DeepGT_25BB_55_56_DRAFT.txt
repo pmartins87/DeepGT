@@ -1,0 +1,102 @@
+// DeepGT pure reference: HU 25 BB prints 55-56. Offline study draft; no active consumers.
+
+// PRINT 55 - HUSBvBB_3betShove - Screenshot_20261124_215309_GTO Ranges+.jpg
+// SB raise 2 -> BB shove 25
+
+##list_HUSBvBB_3betShove_Fold_25##
+A4s A3s A2s K8s K7s K6s K5s K4s Q8s Q7s Q6s Q5s Q4s J9s J8s J7s T8s T4s T3s T2s 98s 94s 93s 92s 87s 84s 83s 82s 76s 75s 74s 73s 72s 65s 64s 62s 54s 53s 43s 42s 32s
+KJo QJo KTo QTo JTo K9o Q9o J9o T9o K8o Q8o J8o T8o 98o A7o K7o Q7o J7o T7o 97o 87o A6o K6o Q6o J6o T6o 96o 86o 76o A5o K5o Q5o J5o T5o 95o 85o 75o 65o A4o K4o Q4o J4o T4o 74o 64o 54o A3o K3o Q3o J3o T3o 53o 43o K2o J2o
+
+##f$chart_HUSBvBB_3betShove_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_HUSBvBB_3betShove_Fold_25 Return true Force
+When hand$A5s && f$GT_Random <= 0.06 Return true Force
+When hand$Q9s && f$GT_Random <= 0.98 Return true Force
+When Others Return false Force
+
+##list_HUSBvBB_3betShove_Call_25##
+AA KK QQ JJ TT 99 88 77 66 55 44 33
+AKs AQs AJs ATs A9s A8s A7s A6s KQs KJs KTs K9s QJs JTs T9s
+AKo AQo KQo AJo ATo A9o A8o
+
+##f$chart_HUSBvBB_3betShove_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_HUSBvBB_3betShove_Call_25 Return true Force
+When hand$A5s && f$GT_Random > 0.06 Return true Force
+When hand$Q9s && f$GT_Random > 0.98 Return true Force
+When Others Return false Force
+
+// PRINT 56 - HUBBvSB_OpenShove - Screenshot_20261124_215325_GTO Ranges+.jpg
+// SB shove 25
+
+##list_HUBBvSB_OpenShove_Fold_25##
+22
+A4s A2s K5s K3s K2s Q7s Q5s Q4s Q3s Q2s J7s J6s J4s J3s J2s T9s T8s T7s T6s T5s T4s T3s T2s 97s 96s 94s 93s 92s 87s 85s 84s 83s 82s 76s 75s 74s 73s 72s 65s 63s 62s 54s 53s 52s 43s 42s 32s
+KTo K9o J9o T9o K8o Q8o J8o T8o 98o K7o Q7o J7o T7o 97o 87o A6o K6o Q6o J6o T6o 96o 86o 76o K5o Q5o J5o T5o 95o 85o 75o 65o A4o K4o Q4o J4o T4o 94o 84o 74o 64o 54o A3o K3o Q3o J3o T3o 93o 83o 73o 63o 53o 43o A2o K2o Q2o J2o T2o 92o 82o 72o 62o 52o 42o 32o
+
+##f$chart_HUBBvSB_OpenShove_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_HUBBvSB_OpenShove_Fold_25 Return true Force
+When hand$A7s && f$GT_Random <= 0.22 Return true Force
+When hand$A5s && f$GT_Random <= 0.80 Return true Force
+When hand$A3s && f$GT_Random <= 0.47 Return true Force
+When hand$KQs && f$GT_Random <= 0.35 Return true Force
+When hand$KJs && f$GT_Random <= 0.16 Return true Force
+When hand$K9s && f$GT_Random <= 0.08 Return true Force
+When hand$K7s && f$GT_Random <= 0.61 Return true Force
+When hand$K6s && f$GT_Random <= 0.48 Return true Force
+When hand$K4s && f$GT_Random <= 0.28 Return true Force
+When hand$KQo && f$GT_Random <= 0.67 Return true Force
+When hand$QJs && f$GT_Random <= 0.04 Return true Force
+When hand$Q8s && f$GT_Random <= 0.64 Return true Force
+When hand$Q6s && f$GT_Random <= 0.24 Return true Force
+When hand$KJo && f$GT_Random <= 0.63 Return true Force
+When hand$QJo && f$GT_Random <= 0.69 Return true Force
+When hand$J9s && f$GT_Random <= 0.65 Return true Force
+When hand$J8s && f$GT_Random <= 0.20 Return true Force
+When hand$QTo && f$GT_Random <= 0.25 Return true Force
+When hand$JTo && f$GT_Random <= 0.41 Return true Force
+When hand$Q9o && f$GT_Random <= 0.90 Return true Force
+When hand$98s && f$GT_Random <= 0.44 Return true Force
+When hand$95s && f$GT_Random <= 0.78 Return true Force
+When hand$86s && f$GT_Random <= 0.60 Return true Force
+When hand$A7o && f$GT_Random <= 0.40 Return true Force
+When hand$64s && f$GT_Random <= 0.72 Return true Force
+When hand$A5o && f$GT_Random <= 0.96 Return true Force
+When Others Return false Force
+
+##list_HUBBvSB_OpenShove_Call_25##
+AA KK QQ JJ TT 99 88 77 66 55 44 33
+AKs AQs AJs ATs A9s A8s A6s KTs K8s QTs Q9s JTs J5s
+AKo AQo AJo ATo A9o A8o
+
+##f$chart_HUBBvSB_OpenShove_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_HUBBvSB_OpenShove_Call_25 Return true Force
+When hand$A7s && f$GT_Random > 0.22 Return true Force
+When hand$A5s && f$GT_Random > 0.80 Return true Force
+When hand$A3s && f$GT_Random > 0.47 Return true Force
+When hand$KQs && f$GT_Random > 0.35 Return true Force
+When hand$KJs && f$GT_Random > 0.16 Return true Force
+When hand$K9s && f$GT_Random > 0.08 Return true Force
+When hand$K7s && f$GT_Random > 0.61 Return true Force
+When hand$K6s && f$GT_Random > 0.48 Return true Force
+When hand$K4s && f$GT_Random > 0.28 Return true Force
+When hand$KQo && f$GT_Random > 0.67 Return true Force
+When hand$QJs && f$GT_Random > 0.04 Return true Force
+When hand$Q8s && f$GT_Random > 0.64 Return true Force
+When hand$Q6s && f$GT_Random > 0.24 Return true Force
+When hand$KJo && f$GT_Random > 0.63 Return true Force
+When hand$QJo && f$GT_Random > 0.69 Return true Force
+When hand$J9s && f$GT_Random > 0.65 Return true Force
+When hand$J8s && f$GT_Random > 0.20 Return true Force
+When hand$QTo && f$GT_Random > 0.25 Return true Force
+When hand$JTo && f$GT_Random > 0.41 Return true Force
+When hand$Q9o && f$GT_Random > 0.90 Return true Force
+When hand$98s && f$GT_Random > 0.44 Return true Force
+When hand$95s && f$GT_Random > 0.78 Return true Force
+When hand$86s && f$GT_Random > 0.60 Return true Force
+When hand$A7o && f$GT_Random > 0.40 Return true Force
+When hand$64s && f$GT_Random > 0.72 Return true Force
+When hand$A5o && f$GT_Random > 0.96 Return true Force
+When Others Return false Force
