@@ -24,3 +24,5 @@ Segundo lote 25 BB: dez charts recebidas e registradas, extração pendente; con
 Checkpoint: segundo lote 25 BB codificado em rascunho, 19/20 cenários identificados. Painel simplificado; prosseguir com prints e codificação no mesmo ciclo. A chart pai BB vs BTN open + SB call segue ausente; ressalvas internas documentadas, gates de integração/validação não alterados.
 
 Requisito transversal: aplicar revisão estratégica documentada aos nós de estudo antes da validação final, sem alterar grade, ordem de captura nem gates; preservar fonte e registrar ajustes específicos. Ver STRATEGIC_REVIEW.md. A lista contínua no painel deve orientar a próxima captura.
+
+Checkpoint 25 BB: prints 1–39 codificados em rascunho; cinco lacunas identificadas no painel. Fechar esses ramos antes de considerar captura 25 BB concluída. Gate 01 nativo/validação de roteamento e revisão estratégica permanecem. EX-001 implementada no rascunho; não alterar grade nem postflop.
