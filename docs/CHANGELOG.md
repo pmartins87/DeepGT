@@ -23,3 +23,8 @@
 ## 2026-11-24 — histórico parcial e segundo lote recebido
 - Corrigida a interpretação de BTN fold versus BTN call diante de shove do BB; registrados 10 nós como recebidos, a extrair, com histórico visível separado do reconstruído.
 - Painel e gerador atualizados para distinguir recebimento de codificação. Protocolo de conferência obrigatório. Sem alteração estratégica.
+
+## 2026-11-24 — lote 2 codificado e acompanhamento simplificado
+- Acrescentadas dez charts ao candidato offline, 38 novas seções; sem ativação e sem mudanças nas seções anteriores. CSV, predicados e manifesto publicados.
+- Painel principal simplificado por solicitação do usuário: codificada, falta print, recebida ainda a codificar apenas se necessário. Ressalvas de precisão e homologação permanecem em auditoria. 19 charts codificadas de 20 cenários identificados no stack 25 BB.
+- ZIP único com 19 originais e hashes conferidos preparado; transferência de JPGs ao GitHub pendente por limitação do conector.
