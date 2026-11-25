@@ -2,6 +2,10 @@
 
 Fork estratégico incremental do DeepCrusher R10i para estudo e validação offline de charts preflop GTO em Spin & Go. O postflop, os roteadores e a infraestrutura R10i são preservados salvo mudança localizada, justificada e autorizada.
 
+## Acompanhamento visual
+
+**[Abrir painel preflop: cobertura, sequências e árvores por stack](docs/PREFLOP_DASHBOARD.md)**
+
 ## Fonte de verdade
 - [Diretrizes](docs/DIRETRIZES.md) — regras vinculantes do projeto.
 - [Roadmap](docs/ROADMAP.md) — gates, dependências e critérios de parada.
