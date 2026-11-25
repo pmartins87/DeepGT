@@ -18,3 +18,7 @@
 - src/DeepGT.txt atualizado: commit d6acb112e1c6b1f5861ef2008e87e49208e82168, blob be9bb3963f14824baedf3be4c8273165b31fc0f3. Prefixo inteiro anterior preservado; 1275 -> 1336 seções, 61 novas (12 stack, 26 chart, 23 listas), zero colisões; 24 verificações modeladas de buckets PASS. Nenhuma chart conectada ao roteamento. Nó 5 permanece bloqueado, demais rascunhos não homologados.
 - Registry charts/PREFLOP_REGISTRY.json criado; receber demais prints, não preencher nós ausentes artificialmente. Grade resolvida, mas ainda faltam fontes, gates de seleção por nó e RNG nativo. Status de código não significa estratégia GTO ativa.
 - Nove JPG originais organizados em pacote ZIP local (entregue ao usuário), paths e SHA256 publicados em sources/25bb/manifest.csv. Upload binário ao GitHub ainda não realizado; pendente ação do usuário, pois conector não recebe bytes dos anexos. Verificar SHA256 após upload. Repositório é público: confirmar que compartilhar originais do aplicativo é autorizado.
+
+## Painel visual permanente
+- Registry v2 com metadados de história por stack e relação pai/aresta para dez nós conhecidos a 25 BB. Painel em docs/PREFLOP_DASHBOARD.md: 9 recebidos de 10 identificados nesse stack (6 revisão normal, 2 revisão especial, 1 bloqueado, 1 pendente). Zero homologados/ativos. Não representa cobertura total da árvore.
+- Gerador em tools/render_preflop_dashboard.cjs; atualização obrigatória a cada lote. Nenhuma alteração em src, ranges, gates ou baseline neste checkpoint.
