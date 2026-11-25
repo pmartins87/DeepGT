@@ -15,3 +15,5 @@ Data inicial: 2026-11-24.
 10. Decisão explícita de 2026-11-24: grade 25/23/20/17/15/12/10/8/6/4/2, bucket (próximo nível, nível] e 25 acima de 23; ver PREFLOP_POLICY.md, que substitui a pendência de definição da grade. A cada lote, arquivar fontes originais e manifesto, consultar documentos e registry, adicionar código de rascunho progressivamente e atualizar estado. Não usar nomes de slots faltantes como predicados que retornam fold. A política de ativação continua condicionada aos gates.
 
 11. A pedido do usuário, manter permanentemente acessíveis as três visualizações: sequência anterior e Hero, árvore de decisão e matriz de cobertura por stack. Fonte única: charts/PREFLOP_REGISTRY.json; painel gerado docs/PREFLOP_DASHBOARD.md. Atualizar históricos/arestas explícitos por stack, regenerar e conferir o painel no mesmo ciclo de cada lote, sem inferir ramos não recebidos.
+
+12. Ler obrigatoriamente os blocos inferiores e ações destacadas de cada print; distinguir histórico visível de prefixo reconstruído. Aplicar protocolo de histórico parcial em PREFLOP_POLICY.md. Não fundir nós por mera semelhança visual. Registrar correção do usuário antes de gerar código.
