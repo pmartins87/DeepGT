@@ -21699,3 +21699,299 @@ When hand$A7o && f$GT_Random > 0.08 Return true Force
 When hand$A6o && f$GT_Random > 0.08 Return true Force // REVIEW: narrow band
 When hand$A4o && f$GT_Random > 0.42 Return true Force
 When Others Return false Force
+
+
+// DeepGT: 25 BB batch 2. Offline screenshot estimates only. No active consumers.
+// Gray cells have no observed action. Tiny legend residuals at nodes 12/14 are unresolved.
+
+// NODE 10 - SBvBB_Squeeze8_BTNCall - Screenshot_20261124_202254_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_SBvBB_Squeeze8_BTNCall_Fold_25##
+44 33 22
+A7s A4s A3s A2s K8s K7s K6s K5s Q9s Q8s J8s 98s 97s 87s 76s 65s 54s
+KJo QJo KTo QTo JTo A9o
+
+##f$chart_SBvBB_Squeeze8_BTNCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Squeeze8_BTNCall_Fold_25 Return true Force
+When hand$A9s && f$GT_Random <= 0.31 Return true Force
+When hand$A8s && f$GT_Random <= 0.69 Return true Force
+When hand$A6s && f$GT_Random <= 0.87 Return true Force
+When hand$A5s && f$GT_Random <= 0.98 Return true Force
+When hand$KTs && f$GT_Random <= 0.11 Return true Force
+When hand$K9s && f$GT_Random <= 0.44 Return true Force
+When hand$QJs && f$GT_Random <= 0.31 Return true Force
+When hand$QTs && f$GT_Random <= 0.65 Return true Force
+When hand$J9s && f$GT_Random <= 0.92 Return true Force
+When hand$ATo && f$GT_Random <= 0.06 Return true Force
+When hand$T8s && f$GT_Random <= 0.83 Return true Force
+When Others Return false Force
+
+##f$chart_SBvBB_Squeeze8_BTNCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When hand$A9s && f$GT_Random > 0.31 && f$GT_Random <= 0.90 Return true Force
+When hand$A8s && f$GT_Random > 0.69 Return true Force
+When hand$A6s && f$GT_Random > 0.87 Return true Force
+When hand$A5s && f$GT_Random > 0.98 Return true Force
+When hand$KQs && f$GT_Random <= 0.87 Return true Force
+When hand$KJs && f$GT_Random <= 0.35 Return true Force
+When hand$KTs && f$GT_Random > 0.11 && f$GT_Random <= 0.96 Return true Force
+When hand$K9s && f$GT_Random > 0.44 Return true Force
+When hand$QJs && f$GT_Random > 0.31 Return true Force
+When hand$QTs && f$GT_Random > 0.65 && f$GT_Random <= 0.96 Return true Force
+When hand$J9s && f$GT_Random > 0.92 Return true Force
+When hand$ATo && f$GT_Random > 0.06 && f$GT_Random <= 0.87 Return true Force
+When hand$T8s && f$GT_Random > 0.83 Return true Force
+When Others Return false Force
+
+##list_SBvBB_Squeeze8_BTNCall_Shove_25##
+ATs
+
+##f$chart_SBvBB_Squeeze8_BTNCall_Shove_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Squeeze8_BTNCall_Shove_25 Return true Force
+When hand$A9s && f$GT_Random > 0.90 Return true Force
+When hand$KQs && f$GT_Random > 0.87 Return true Force
+When hand$KJs && f$GT_Random > 0.35 Return true Force
+When hand$KTs && f$GT_Random > 0.96 Return true Force
+When hand$QTs && f$GT_Random > 0.96 Return true Force
+When hand$ATo && f$GT_Random > 0.87 Return true Force
+When Others Return false Force
+
+// NODE 11 - BBvSB_4betShove_Squeeze8_BTNCall - Screenshot_20261124_202331_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_BBvSB_4betShove_Squeeze8_BTNCall_Fold_25##
+T7s
+
+##f$chart_BBvSB_4betShove_Squeeze8_BTNCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvSB_4betShove_Squeeze8_BTNCall_Fold_25 Return true Force
+When hand$K7s && f$GT_Random <= 0.10 Return true Force
+When hand$JTs && f$GT_Random <= 0.29 Return true Force
+When hand$J8s && f$GT_Random <= 0.10 Return true Force
+When hand$JTo && f$GT_Random <= 0.63 Return true Force
+When hand$98s && f$GT_Random <= 0.23 Return true Force
+When hand$76s && f$GT_Random <= 0.40 Return true Force
+When hand$A4o && f$GT_Random <= 0.87 Return true Force
+When Others Return false Force
+
+##list_BBvSB_4betShove_Squeeze8_BTNCall_Call_25##
+AA KK QQ JJ TT 99 55 44 33
+AKs AQs ATs A9s A8s A7s A5s KJs KTs QJs QTs J9s T9s T8s 87s 65s
+AKo AQo QJo ATo A9o A8o A7o A6o
+
+##f$chart_BBvSB_4betShove_Squeeze8_BTNCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvSB_4betShove_Squeeze8_BTNCall_Call_25 Return true Force
+When hand$K7s && f$GT_Random > 0.10 Return true Force
+When hand$JTs && f$GT_Random > 0.29 Return true Force
+When hand$J8s && f$GT_Random > 0.10 Return true Force
+When hand$JTo && f$GT_Random > 0.63 Return true Force
+When hand$98s && f$GT_Random > 0.23 Return true Force
+When hand$76s && f$GT_Random > 0.40 Return true Force
+When hand$A4o && f$GT_Random > 0.87 Return true Force
+When Others Return false Force
+
+// NODE 12 - BTNvSB_Shove_Squeeze8_BBFold - Screenshot_20261124_202341_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##f$chart_BTNvSB_Shove_Squeeze8_BBFold_Fold_25##
+When !f$GT_RandomReady Return false Force
+When Others Return false Force
+
+##list_BTNvSB_Shove_Squeeze8_BBFold_Call_25##
+AA 77 66 55 44
+AJs ATs A8s A7s A6s A5s KQs KJs KTs K9s QJs JTs
+KQo
+
+##f$chart_BTNvSB_Shove_Squeeze8_BBFold_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BTNvSB_Shove_Squeeze8_BBFold_Call_25 Return true Force
+When Others Return false Force
+
+// NODE 13 - BTNvSB_Shove_Squeeze8_BBCall - Screenshot_20261124_202717_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##f$chart_BTNvSB_Shove_Squeeze8_BBCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When Others Return false Force
+
+##list_BTNvSB_Shove_Squeeze8_BBCall_Call_25##
+AA 77 66 55 44
+AJs ATs A8s A7s A6s A5s KQs KJs KTs K9s QJs JTs
+KQo
+
+##f$chart_BTNvSB_Shove_Squeeze8_BBCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BTNvSB_Shove_Squeeze8_BBCall_Call_25 Return true Force
+When Others Return false Force
+
+// NODE 14 - SBvBTN_4betShove_Squeeze8 - Screenshot_20261124_202805_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_SBvBTN_4betShove_Squeeze8_Fold_25##
+44 33 22
+ATs A9s A8s A7s A6s A5s A4s A3s A2s KQs KJs KTs K9s K8s K7s K6s K5s QJs QTs Q9s Q8s J9s J8s T8s 98s 97s 87s 76s 65s 54s
+KJo QJo ATo KTo QTo JTo A9o
+
+##f$chart_SBvBTN_4betShove_Squeeze8_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBTN_4betShove_Squeeze8_Fold_25 Return true Force
+When Others Return false Force
+
+##f$chart_SBvBTN_4betShove_Squeeze8_Call_25##
+When !f$GT_RandomReady Return false Force
+When Others Return false Force
+
+// NODE 15 - BBvBTN_4betShove_Squeeze8_SBFold - Screenshot_20261124_202819_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_BBvBTN_4betShove_Squeeze8_SBFold_Fold_25##
+A6o A4o
+
+##f$chart_BBvBTN_4betShove_Squeeze8_SBFold_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvBTN_4betShove_Squeeze8_SBFold_Fold_25 Return true Force
+When hand$A7o && f$GT_Random <= 0.72 Return true Force
+When Others Return false Force
+
+##list_BBvBTN_4betShove_Squeeze8_SBFold_Call_25##
+AA KK QQ JJ TT 99 55 44 33
+AKs AQs ATs A9s A8s A7s A5s KJs KTs K7s QJs QTs JTs J9s J8s T9s T8s T7s 98s 87s 76s 65s
+AKo AQo QJo ATo JTo A9o A8o
+
+##f$chart_BBvBTN_4betShove_Squeeze8_SBFold_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvBTN_4betShove_Squeeze8_SBFold_Call_25 Return true Force
+When hand$A7o && f$GT_Random > 0.72 Return true Force
+When Others Return false Force
+
+// NODE 16 - BBvBTN_4betShove_Squeeze8_SBCall - Screenshot_20261124_202831_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_BBvBTN_4betShove_Squeeze8_SBCall_Fold_25##
+55 44 33
+ATs A5s KJs K7s QJs QTs J9s T7s 76s
+QJo ATo JTo A9o A7o A6o A4o
+
+##f$chart_BBvBTN_4betShove_Squeeze8_SBCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvBTN_4betShove_Squeeze8_SBCall_Fold_25 Return true Force
+When hand$A9s && f$GT_Random <= 0.98 Return true Force
+When hand$A8s && f$GT_Random <= 0.25 Return true Force
+When hand$KTs && f$GT_Random <= 0.48 Return true Force
+When hand$AQo && f$GT_Random <= 0.91 Return true Force
+When hand$J8s && f$GT_Random <= 0.15 Return true Force
+When hand$TT && f$GT_Random <= 0.62 Return true Force
+When hand$T8s && f$GT_Random <= 0.85 Return true Force
+When hand$99 && f$GT_Random <= 0.75 Return true Force
+When hand$98s && f$GT_Random <= 0.94 Return true Force
+When hand$87s && f$GT_Random <= 0.37 Return true Force
+When Others Return false Force
+
+##list_BBvBTN_4betShove_Squeeze8_SBCall_Call_25##
+AA KK QQ JJ
+AKs AQs A7s JTs T9s 65s
+AKo
+
+##f$chart_BBvBTN_4betShove_Squeeze8_SBCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BBvBTN_4betShove_Squeeze8_SBCall_Call_25 Return true Force
+When hand$A9s && f$GT_Random > 0.98 Return true Force
+When hand$A8s && f$GT_Random > 0.25 Return true Force
+When hand$KTs && f$GT_Random > 0.48 Return true Force
+When hand$AQo && f$GT_Random > 0.91 Return true Force
+When hand$J8s && f$GT_Random > 0.15 Return true Force
+When hand$TT && f$GT_Random > 0.62 Return true Force
+When hand$T8s && f$GT_Random > 0.85 Return true Force
+When hand$99 && f$GT_Random > 0.75 Return true Force
+When hand$98s && f$GT_Random > 0.94 Return true Force
+When hand$87s && f$GT_Random > 0.37 Return true Force
+When Others Return false Force
+
+// NODE 17 - BTNvBB_Shove_SBCall - Screenshot_20261124_202847_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_BTNvBB_Shove_SBCall_Fold_25##
+33
+A6s A5s A4s A3s A2s K9s K8s K7s K6s K5s K4s K3s K2s QTs Q9s Q8s Q7s Q6s Q5s Q4s J9s J8s J7s J6s J5s T9s T8s T7s T6s 98s 97s 96s 87s 86s 85s 76s 75s 65s 64s 54s
+KQo KJo QJo KTo QTo JTo K9o Q9o J9o T9o A8o K8o 98o A7o A6o A5o A4o
+
+##f$chart_BTNvBB_Shove_SBCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_BTNvBB_Shove_SBCall_Fold_25 Return true Force
+When hand$A7s && f$GT_Random <= 0.48 Return true Force
+When hand$KTs && f$GT_Random <= 0.73 Return true Force
+When hand$QJs && f$GT_Random <= 0.12 Return true Force
+When hand$JTs && f$GT_Random <= 0.96 Return true Force
+When hand$A9o && f$GT_Random <= 0.42 Return true Force
+When Others Return false Force
+
+##list_BTNvBB_Shove_SBCall_Call_25##
+AA KK QQ JJ TT 99 88 77 66 55 44
+AKs AQs AJs ATs A9s A8s KQs KJs
+AKo AQo AJo ATo
+
+##f$chart_BTNvBB_Shove_SBCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_BTNvBB_Shove_SBCall_Call_25 Return true Force
+When hand$A7s && f$GT_Random > 0.48 Return true Force
+When hand$KTs && f$GT_Random > 0.73 Return true Force
+When hand$QJs && f$GT_Random > 0.12 Return true Force
+When hand$JTs && f$GT_Random > 0.96 Return true Force
+When hand$A9o && f$GT_Random > 0.42 Return true Force
+When Others Return false Force
+
+// NODE 18 - SBvBB_Shove_BTNFold_AfterSBCall - Screenshot_20261124_202854_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_SBvBB_Shove_BTNFold_AfterSBCall_Fold_25##
+33 22
+A6s A5s A4s A3s A2s K9s K8s K7s K6s K5s Q9s Q8s J9s J8s T8s 98s 97s 87s 76s 65s 54s
+KJo QJo KTo QTo JTo
+
+##f$chart_SBvBB_Shove_BTNFold_AfterSBCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Shove_BTNFold_AfterSBCall_Fold_25 Return true Force
+When hand$A7s && f$GT_Random <= 0.50 Return true Force
+When hand$KTs && f$GT_Random <= 0.79 Return true Force
+When hand$QTs && f$GT_Random <= 0.71 Return true Force
+When hand$A9o && f$GT_Random <= 0.25 Return true Force
+When Others Return false Force
+
+##list_SBvBB_Shove_BTNFold_AfterSBCall_Call_25##
+44
+ATs A9s A8s KQs KJs QJs
+ATo
+
+##f$chart_SBvBB_Shove_BTNFold_AfterSBCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Shove_BTNFold_AfterSBCall_Call_25 Return true Force
+When hand$A7s && f$GT_Random > 0.50 Return true Force
+When hand$KTs && f$GT_Random > 0.79 Return true Force
+When hand$QTs && f$GT_Random > 0.71 Return true Force
+When hand$A9o && f$GT_Random > 0.25 Return true Force
+When Others Return false Force
+
+// NODE 19 - SBvBB_Shove_BTNCall_AfterSBCall - Screenshot_20261124_202916_GTO Ranges+.jpg
+// Prefix reconstructed from previous nodes; verify before routing.
+
+##list_SBvBB_Shove_BTNCall_AfterSBCall_Fold_25##
+44 33 22
+ATs A9s A8s A7s A6s A5s A4s A3s A2s KTs K9s K8s K7s K6s K5s QTs Q9s Q8s J9s J8s T8s 98s 97s 87s 76s 65s 54s
+KJo QJo ATo KTo QTo JTo A9o
+
+##f$chart_SBvBB_Shove_BTNCall_AfterSBCall_Fold_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Shove_BTNCall_AfterSBCall_Fold_25 Return true Force
+When Others Return false Force
+
+##list_SBvBB_Shove_BTNCall_AfterSBCall_Call_25##
+KQs KJs QJs
+
+##f$chart_SBvBB_Shove_BTNCall_AfterSBCall_Call_25##
+When !f$GT_RandomReady Return false Force
+When list_SBvBB_Shove_BTNCall_AfterSBCall_Call_25 Return true Force
+When Others Return false Force
