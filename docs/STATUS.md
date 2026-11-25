@@ -64,3 +64,6 @@ Print 55 HU: tabela HU completa conferida, cinco confrontos verificados independ
 
 ## Piloto Optimized 02 — encerrado sem promoção
 Print 55 reproduzido; print 54 replicado. Segunda extração altera significativamente os ganhos: 55 Fixed +0,000100 e Flexible +0,000106 BB/chegada nominal, 54 ambos ~0. Divergências de call vs legenda >0,5 pp permanecem. Sem validação independente real ou resposta adaptativa. Uma rodada corretiva executada; não promover. Ver OPTIMIZED_PILOT_02.md. src/registry intactos; captura 23 BB pode prosseguir, print 57.
+
+## Estudo amplo All-in 25 BB
+56 fontes auditadas; 35 candidatas binárias, 30 comparações diagnósticas (25 origem 3-handed, 5 HU), 5 sem reach nominal identificável, 21 mistas preservadas. 40.632.000 amostras MC, ranking 300.000 testes independentes iguais. 13 dos 25 nós 3-handed passam gate preliminar local, nenhum ganho com IC positivo em todos os modelos retidos; nenhum HU passa nas duas leituras. Sem promoção. Ver OPTIMIZED_25BB_BATCH_STUDY.md. src/registry preservados; próximo print 57.
