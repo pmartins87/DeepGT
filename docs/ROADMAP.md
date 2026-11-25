@@ -38,3 +38,5 @@ Proposta de estudo da variante otimizada documentada em OPTIMIZED_PROPOSAL.md, s
 Piloto 01 offline autorizado e realizado; não promove variante. Ver OPTIMIZED_PILOT_01.md; revisão focada de reach e replicação print 54 recomendadas antes de expansão experimental. Roadmap principal preservado, próximo print 57.
 
 Piloto 02 offline concluído sem promoção (OPTIMIZED_PILOT_02.md). Não ampliar a variante nesta fase; retomar quando houver dados mais precisos ou nova evidência. Prosseguir captura Pure 23 BB, print 57; gates anteriores permanecem.
+
+Estudo All-in 25 BB autorizado e executado: OPTIMIZED_25BB_BATCH_STUDY.md. Nenhuma política promovida. Manter Pure, suspender expansão experimental até nova evidência de precisão/ranges/EV. Próximo print 57, 23 BB; gates e roadmap principal preservados.
