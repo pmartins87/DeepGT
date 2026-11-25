@@ -46,3 +46,5 @@ Solicitação de fechar catálogo experimental 25 BB antes de 23 BB atendida: 56
 Experimento monotônico concluído, sem promoção (OPTIMIZED_MONOTONIC_STUDY.md). Próxima etapa de pesquisa recomendada: validação independente focada no print 42 e dados de reach dos bloqueados. Sem alteração do roadmap de captura ou código.
 
 Esclarecimento do usuário: a entrega experimental revisada deve selecionar o método por chart, sem impor MonoRobust ou qualquer política universal. O gate comum de avaliação é mantido. Priorizar auditoria dos nós com inversões e comparação local de candidatos, distinguindo seleção exploratória e homologação independente. Catálogo histórico v0.1 e Pure preservados; próximo print 57 permanece reservado.
+
+Entregue catálogo híbrido v0.2 de estudo (56/56, 8 modificadas; print 16 pendente), método individual, não vencedor geral. Ver OPTIMIZED_HYBRID_25BB_V02.md. Revisar pendência e diferenças entre famílias somente com evidência suficiente; não relaxar gate de promoção. Print 57/23 BB permanece reservado.
