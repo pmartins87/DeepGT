@@ -44,3 +44,5 @@ Estudo All-in 25 BB autorizado e executado: OPTIMIZED_25BB_BATCH_STUDY.md. Nenhu
 Solicitação de fechar catálogo experimental 25 BB antes de 23 BB atendida: 56 charts selecionadas, apenas print 31 modificado condicionalmente; 42 alternativa não selecionada. Ver OPTIMIZED_25BB_SELECTION.md. Gates de promoção não alterados; próximo print 57. Nenhuma nova rodada de testes sem evidência adicional.
 
 Experimento monotônico concluído, sem promoção (OPTIMIZED_MONOTONIC_STUDY.md). Próxima etapa de pesquisa recomendada: validação independente focada no print 42 e dados de reach dos bloqueados. Sem alteração do roadmap de captura ou código.
+
+Esclarecimento do usuário: a entrega experimental revisada deve selecionar o método por chart, sem impor MonoRobust ou qualquer política universal. O gate comum de avaliação é mantido. Priorizar auditoria dos nós com inversões e comparação local de candidatos, distinguindo seleção exploratória e homologação independente. Catálogo histórico v0.1 e Pure preservados; próximo print 57 permanece reservado.
