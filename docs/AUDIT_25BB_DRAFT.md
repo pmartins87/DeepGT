@@ -74,3 +74,6 @@ Segmentação das matrizes 709×1536 em 169 células, classificação cromática
 | 39 | 60.64/14.04/0/25.3 | 60.912/14.286/0/24.802 | 0.498 | 115 |
 
 3380 células, 2279 visíveis, 230179 testes de partição do rascunho. 95 seções novas sem colisão; prefixo anterior íntegro. EX-001: print 31, T3o, 69/31/0/0 original estimado → 100/0/0/0 no rascunho por decisão explícita do usuário; sem redistribuição. Os demais valores não foram ajustados sem justificativa. Revisão estratégica de outros calls estranhos no ramo de shove 0% e validação dos nós 32/35 ainda necessárias antes de ativação. Os cinco cenários faltantes permanecem sem ação inventada.
+
+## Prints 40–42 e reversão EX-001
+Extração por proximidade cromática azul/verde em matriz 13×13, faixa colorida inferior e voto por coluna nas últimas oito linhas visíveis. Estimativas call: 40=73,967% vs 72,80%, 41=32,101% vs 31,71%, 42=15,017% vs 15,06%. Reach fino/JPEG limitam precisão; 507 classes, 306 visíveis, 30906 verificações de partição modelada. 12 seções adicionadas; sem homologação nativa. EX-001 anteriormente aplicada foi revertida no src e predicados isolados; T3o 69/31 restaurado, CSV bruto preservado. A auditoria histórica 20–39 descreve o estado anterior à reversão. Nenhuma realocação de combos nesta versão.
