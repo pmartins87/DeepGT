@@ -25,3 +25,5 @@ Após consolidar a referência, estudar separadamente variante de realocação d
 
 ## Proposta de metodologia experimental
 Ver [OPTIMIZED_PROPOSAL.md](OPTIMIZED_PROPOSAL.md): critérios de EV, realocação de massa de ação, robustez e piloto offline. Proposta não aprovada para execução; referência pura continua intacta.
+
+Piloto 01 autorizado e executado offline: [OPTIMIZED_PILOT_01.md](OPTIMIZED_PILOT_01.md). Nenhuma exceção aplicada à referência. Não há evidência para promover a variante.
