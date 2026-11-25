@@ -34,3 +34,5 @@ Checkpoint 25 BB: 44/44 nós conhecidos 3-handed de origem e 10/12 HU nativo cod
 Checkpoint de captura 25 BB: 56/56 nós conhecidos (44 3-handed, 12 HU nativo) codificados em rascunho. Prosseguir com 23 BB a partir do print 57; não assumir que o número de nós ou os sizings de 25 BB se repetem nos demais stacks. Preservar referência pura, gates nativos e separação de origem. Fechamento de captura não autoriza ativação.
 
 Proposta de estudo da variante otimizada documentada em OPTIMIZED_PROPOSAL.md, sem iniciar implementação nem alterar a sequência de captura ou gates. Próximo print permanece 57 (23 BB).
+
+Piloto 01 offline autorizado e realizado; não promove variante. Ver OPTIMIZED_PILOT_01.md; revisão focada de reach e replicação print 54 recomendadas antes de expansão experimental. Roadmap principal preservado, próximo print 57.
