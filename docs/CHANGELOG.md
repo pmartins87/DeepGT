@@ -19,3 +19,7 @@
 ## 2026-11-24 — painel visual permanente
 - Preferência explícita do usuário registrada: sequência/Hero, árvore e matriz visual sempre disponíveis e atualizadas no GitHub.
 - Registry v2, painel Markdown/Mermaid e gerador versionados; README oferece acesso direto. Sem mudança estratégica.
+
+## 2026-11-24 — histórico parcial e segundo lote recebido
+- Corrigida a interpretação de BTN fold versus BTN call diante de shove do BB; registrados 10 nós como recebidos, a extrair, com histórico visível separado do reconstruído.
+- Painel e gerador atualizados para distinguir recebimento de codificação. Protocolo de conferência obrigatório. Sem alteração estratégica.
