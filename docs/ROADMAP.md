@@ -61,3 +61,6 @@ Correção do escopo Optimized: incluir calls contra all-in com terceiro ainda a
 Critério simplificado definido pelo usuário: variante de estudo com frequência agregada de call original e ordenação pela equity HU contra mão uniforme derivada da tabela PreFlopEquities.zip, para calls preflop contra all-in terminais e não terminais; demais ações Pure. Sem reconstrução de ranges adversários como requisito para gerar ranking. Implementação pendente; ver OPTIMIZED_PROPOSAL.md. Captura 17 BB, print 155, inalterada.
 
 Novo release autorizado: R10m + charts 20/23/25 acima de 17 BB; cancelar captura abaixo/igual 17 para este escopo. Stage 1 offline publicado com 154 funções de estudo e R10m integral; faltam roteamento e validação nativa. Ver R10M_HIGH_STACK_STAGE1.md. Não considerar pronto para jogo.
+
+## DeepGT — checkpoint G1 (2026-11-26)
+G1 bloqueado por divergência não autorizada entre releitura e referência Pure 25 BB, não por falta de novos prints. Fechar G1 conforme [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md) antes de liberar roteamento de estudo. G2 (bucket inicial/assimetria), G3 (história e sizing), G4 (RNG/parser/replay), G5 (paridade e overrides) seguem pendentes. Não capturar <=17 BB. Candidato e baseline congelados.
