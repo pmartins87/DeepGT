@@ -20,3 +20,5 @@ Cópia do baseline com blob idêntico; diff por seções: 1268/1271 intactas, 3 
 
 ## Continuidade R10m — DeepGT Stage 1 R2 (2026-11-26)
 Infraestrutura anterior reaproveitada no candidato [R2](../src/DeepGT_STAGE1_R2_OFFLINE.txt). FirstAction e contador BKP idênticos no R10m; callbacks startup/my_turn restaurados, handreset e três helpers adicionados. As 154 charts isoladas usam f$GT_RandomReady e f$GT_Random. Valor fixo de estudo eliminado. Dez transições em modelo PASS; validação nativa offline ainda pendente, não reabrir decisão de arquitetura. Ver [relatório R2](DEEPGT_STAGE1_R2.md).
+
+DeepGT integrado usa a infraestrutura de RNG anterior com snapshot do stack e nó anterior no novo índice. Nenhuma nova política de randomização. Parser/replay nativo ainda não executados; [relatório](DEEPGT_INTEGRATED.md).
