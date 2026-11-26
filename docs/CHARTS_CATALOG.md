@@ -46,3 +46,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## Ingestão de 20 BB — 2026-11-26
 42 imagens (30 origem 3-handed e 12 HU nativo), ZIPs íntegros e hashes distintos. Conferência visual dos menus e históricos: nenhuma lacuna na árvore oferecida pelo app. 14 famílias de 25/23 BB não aplicáveis: prints de referência 7–16 (raise 8 removido no squeeze após BTN raise e SB call; novo print 119), 34–35 (raise 9 removido após limp/iso 3; novo print 137), 39–40 (raise 9 removido após open SB 3 com BTN fold; novo print 140). Numerados 113–142 3-handed e 143–154 HU, por ordem cronológica dentro de cada origem e mantendo a convenção de listar 3-handed antes de HU. Arquivos originais nas duas cargas do usuário; sem upload binário ao GitHub. Frequências individuais ainda não extraídas e código intacto. Próximo print 155, stack 17 BB.
+
+## DeepGT — escopo atual e auditoria G1
+Para este release, captura encerrada em 154 prints (25/23/20 BB); <=17 BB cobertos pelo R10m. Stage 1 contém 154 funções isoladas, sem ativação. Registry e painel históricos representam intake Pure, não validação do Stage 1. Ver [Stage 1](R10M_HIGH_STACK_STAGE1.md) e [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md). 22 nós não-call de 25 BB exigem paridade com referência anterior; não solicitar print 155.
