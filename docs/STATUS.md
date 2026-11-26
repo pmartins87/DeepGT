@@ -103,3 +103,6 @@ Print 33 (25 BB, 3wSBvBB_ISO3), JTs: 60% call, 40% raise, 0% fold/shove por leit
 
 ## DeepGT Stage 1 R2 (2026-11-26)
 154 charts convertidas para list_ e f$chart_ conforme acordo, RNG anterior reincorporado ao R10m, placeholder 0.5 removido. 22 nós não-call 25 BB reconciliados, 17 células recuperadas, correção 33/JTs preservada. 2.419 seções, 1.271/1.273 blocos R10m intactos, dois callbacks alterados exclusivamente para RNG. 114.406 partições verificadas no texto remoto, 10 transições RNG modeladas PASS. 9.749 indeterminadas; 39 não-call 23/20 estimativas não homologadas. R2 offline apenas, sem roteamento. Ver [relatório](DEEPGT_STAGE1_R2.md). Próximo: parser nativo offline e G2/G3.
+
+## Stage 1 R3 — 2026-11-26
+Sincronizado com R10m blob 144f67309950b38e0dfea81892fecc75bad76b6c; somente notes e f$move_Call_vs_Over_Donk alteradas, todas as charts/RNG preservados. Ver [R3](DEEPGT_STAGE1_R3.md). Roteamento e validações nativas ainda pendentes.
