@@ -45,3 +45,5 @@ Decisão de 2026-11-26: futura Optimized limitada a call terminal vs all-in, com
 Correção de 2026-11-26: escopo experimental abrange calls contra all-in mesmo com terceiro ainda a agir. Frequência fixa não garante inexporabilidade. Caso 31 Conservadora é evidência condicional, não prova de ganho geral; preservar experimentos históricos e Pure. Calls não terminais requerem EV contextual e atualização do reach subsequente. Nenhuma nova política homologada.
 
 Novo critério escolhido: ranking de equity HU vs mão uniforme derivado de PreFlopEquities.zip e frequência agregada original em calls a all-in. É hipótese simplificada, não garantia de equilíbrio ou EV contextual, sobretudo multiway. Catálogos experimentais anteriores mantidos como histórico, Pure inalterada.
+
+Stage 1 R10m acima de 17 BB: 93 calls candidatos pelo ranking HU absoluto; versão offline e inativa. As otimizações anteriores são históricas. Não alegar ganho ou inexporabilidade. Ver R10M_HIGH_STACK_STAGE1.md.
