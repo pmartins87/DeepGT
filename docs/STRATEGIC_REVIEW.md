@@ -39,3 +39,5 @@ Print 42: MonoFixed e MonoRobust eliminam inversão KQo/KJo/KTo, escolhendo fold
 Seleção híbrida reafirmada: MonoRobust é mais uma candidata, não método obrigatório. Print 31 Conservadora condicional segue referência experimental local; MonoRobust ainda não foi testada nesse nó. Print 42 MonoRobust candidata local. Nenhuma alteração de código ou chart nesta discussão.
 
 V0.2 híbrida: 31 Conservadora TT+/AK (99 retirado sob hipótese tight adicional), 42 MonoRobust + JTo fold após confirmação MC em mesmas distribuições sintéticas. 16 não selecionada. Ver OPTIMIZED_HYBRID_25BB_V02.md; nenhuma alteração da referência ou promoção.
+
+Decisão de 2026-11-26: futura Optimized limitada a call terminal vs all-in, com frequência agregada original fixa e seleção por equity contextual máxima. Catálogos híbridos anteriores preservados como histórico experimental, não como especificação vigente. Print 31 Conservadora anterior reduz frequência e portanto não atende ao novo requisito. Ranges não identificáveis e conflitos entre frequência e pot odds devem ser sinalizados, sem fabricar dados nem alterar frequência unilateralmente.
