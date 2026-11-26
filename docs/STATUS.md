@@ -89,3 +89,6 @@ Somente call terminal contra all-in, frequência agregada fixa, maximização de
 Escopo Optimized corrigido: calls contra all-in terminais e não terminais são candidatos; critério de frequência fixa em discussão, sem garantia de inexporabilidade. Nenhuma alteração em charts/src/registry. Próximo print 155.
 
 Optimized: critério experimental simplificado de ranking por equity absoluta HU da tabela local, frequência fixa nas respostas de call a all-in, sem hipóteses específicas de ranges adversários. 169 classes e 1.624.350 pares conferidos para calcular médias. Sem mudança de charts/src/registry; próximo print 155.
+
+## R10m high-stack Stage 1 (2026-11-26)
+R10m cd9a6d7eb8e85f6e27c355be6e640f5a39f89be8 + 154 funções isoladas (1429 seções totais), 93 calls candidatos, 92 mudanças no modelo proxy. 113820 verificações modeladas; sem roteamento ativo. Próximo gate: integração de estado/sizing e validação nativa. Captura <=17 BB desnecessária neste release. src/DeepGT.txt e registry Pure anteriores intactos. Ver R10M_HIGH_STACK_STAGE1.md.
