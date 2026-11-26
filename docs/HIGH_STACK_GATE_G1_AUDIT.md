@@ -28,4 +28,7 @@ Não se trata de otimização de calls contra all-in: ambos são não-candidatos
 3. Somente depois avançar roteamento de estudo e testes offline, sem ações em mesa. G2/G3 exigem política explícita para stacks assimétricos, histories e sizings; G4 exige parser/replay nativo; G5 exige ausência de overrides e regressão. Nenhuma captura nova <=17 BB.
 4. Bloqueio adicional: fetch_file do src/DeepGT_R10m_STAGE1_OFFLINE.txt retornou blob identificado mas conteúdo vazio mesmo com intervalo de linhas solicitado. Não foi possível verificar byte a byte nem modificar o candidato integral neste ciclo. Recuperar arquivo exato (2.054.109 bytes no tree) e baseline upstream antes de qualquer alteração de código. Não usar R10i ou R8 como substituto.
 
-Decisão técnica conservadora de preservar Pure previamente codificado até demonstração de leitura melhor; nenhuma decisão estratégica nova. Testes executados sobre dados remotos, não sobre OpenHoldem. 
+Decisão técnica conservadora de preservar Pure previamente codificado até demonstração de leitura melhor; nenhuma decisão estratégica nova. Testes executados sobre dados remotos, não sobre OpenHoldem.
+
+## Recuperação do código — 2026-11-26
+Bloqueio de acesso ao candidato resolvido via fetch_blob pelo SHA 7e2d4011e963969170f6507ae2bc2ed3b33d0525. Baseline upstream R10m cd9a6d7eb8e85f6e27c355be6e640f5a39f89be8 recuperado pelo mesmo método. Comparação textual confirma prefixo integral exato, 1273 seções baseline, 1429 seções únicas Stage 1. Não é necessário solicitar upload do código. G1 permanece aberto pela divergência de leitura; nenhuma mudança em src.
