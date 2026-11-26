@@ -77,3 +77,5 @@
 Nome oficial DeepGT. Verificada integridade referencial dos 154 históricos e comparada releitura dos 22 nós não-call 25 BB com a referência Pure: 830 discrepâncias listadas (813 >1 pp e 17 células perdidas). G1 bloqueado, nenhum código estratégico modificado; relatório [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md).
 
 2026-11-26: recuperação integral do Stage 1 e baseline R10m via blob SHA; prefixo textual exato e contagem de 1429/1273 seções confirmados. Sem mudança estratégica ou em src.
+
+2026-11-26 — Stage 1 R1 offline: correção visual explicitamente autorizada de JTs no print 33 (60 call/40 raise), somente f$GTStudy_Action_033 alterada; overlay versionado, candidato anterior preservado e cópia remota conferida. Nenhuma promoção.
