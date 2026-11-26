@@ -37,3 +37,5 @@ Data inicial: 2026-11-24.
 21. Nome oficial do projeto: DeepGT. R10m identifica somente o baseline. Preservar a referência Pure previamente codificada nos nós não-call até evidência documentada de melhor leitura; diferenças de raster não são alterações estratégicas autorizadas. Ver [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md). Não considerar célula cinza como fold; bloquear ativação enquanto a paridade estiver pendente.
 
 22. Preservar o padrão acordado: listas para ações puras e f$chart_ para lista + intervalos mistos, f$GT_Random único por decisão e guard f$GT_RandomReady. Não substituir mecanismo já acordado ao trocar baseline. Ações desconhecidas não equivalem a fold. Ver [Stage 1 R2](DEEPGT_STAGE1_R2.md).
+
+Sincronização upstream R3: fixar SHA da revisão R10m, comparar por seção, preservar extensões DeepGT, não incorporar propostas sem código aprovado; ver [relatório](DEEPGT_STAGE1_R3.md).
