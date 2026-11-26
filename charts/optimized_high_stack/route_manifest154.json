@@ -1,0 +1,4792 @@
+{
+  "source": "07b4eb206724bfa73e0fcdee942b6b7c7c1cd50a",
+  "info": {
+    "nodes": 154,
+    "routeChecks": 163,
+    "mutationChecks": 350,
+    "raiseNodes": 33,
+    "sizeGroups": {
+      "2": 6,
+      "3": 6,
+      "6": 9,
+      "8": 2,
+      "9": 4,
+      "2.5": 3,
+      "7.5": 3
+    },
+    "sections": 2433,
+    "modified": [
+      "f$ini_function_on_startup",
+      "f$ini_function_on_my_turn",
+      "f$preflop",
+      "f$ini_function_on_handreset"
+    ],
+    "newSections": [
+      "f$GT_BTNPlaying",
+      "f$GT_BTNAllin",
+      "f$GT_SBPlaying",
+      "f$GT_SBAllin",
+      "f$GT_BBPlaying",
+      "f$GT_BBAllin",
+      "f$GT_Stack_25",
+      "f$GT_Stack_23",
+      "f$GT_Stack_20",
+      "f$GT_StackBucket",
+      "f$GT_ValidGeometry",
+      "f$GT_ChartNode",
+      "f$GT_RoutedAction",
+      "f$GT_RaiseSize"
+    ],
+    "chars": 2087448
+  },
+  "specs": [
+    {
+      "p": 1,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTN_Open",
+      "hero": "BTN",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 2,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_Open2",
+      "hero": "SB",
+      "sequence": "BTN raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$sb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 3,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 4,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3bet6_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 5,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_4betShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove",
+      "prior": 3,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 6,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3betShove_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB shove",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 7,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_Squeeze8_SBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call → BB raise 8",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 8,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Squeeze8_BTNFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN fold",
+      "prior": 2,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 9,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_4betShove_AfterSqueeze8_BTNFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove",
+      "prior": 43,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 10,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Squeeze8_BTNCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN call 6",
+      "prior": 2,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 11,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvSB_4betShove_Squeeze8_BTNCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25",
+      "prior": 43,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 12,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_Shove_Squeeze8_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB fold",
+      "prior": 7,
+      "prevKind": "call",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": false,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 13,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_Shove_Squeeze8_BBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB call 17",
+      "prior": 7,
+      "prevKind": "call",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": "may"
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 14,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_4betShove_Squeeze8",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25",
+      "prior": 2,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 2,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 15,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_4betShove_Squeeze8_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB fold",
+      "prior": 43,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 16,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_4betShove_Squeeze8_SBCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB call 23",
+      "prior": 43,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": "may"
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 17,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_Shove_SBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call → BB shove 25",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 18,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNFold_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call → BB shove 25 → BTN fold",
+      "prior": 2,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 19,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNCall_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call → BB shove 25 → BTN call 23",
+      "prior": 2,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 20,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3bet6_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB raise 6",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 21,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3bet6_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 22,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_4betShove_BBFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 25",
+      "prior": 2,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 23,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_4betShove_SB3bet",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 25",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 2,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 24,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN fold",
+      "prior": 2,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 25,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 25 → BTN call 23",
+      "prior": 2,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 26,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3betShove_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB shove 25",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 27,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 25 → BB fold",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 28,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 25 → BB call 24",
+      "prior": 1,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": "may"
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 29,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_OpenShove",
+      "hero": "SB",
+      "sequence": "BTN shove 25",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$sb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 30,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN shove 25 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 31,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBCall",
+      "hero": "BB",
+      "sequence": "BTN shove 25 → SB call 24.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": "may"
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 32,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 33,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISO3",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
+      "prior": 44,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 9,
+      "oldHelper": null
+    },
+    {
+      "p": 34,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_LimpReraise9",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9",
+      "prior": 32,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 35,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_Shove_AfterLimpReraise9",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 25",
+      "prior": 33,
+      "prevKind": "raise",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 36,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 25",
+      "prior": 32,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 37,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB shove 25",
+      "prior": 44,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 38,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Open3",
+      "hero": "BB",
+      "sequence": "BTN fold → SB raise 3",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 9,
+      "oldHelper": "f$bb_vs_Open_Raise_MID"
+    },
+    {
+      "p": 39,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_3bet9",
+      "hero": "SB",
+      "sequence": "BTN fold → SB raise 3 → BB raise 9",
+      "prior": 44,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 40,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_4betShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB raise 3 → BB raise 9 → SB shove 25",
+      "prior": 38,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 41,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB raise 3 → BB shove 25",
+      "prior": 44,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 42,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB shove 25",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 43,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 8,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 44,
+      "stack": 25,
+      "scope": "3-handed origin",
+      "id": "3wSB_Open",
+      "hero": "SB",
+      "sequence": "BTN fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 45,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSB_Open",
+      "hero": "SB",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 46,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2.5,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 47,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISO2p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5",
+      "prior": 45,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 7.5,
+      "oldHelper": null
+    },
+    {
+      "p": 48,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpReraise7p5",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+      "prior": 46,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 49,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSBvBB_Shove_AfterLimpReraise7p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 25",
+      "prior": 47,
+      "prevKind": "raise",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 50,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 25",
+      "prior": 46,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 51,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB shove 25",
+      "prior": 45,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 52,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_Open2",
+      "hero": "BB",
+      "sequence": "SB raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 53,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSBvBB_3bet6",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB raise 6",
+      "prior": 45,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 54,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_4betShove",
+      "hero": "BB",
+      "sequence": "SB raise 2 → BB raise 6 → SB shove 25",
+      "prior": 52,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 55,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB shove 25",
+      "prior": 45,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 56,
+      "stack": 25,
+      "scope": "HU native",
+      "id": "HUBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "SB shove 25",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 57,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTN_Open",
+      "hero": "BTN",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 58,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_Open2",
+      "hero": "SB",
+      "sequence": "BTN raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$sb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 59,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 60,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3bet6_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 61,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_4betShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove 23",
+      "prior": 59,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 62,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3betShove_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB shove 23",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 63,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 8,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 64,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_Squeeze8_SBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 65,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Squeeze8_BTNFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN fold",
+      "prior": 58,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 66,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_4betShove_AfterSqueeze8_BTNFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN fold → SB shove 23",
+      "prior": 63,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 67,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Squeeze8_BTNCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6",
+      "prior": 58,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 68,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvSB_4betShove_Squeeze8_BTNCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23",
+      "prior": 63,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 69,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_Shove_Squeeze8_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23 → BB fold",
+      "prior": 64,
+      "prevKind": "call",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": false,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 70,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_Shove_Squeeze8_BBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23 → BB call 15",
+      "prior": 64,
+      "prevKind": "call",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": "may"
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 71,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_4betShove_Squeeze8",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23",
+      "prior": 58,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 2,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 72,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_4betShove_Squeeze8_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23 → SB fold",
+      "prior": 63,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 73,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_4betShove_Squeeze8_SBCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23 → SB call 21",
+      "prior": 63,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": "may"
+        },
+        "BB": {
+          "active": true,
+          "bet": 8,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 74,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_Shove_SBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 75,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNFold_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23 → BTN fold",
+      "prior": 58,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 76,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNCall_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23 → BTN call 21",
+      "prior": 58,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 77,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3bet6_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB raise 6",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 78,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3bet6_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 79,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_4betShove_BBFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 23",
+      "prior": 58,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 80,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_4betShove_SB3bet",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 23",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 2,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 81,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 23 → BTN fold",
+      "prior": 58,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 82,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 23 → BTN call 21",
+      "prior": 58,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 83,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3betShove_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB shove 23",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 84,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 23 → BB fold",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 85,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 23 → BB call 22",
+      "prior": 57,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": "may"
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 86,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_OpenShove",
+      "hero": "SB",
+      "sequence": "BTN shove 23",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$sb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 87,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN shove 23 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 88,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBCall",
+      "hero": "BB",
+      "sequence": "BTN shove 23 → SB call 22.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": "may"
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 89,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSB_Open",
+      "hero": "SB",
+      "sequence": "BTN fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 90,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 91,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISO3",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
+      "prior": 89,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 9,
+      "oldHelper": null
+    },
+    {
+      "p": 92,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_LimpReraise9",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9",
+      "prior": 90,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 93,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_Shove_AfterLimpReraise9",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 23",
+      "prior": 91,
+      "prevKind": "raise",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 94,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 23",
+      "prior": 90,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 95,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB shove 23",
+      "prior": 89,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 96,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Open3",
+      "hero": "BB",
+      "sequence": "BTN fold → SB raise 3",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 9,
+      "oldHelper": "f$bb_vs_Open_Raise_MID"
+    },
+    {
+      "p": 97,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_3bet9",
+      "hero": "SB",
+      "sequence": "BTN fold → SB raise 3 → BB raise 9",
+      "prior": 89,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 98,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_4betShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB raise 3 → BB raise 9 → SB shove 23",
+      "prior": 96,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 9,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 99,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB raise 3 → BB shove 23",
+      "prior": 89,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 100,
+      "stack": 23,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB shove 23",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 101,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSB_Open",
+      "hero": "SB",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 102,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2.5,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 103,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISO2p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5",
+      "prior": 101,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 7.5,
+      "oldHelper": null
+    },
+    {
+      "p": 104,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpReraise7p5",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+      "prior": 102,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 105,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSBvBB_Shove_AfterLimpReraise7p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 23",
+      "prior": 103,
+      "prevKind": "raise",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 106,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 23",
+      "prior": 102,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 107,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB shove 23",
+      "prior": 101,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 108,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_Open2",
+      "hero": "BB",
+      "sequence": "SB raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 109,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSBvBB_3bet6",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB raise 6",
+      "prior": 101,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 110,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_4betShove",
+      "hero": "BB",
+      "sequence": "SB raise 2 → BB raise 6 → SB shove 23",
+      "prior": 108,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 111,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB shove 23",
+      "prior": 101,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 112,
+      "stack": 23,
+      "scope": "HU native",
+      "id": "HUBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "SB shove 23",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 113,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTN_Open",
+      "hero": "BTN",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 114,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_Open2",
+      "hero": "SB",
+      "sequence": "BTN raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$sb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 115,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 116,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3bet6_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 117,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_4betShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove 20",
+      "prior": 115,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 118,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_3betShove_SBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB fold → BB shove 20",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 119,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvBTN_Open2_SBCall",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB call 1.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_MNR"
+    },
+    {
+      "p": 120,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_Shove_SBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 121,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNFold_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20 → BTN fold",
+      "prior": 114,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 122,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBB_Shove_BTNCall_AfterSBCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20 → BTN call 18",
+      "prior": 114,
+      "prevKind": "call",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 123,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3bet6_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB raise 6",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 124,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3bet6_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 125,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_4betShove_BBFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 20",
+      "prior": 114,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 126,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvBB_4betShove_SB3bet",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 20",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 2,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 127,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNFold",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 20 → BTN fold",
+      "prior": 114,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 128,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBB_4betShove_BTNCall",
+      "hero": "SB",
+      "sequence": "BTN raise 2 → SB raise 6 → BB shove 20 → BTN call 18",
+      "prior": 114,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": "may"
+        },
+        "SB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 129,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BBvSB_3betShove_BTNOpen",
+      "hero": "BB",
+      "sequence": "BTN raise 2 → SB shove 20",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 2,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 130,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBFold",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 20 → BB fold",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": false,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 131,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BTNvSB_3betShove_BBCall",
+      "hero": "BTN",
+      "sequence": "BTN raise 2 → SB shove 20 → BB call 19",
+      "prior": 113,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": "may"
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 132,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "SBvBTN_OpenShove",
+      "hero": "SB",
+      "sequence": "BTN shove 20",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$sb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 133,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBFold",
+      "hero": "BB",
+      "sequence": "BTN shove 20 → SB fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": false,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 134,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "BBvBTN_OpenShove_SBCall",
+      "hero": "BB",
+      "sequence": "BTN shove 20 → SB call 19.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "BTN",
+      "state": {
+        "BTN": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": true
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:BTN",
+          "allin": "may"
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 135,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wSB_Open",
+      "hero": "SB",
+      "sequence": "BTN fold",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 136,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 3,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 137,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISO3",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
+      "prior": 135,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 138,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 20",
+      "prior": 136,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 139,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB limp 0.5 → BB shove 20",
+      "prior": 135,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 140,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_Open3",
+      "hero": "BB",
+      "sequence": "BTN fold → SB raise 3",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_MID"
+    },
+    {
+      "p": 141,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "BTN fold → SB raise 3 → BB shove 20",
+      "prior": 135,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": 3,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 142,
+      "stack": 20,
+      "scope": "3-handed origin",
+      "id": "3wBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "BTN fold → SB shove 20",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "BTN": {
+          "active": false,
+          "bet": 0,
+          "allin": false
+        },
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    },
+    {
+      "p": 143,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSB_Open",
+      "hero": "SB",
+      "sequence": "Pote não aberto",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 0.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2,
+      "oldHelper": "f$UnplayedPot"
+    },
+    {
+      "p": 144,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_Limp",
+      "hero": "BB",
+      "sequence": "SB limp 0.5",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 0,
+      "lastR": null,
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 2.5,
+      "oldHelper": "f$bb_got_Limped"
+    },
+    {
+      "p": 145,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISO2p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5",
+      "prior": 143,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 7.5,
+      "oldHelper": null
+    },
+    {
+      "p": 146,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpReraise7p5",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+      "prior": 144,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 147,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSBvBB_Shove_AfterLimpReraise7p5",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 20",
+      "prior": 145,
+      "prevKind": "raise",
+      "decision": 3,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 7.5,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 148,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_LimpShove",
+      "hero": "BB",
+      "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 20",
+      "prior": 144,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 2.5,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 149,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSBvBB_ISOShove",
+      "hero": "SB",
+      "sequence": "SB limp 0.5 → BB shove 20",
+      "prior": 143,
+      "prevKind": "limp",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 150,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_Open2",
+      "hero": "BB",
+      "sequence": "SB raise 2",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 6,
+      "oldHelper": "f$bb_vs_Open_Raise_Normal"
+    },
+    {
+      "p": 151,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSBvBB_3bet6",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB raise 6",
+      "prior": 143,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 152,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_4betShove",
+      "hero": "BB",
+      "sequence": "SB raise 2 → BB raise 6 → SB shove 20",
+      "prior": 150,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 6,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 153,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUSBvBB_3betShove",
+      "hero": "SB",
+      "sequence": "SB raise 2 → BB shove 20",
+      "prior": 143,
+      "prevKind": "raise",
+      "decision": 2,
+      "raisesSince": 1,
+      "lastR": "BB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": 2,
+          "allin": false
+        },
+        "BB": {
+          "active": true,
+          "bet": "A:BB",
+          "allin": true
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": null
+    },
+    {
+      "p": 154,
+      "stack": 20,
+      "scope": "HU native",
+      "id": "HUBBvSB_OpenShove",
+      "hero": "BB",
+      "sequence": "SB shove 20",
+      "prior": 0,
+      "prevKind": null,
+      "decision": 1,
+      "raisesSince": 1,
+      "lastR": "SB",
+      "state": {
+        "SB": {
+          "active": true,
+          "bet": "A:SB",
+          "allin": true
+        },
+        "BB": {
+          "active": true,
+          "bet": 1,
+          "allin": false
+        }
+      },
+      "raiseSize": 0,
+      "oldHelper": "f$bb_vs_Open_Raise_Over"
+    }
+  ]
+}
