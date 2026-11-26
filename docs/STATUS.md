@@ -76,3 +76,6 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 
 ## Catálogo híbrido v0.2 experimental (25 BB)
 56 selecionadas individualmente: 8 modificadas, 48 preservadas, 16 pendente (alternativa não selecionada). 53.880.000 amostras MC novas; 66/70 inversões nas famílias auditadas eliminadas. 42 inclui reparo JTo com nova amostra. 31 Conservadora revisada TT+/AK. Nenhuma promoção; perdas em alguns modelos e ranges hipotéticos explicitados. [OPTIMIZED_HYBRID_25BB_V02.md](OPTIMIZED_HYBRID_25BB_V02.md). Pure intacto.
+
+## Ingestão de 23 BB — 2026-11-26
+56/56 imagens recebidas e mapeadas (57–100 origem 3-handed; 101–112 HU nativo); sem duplicata binária. Extração raster preliminar local 9464 células; 20 divergências >0,5 pp, legenda 103 truncada. Ainda não codificadas nem homologadas. Registry/painel atualizados. Ver [INGEST_23BB.md](INGEST_23BB.md). Próximo print novo 113 (20 BB).
