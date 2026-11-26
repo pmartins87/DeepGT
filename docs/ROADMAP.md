@@ -66,3 +66,5 @@ Novo release autorizado: R10m + charts 20/23/25 acima de 17 BB; cancelar captura
 G1 bloqueado por divergência não autorizada entre releitura e referência Pure 25 BB, não por falta de novos prints. Fechar G1 conforme [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md) antes de liberar roteamento de estudo. G2 (bucket inicial/assimetria), G3 (história e sizing), G4 (RNG/parser/replay), G5 (paridade e overrides) seguem pendentes. Não capturar <=17 BB. Candidato e baseline congelados.
 
 Bloqueio de acesso ao código removido: recuperar arquivos grandes pelo blob SHA quando fetch_file retornar vazio. Stage 1 e baseline comparados textualmente; G1 estratégico continua aberto.
+
+G1: correção manual 33/JTs aplicada no Stage 1 R1 offline; restantes divergências pendentes. Não promover nem alterar estratégia dos outros nós por extrapolação.
