@@ -32,3 +32,6 @@ Decisão técnica conservadora de preservar Pure previamente codificado até dem
 
 ## Recuperação do código — 2026-11-26
 Bloqueio de acesso ao candidato resolvido via fetch_blob pelo SHA 7e2d4011e963969170f6507ae2bc2ed3b33d0525. Baseline upstream R10m cd9a6d7eb8e85f6e27c355be6e640f5a39f89be8 recuperado pelo mesmo método. Comparação textual confirma prefixo integral exato, 1273 seções baseline, 1429 seções únicas Stage 1. Não é necessário solicitar upload do código. G1 permanece aberto pela divergência de leitura; nenhuma mudança em src.
+
+## Resolução manual 33/JTs
+Usuário informa leitura visual de 60% call e 40% raise e autoriza estes valores. Aplicado em [Stage 1 R1](../src/DeepGT_STAGE1_R1_OFFLINE.txt) e [overlay](../charts/optimized_high_stack/manual_overrides.csv), sem alterar CSVs históricos. Não é nova leitura independente nem comprovação da legenda; é estimativa visual autorizada. 1429 seções, somente a regra JTs na seção 033 alterada, cópia remota idêntica ao patch esperado. G1 continua aberto para demais divergências; RNG de estudo 0.5 ainda é placeholder.
