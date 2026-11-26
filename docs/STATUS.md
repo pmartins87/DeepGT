@@ -85,3 +85,5 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 
 ## Escopo Optimized redefinido (2026-11-26)
 Somente call terminal contra all-in, frequência agregada fixa, maximização de equity contextual; demais decisões Pure. Catálogos experimentais anteriores preservados como histórico, não conformes automaticamente à nova regra. Implementação pendente; sem alteração de src/registry. Próximo print 155 (17 BB).
+
+Escopo Optimized corrigido: calls contra all-in terminais e não terminais são candidatos; critério de frequência fixa em discussão, sem garantia de inexporabilidade. Nenhuma alteração em charts/src/registry. Próximo print 155.
