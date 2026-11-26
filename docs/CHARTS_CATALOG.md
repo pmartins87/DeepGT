@@ -43,3 +43,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## 23 BB — prints 57–112
 56 imagens mapeadas, 44 origem 3-handed e 12 HU nativo. Histórico/legendas por nó no registro; extração local preliminar e ressalvas em [INGEST_23BB.md](INGEST_23BB.md). Ainda sem código de desenvolvimento.
+
+## Ingestão de 20 BB — 2026-11-26
+42 imagens (30 origem 3-handed e 12 HU nativo), ZIPs íntegros e hashes distintos. Conferência visual dos menus e históricos: nenhuma lacuna na árvore oferecida pelo app. 14 famílias de 25/23 BB não aplicáveis: prints de referência 7–16 (raise 8 removido no squeeze após BTN raise e SB call; novo print 119), 34–35 (raise 9 removido após limp/iso 3; novo print 137), 39–40 (raise 9 removido após open SB 3 com BTN fold; novo print 140). Numerados 113–142 3-handed e 143–154 HU, por ordem cronológica dentro de cada origem e mantendo a convenção de listar 3-handed antes de HU. Arquivos originais nas duas cargas do usuário; sem upload binário ao GitHub. Frequências individuais ainda não extraídas e código intacto. Próximo print 155, stack 17 BB.
