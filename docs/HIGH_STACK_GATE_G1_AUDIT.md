@@ -35,3 +35,6 @@ Bloqueio de acesso ao candidato resolvido via fetch_blob pelo SHA 7e2d4011e96396
 
 ## Resolução manual 33/JTs
 Usuário informa leitura visual de 60% call e 40% raise e autoriza estes valores. Aplicado em [Stage 1 R1](../src/DeepGT_STAGE1_R1_OFFLINE.txt) e [overlay](../charts/optimized_high_stack/manual_overrides.csv), sem alterar CSVs históricos. Não é nova leitura independente nem comprovação da legenda; é estimativa visual autorizada. 1429 seções, somente a regra JTs na seção 033 alterada, cópia remota idêntica ao patch esperado. G1 continua aberto para demais divergências; RNG de estudo 0.5 ainda é placeholder.
+
+## Reconciliação R2
+22 nós não-call de 25 BB restaurados a partir dos CSVs Pure versionados; 17 células recuperadas, overlay 33/JTs preservado. 39 não-call restantes de 23/20 continuam baseadas nas estimativas Stage 1; as 93 candidatas ao ajuste preservadas. Não afirmar confirmação visual independente; 9.749 células indeterminadas. Dados e validação em [R2](DEEPGT_STAGE1_R2.md). Nenhum roteamento ativo.
