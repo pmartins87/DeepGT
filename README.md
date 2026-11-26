@@ -14,7 +14,7 @@ Projeto de estudo e validação offline de estratégia híbrida em Spin & Go. No
 - [Catálogo de charts](docs/CHARTS_CATALOG.md) — origem, frequências e cobertura.
 - [Histórico](docs/CHANGELOG.md) — alterações versionadas.
 - [Gate 01](docs/GATE_01_RNG.md) — desenho, riscos e validação offline.
-- [Stage 1 offline atual](src/DeepGT_R10m_STAGE1_OFFLINE.txt), [relatório de arquitetura](docs/R10M_HIGH_STACK_STAGE1.md) e [auditoria G1](docs/HIGH_STACK_GATE_G1_AUDIT.md).
+- [Stage 1 R1 offline atual](src/DeepGT_STAGE1_R1_OFFLINE.txt), [Stage 1 congelado](src/DeepGT_R10m_STAGE1_OFFLINE.txt), [relatório de arquitetura](docs/R10M_HIGH_STACK_STAGE1.md) e [auditoria G1](docs/HIGH_STACK_GATE_G1_AUDIT.md).
 - [Baseline histórico R10i](baseline/DeepCrusher_R10i.txt) e [candidato Pure histórico](src/DeepGT.txt).
 
 - [Política de buckets e ingestão](docs/PREFLOP_POLICY.md) — escopo atual de 3 charts de stack e fluxo obrigatório; histórico de grade preservado.
