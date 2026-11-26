@@ -72,3 +72,6 @@
 2026-11-26: definido critério simplificado de estudo de calls contra all-in por equity absoluta HU e frequência original; tabela de 169 classes conferida, sem alteração de código ou charts.
 
 2026-11-26: nova especificação R10m e corte >17 BB; Stage 1 offline com 154 funções de estudo, 93 calls alvo e auditoria; sem roteamento ativo, sem mudança de Pure/registry. Captura restante não necessária para este release.
+
+## 2026-11-26 — DeepGT, auditoria G1
+Nome oficial DeepGT. Verificada integridade referencial dos 154 históricos e comparada releitura dos 22 nós não-call 25 BB com a referência Pure: 830 discrepâncias listadas (813 >1 pp e 17 células perdidas). G1 bloqueado, nenhum código estratégico modificado; relatório [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md).
