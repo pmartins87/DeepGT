@@ -100,3 +100,6 @@ Atualização: acesso ao Stage 1 e ao R10m recuperado via blob SHA; prefixo text
 
 ## DeepGT Stage 1 R1 — correção pontual autorizada
 Print 33 (25 BB, 3wSBvBB_ISO3), JTs: 60% call, 40% raise, 0% fold/shove por leitura visual do usuário. Aplicado em src/DeepGT_STAGE1_R1_OFFLINE.txt, blob 593fb21b34b5b24c96c54ac8aa62fc3acc923ea9; overlay charts/optimized_high_stack/manual_overrides.csv. Cópia remota conferida integralmente contra patch esperado de uma única regra; Stage 1 congelado. G1 permanece aberto para outras divergências; RNG de estudo fixo, nenhuma ativação.
+
+## DeepGT Stage 1 R2 (2026-11-26)
+154 charts convertidas para list_ e f$chart_ conforme acordo, RNG anterior reincorporado ao R10m, placeholder 0.5 removido. 22 nós não-call 25 BB reconciliados, 17 células recuperadas, correção 33/JTs preservada. 2.419 seções, 1.271/1.273 blocos R10m intactos, dois callbacks alterados exclusivamente para RNG. 114.406 partições verificadas no texto remoto, 10 transições RNG modeladas PASS. 9.749 indeterminadas; 39 não-call 23/20 estimativas não homologadas. R2 offline apenas, sem roteamento. Ver [relatório](DEEPGT_STAGE1_R2.md). Próximo: parser nativo offline e G2/G3.
