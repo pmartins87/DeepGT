@@ -87,3 +87,5 @@ Print 55 reproduzido; print 54 replicado. Segunda extração altera significativ
 Somente call terminal contra all-in, frequência agregada fixa, maximização de equity contextual; demais decisões Pure. Catálogos experimentais anteriores preservados como histórico, não conformes automaticamente à nova regra. Implementação pendente; sem alteração de src/registry. Próximo print 155 (17 BB).
 
 Escopo Optimized corrigido: calls contra all-in terminais e não terminais são candidatos; critério de frequência fixa em discussão, sem garantia de inexporabilidade. Nenhuma alteração em charts/src/registry. Próximo print 155.
+
+Optimized: critério experimental simplificado de ranking por equity absoluta HU da tabela local, frequência fixa nas respostas de call a all-in, sem hipóteses específicas de ranges adversários. 169 classes e 1.624.350 pares conferidos para calcular médias. Sem mudança de charts/src/registry; próximo print 155.
