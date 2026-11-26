@@ -70,3 +70,5 @@ Bloqueio de acesso ao código removido: recuperar arquivos grandes pelo blob SHA
 G1: correção manual 33/JTs aplicada no Stage 1 R1 offline; restantes divergências pendentes. Não promover nem alterar estratégia dos outros nós por extrapolação.
 
 Checkpoint R2: RNG acordado restaurado, 154 charts no padrão listas/predicados, G1 parcialmente reconciliado para 25 BB; fonte raster remanescente não homologada. G2/G3 ainda exigem stack/história/sizing, G4 parser/replay offline (modelo RNG PASS), G5 regressão. R2 sem roteamento ativo; ver [relatório R2](DEEPGT_STAGE1_R2.md). Próxima validação possível: carregar R2 offline, sem mesa, AutoPlayer desligado.
+
+Checkpoint R3: sincronização upstream concluída (base 144f67309950b38e0dfea81892fecc75bad76b6c). Gates R2 não dispensados; próximo teste parser offline. [Relatório](DEEPGT_STAGE1_R3.md).
