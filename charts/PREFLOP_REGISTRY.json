@@ -90,7 +90,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -98,6 +98,20 @@
       "label": "BTN Open",
       "hero": "BTN",
       "histories": {
+        "20": {
+          "print": 113,
+          "sequence": "Pote não aberto",
+          "parent_id": null,
+          "edge": null,
+          "visible_tail": "Pote não aberto",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015705_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 57,
           "sequence": "Pote não aberto",
@@ -127,7 +141,8 @@
           "print": 1
         }
       },
-      "source_23": "sources/23bb/57_Screenshot_20261125_023330_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/57_Screenshot_20261125_023330_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/113_Screenshot_20261126_015705_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBTN_Open2",
@@ -142,7 +157,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -150,6 +165,20 @@
       "label": "SB vs BTN",
       "hero": "SB",
       "histories": {
+        "20": {
+          "print": 114,
+          "sequence": "BTN raise 2",
+          "parent_id": "BTN_Open",
+          "edge": "BTN raise 2",
+          "visible_tail": "BTN raise 2",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015723_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 58,
           "sequence": "BTN raise 2",
@@ -179,7 +208,8 @@
           "print": 2
         }
       },
-      "source_23": "sources/23bb/58_Screenshot_20261125_023354_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/58_Screenshot_20261125_023354_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/114_Screenshot_20261126_015723_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvBTN_Open2_SBFold",
@@ -194,7 +224,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -202,6 +232,20 @@
       "label": "BB vs BTN (SB fold)",
       "hero": "BB",
       "histories": {
+        "20": {
+          "print": 115,
+          "sequence": "BTN raise 2 → SB fold",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB fold",
+          "visible_tail": "BTN raise 2 → SB fold",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015728_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 59,
           "sequence": "BTN raise 2 → SB fold",
@@ -231,7 +275,8 @@
           "print": 3
         }
       },
-      "source_23": "sources/23bb/59_Screenshot_20261125_023404_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/59_Screenshot_20261125_023404_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/115_Screenshot_20261126_015728_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvBB_3bet6_SBFold",
@@ -246,7 +291,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -254,6 +299,20 @@
       "label": "BTN vs BB 3bet",
       "hero": "BTN",
       "histories": {
+        "20": {
+          "print": 116,
+          "sequence": "BTN raise 2 → SB fold → BB raise 6",
+          "parent_id": "3wBBvBTN_Open2_SBFold",
+          "edge": "BB raise 6",
+          "visible_tail": "SB fold → BB raise 6",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015733_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 60,
           "sequence": "BTN raise 2 → SB fold → BB raise 6",
@@ -283,7 +342,8 @@
           "print": 4
         }
       },
-      "source_23": "sources/23bb/60_Screenshot_20261125_023411_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/60_Screenshot_20261125_023411_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/116_Screenshot_20261126_015733_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvBTN_4betShove_SBFold",
@@ -298,7 +358,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "BLOCKED_AGGREGATE"
       },
@@ -306,6 +366,20 @@
       "label": "BB vs BTN 4bet AI",
       "hero": "BB",
       "histories": {
+        "20": {
+          "print": 117,
+          "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove 20",
+          "parent_id": "BTNvBB_3bet6_SBFold",
+          "edge": "BTN shove 20",
+          "visible_tail": "BB raise 6 → BTN shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015742_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 61,
           "sequence": "BTN raise 2 → SB fold → BB raise 6 → BTN shove 23",
@@ -335,7 +409,8 @@
           "print": 5
         }
       },
-      "source_23": "sources/23bb/61_Screenshot_20261125_023419_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/61_Screenshot_20261125_023419_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/117_Screenshot_20261126_015742_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvBB_3betShove_SBFold",
@@ -350,7 +425,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -358,6 +433,20 @@
       "label": "BTN vs BB shove",
       "hero": "BTN",
       "histories": {
+        "20": {
+          "print": 118,
+          "sequence": "BTN raise 2 → SB fold → BB shove 20",
+          "parent_id": "3wBBvBTN_Open2_SBFold",
+          "edge": "BB shove 20",
+          "visible_tail": "SB fold → BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015753_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 62,
           "sequence": "BTN raise 2 → SB fold → BB shove 23",
@@ -387,7 +476,8 @@
           "print": 6
         }
       },
-      "source_23": "sources/23bb/62_Screenshot_20261125_023435_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/62_Screenshot_20261125_023435_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/118_Screenshot_20261126_015753_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvBB_Squeeze8_SBCall",
@@ -402,7 +492,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -439,7 +529,10 @@
           "print": 7
         }
       },
-      "source_23": "sources/23bb/64_Screenshot_20261125_023450_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/64_Screenshot_20261125_023450_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "SBvBB_Squeeze8_BTNFold",
@@ -454,7 +547,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "REVIEW_MISSING_REACH"
       },
@@ -491,7 +584,10 @@
           "print": 8
         }
       },
-      "source_23": "sources/23bb/65_Screenshot_20261125_023500_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/65_Screenshot_20261125_023500_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "3wBBvSB_4betShove_AfterSqueeze8_BTNFold",
@@ -506,7 +602,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "REVIEW_MISSING_PARENT"
       },
@@ -543,7 +639,10 @@
           "print": 9
         }
       },
-      "source_23": "sources/23bb/66_Screenshot_20261125_023508_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/66_Screenshot_20261125_023508_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "3wBBvBTN_Open2_SBCall",
@@ -558,7 +657,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -566,6 +665,20 @@
       "label": "BB vs BTN + SB",
       "hero": "BB",
       "histories": {
+        "20": {
+          "print": 119,
+          "sequence": "BTN raise 2 → SB call 1.5",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB call 1.5",
+          "visible_tail": "BTN raise 2 → SB call 1.5",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015803_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 63,
           "sequence": "BTN raise 2 → SB call 1.5",
@@ -617,7 +730,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/63_Screenshot_20261125_023444_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/63_Screenshot_20261125_023444_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/119_Screenshot_20261126_015803_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBB_Squeeze8_BTNCall",
@@ -634,7 +748,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -690,7 +804,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/67_Screenshot_20261125_023610_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/67_Screenshot_20261125_023610_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BBvSB_4betShove_Squeeze8_BTNCall",
@@ -707,7 +824,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -763,7 +880,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/68_Screenshot_20261125_023632_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/68_Screenshot_20261125_023632_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BTNvSB_Shove_Squeeze8_BBFold",
@@ -780,7 +900,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -836,7 +956,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/69_Screenshot_20261125_023642_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/69_Screenshot_20261125_023642_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BTNvSB_Shove_Squeeze8_BBCall",
@@ -853,7 +976,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -909,7 +1032,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/70_Screenshot_20261125_023649_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/70_Screenshot_20261125_023649_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "SBvBTN_4betShove_Squeeze8",
@@ -926,7 +1052,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -982,7 +1108,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/71_Screenshot_20261126_012928_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/71_Screenshot_20261126_012928_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BBvBTN_4betShove_Squeeze8_SBFold",
@@ -999,7 +1128,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -1055,7 +1184,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/72_Screenshot_20261126_013004_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/72_Screenshot_20261126_013004_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BBvBTN_4betShove_Squeeze8_SBCall",
@@ -1072,7 +1204,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -1128,7 +1260,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/73_Screenshot_20261126_013016_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/73_Screenshot_20261126_013016_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 8 após BTN raise 2 e SB call 1.5 (print 119)"
+      }
     },
     {
       "id": "BTNvBB_Shove_SBCall",
@@ -1145,12 +1280,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 120,
+          "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20",
+          "parent_id": "3wBBvBTN_Open2_SBCall",
+          "edge": "BB shove 20",
+          "visible_tail": "BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015810_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 74,
           "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23",
@@ -1201,7 +1350,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/74_Screenshot_20261126_013030_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/74_Screenshot_20261126_013030_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/120_Screenshot_20261126_015810_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBB_Shove_BTNFold_AfterSBCall",
@@ -1218,12 +1368,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 121,
+          "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20 → BTN fold",
+          "parent_id": "BTNvBB_Shove_SBCall",
+          "edge": "BTN fold",
+          "visible_tail": "BB shove 20 → BTN fold",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015815_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 75,
           "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23 → BTN fold",
@@ -1274,7 +1438,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/75_Screenshot_20261126_013035_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/75_Screenshot_20261126_013035_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/121_Screenshot_20261126_015815_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBB_Shove_BTNCall_AfterSBCall",
@@ -1291,12 +1456,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 122,
+          "sequence": "BTN raise 2 → SB call 1.5 → BB shove 20 → BTN call 18",
+          "parent_id": "BTNvBB_Shove_SBCall",
+          "edge": "BTN call 18",
+          "visible_tail": "BB shove 20 → BTN call 18",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015821_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 76,
           "sequence": "BTN raise 2 → SB call 1.5 → BB shove 23 → BTN call 21",
@@ -1347,7 +1526,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/76_Screenshot_20261126_013043_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/76_Screenshot_20261126_013043_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/122_Screenshot_20261126_015821_GTO Ranges+.jpg"
     },
     {
       "id": "3wSB_Open",
@@ -1364,12 +1544,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 135,
+          "sequence": "BTN fold",
+          "parent_id": "BTN_Open",
+          "edge": "BTN fold",
+          "visible_tail": "BTN fold",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_020003_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 89,
           "sequence": "BTN fold",
@@ -1421,7 +1615,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/89_Screenshot_20261126_013305_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/89_Screenshot_20261126_013305_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/135_Screenshot_20261126_020003_GTO Ranges+.jpg"
     },
     {
       "id": "BBvSB_3bet6_BTNOpen",
@@ -1438,12 +1633,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 123,
+          "sequence": "BTN raise 2 → SB raise 6",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB raise 6",
+          "visible_tail": "SB raise 6",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015829_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 77,
           "sequence": "BTN raise 2 → SB raise 6",
@@ -1495,7 +1704,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/77_Screenshot_20261126_013101_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/77_Screenshot_20261126_013101_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/123_Screenshot_20261126_015829_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvSB_3bet6_BBFold",
@@ -1512,12 +1722,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 124,
+          "sequence": "BTN raise 2 → SB raise 6 → BB fold",
+          "parent_id": "BBvSB_3bet6_BTNOpen",
+          "edge": "BB fold",
+          "visible_tail": "SB raise 6 → BB fold",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015833_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 78,
           "sequence": "BTN raise 2 → SB raise 6 → BB fold",
@@ -1569,7 +1793,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/78_Screenshot_20261126_013110_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/78_Screenshot_20261126_013110_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/124_Screenshot_20261126_015833_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBTN_4betShove_BBFold",
@@ -1586,12 +1811,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 125,
+          "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 20",
+          "parent_id": "BTNvSB_3bet6_BBFold",
+          "edge": "BTN shove 20",
+          "visible_tail": "BB fold → BTN shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015841_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 79,
           "sequence": "BTN raise 2 → SB raise 6 → BB fold → BTN shove 23",
@@ -1643,7 +1882,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/79_Screenshot_20261126_013120_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/79_Screenshot_20261126_013120_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/125_Screenshot_20261126_015841_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvBB_4betShove_SB3bet",
@@ -1660,12 +1900,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 126,
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 20",
+          "parent_id": "BBvSB_3bet6_BTNOpen",
+          "edge": "BB shove 20",
+          "visible_tail": "BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015849_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 80,
           "sequence": "BTN raise 2 → SB raise 6 → BB shove 23",
@@ -1717,7 +1971,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/80_Screenshot_20261126_013130_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/80_Screenshot_20261126_013130_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/126_Screenshot_20261126_015849_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBB_4betShove_BTNFold",
@@ -1734,12 +1989,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 127,
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 20 → BTN fold",
+          "parent_id": "BTNvBB_4betShove_SB3bet",
+          "edge": "BTN fold",
+          "visible_tail": "BB shove 20 → BTN fold",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015854_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 81,
           "sequence": "BTN raise 2 → SB raise 6 → BB shove 23 → BTN fold",
@@ -1791,7 +2060,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/81_Screenshot_20261126_013135_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/81_Screenshot_20261126_013135_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/127_Screenshot_20261126_015854_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBB_4betShove_BTNCall",
@@ -1808,12 +2078,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 128,
+          "sequence": "BTN raise 2 → SB raise 6 → BB shove 20 → BTN call 18",
+          "parent_id": "BTNvBB_4betShove_SB3bet",
+          "edge": "BTN call 18",
+          "visible_tail": "BB shove 20 → BTN call 18",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015903_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 82,
           "sequence": "BTN raise 2 → SB raise 6 → BB shove 23 → BTN call 21",
@@ -1865,7 +2149,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/82_Screenshot_20261126_013143_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/82_Screenshot_20261126_013143_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/128_Screenshot_20261126_015903_GTO Ranges+.jpg"
     },
     {
       "id": "BBvSB_3betShove_BTNOpen",
@@ -1882,12 +2167,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 129,
+          "sequence": "BTN raise 2 → SB shove 20",
+          "parent_id": "SBvBTN_Open2",
+          "edge": "SB shove 20",
+          "visible_tail": "SB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015910_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 83,
           "sequence": "BTN raise 2 → SB shove 23",
@@ -1939,7 +2238,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/83_Screenshot_20261126_013153_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/83_Screenshot_20261126_013153_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/129_Screenshot_20261126_015910_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvSB_3betShove_BBFold",
@@ -1956,12 +2256,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 130,
+          "sequence": "BTN raise 2 → SB shove 20 → BB fold",
+          "parent_id": "BBvSB_3betShove_BTNOpen",
+          "edge": "BB fold",
+          "visible_tail": "SB shove 20 → BB fold",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015914_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 84,
           "sequence": "BTN raise 2 → SB shove 23 → BB fold",
@@ -2013,7 +2327,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/84_Screenshot_20261126_013158_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/84_Screenshot_20261126_013158_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/130_Screenshot_20261126_015914_GTO Ranges+.jpg"
     },
     {
       "id": "BTNvSB_3betShove_BBCall",
@@ -2030,12 +2345,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 131,
+          "sequence": "BTN raise 2 → SB shove 20 → BB call 19",
+          "parent_id": "BBvSB_3betShove_BTNOpen",
+          "edge": "BB call 19",
+          "visible_tail": "SB shove 20 → BB call 19",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015926_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 85,
           "sequence": "BTN raise 2 → SB shove 23 → BB call 22",
@@ -2087,7 +2416,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/85_Screenshot_20261126_013209_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/85_Screenshot_20261126_013209_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/131_Screenshot_20261126_015926_GTO Ranges+.jpg"
     },
     {
       "id": "SBvBTN_OpenShove",
@@ -2104,12 +2434,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 132,
+          "sequence": "BTN shove 20",
+          "parent_id": "BTN_Open",
+          "edge": "BTN shove 20",
+          "visible_tail": "BTN shove 20",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015939_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 86,
           "sequence": "BTN shove 23",
@@ -2161,7 +2505,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/86_Screenshot_20261126_013227_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/86_Screenshot_20261126_013227_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/132_Screenshot_20261126_015939_GTO Ranges+.jpg"
     },
     {
       "id": "BBvBTN_OpenShove_SBFold",
@@ -2178,12 +2523,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 133,
+          "sequence": "BTN shove 20 → SB fold",
+          "parent_id": "SBvBTN_OpenShove",
+          "edge": "SB fold",
+          "visible_tail": "BTN shove 20 → SB fold",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015944_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 87,
           "sequence": "BTN shove 23 → SB fold",
@@ -2235,7 +2594,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/87_Screenshot_20261126_013241_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/87_Screenshot_20261126_013241_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/133_Screenshot_20261126_015944_GTO Ranges+.jpg"
     },
     {
       "id": "BBvBTN_OpenShove_SBCall",
@@ -2252,12 +2612,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 134,
+          "sequence": "BTN shove 20 → SB call 19.5",
+          "parent_id": "SBvBTN_OpenShove",
+          "edge": "SB call 19.5",
+          "visible_tail": "BTN shove 20 → SB call 19.5",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015953_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 88,
           "sequence": "BTN shove 23 → SB call 22.5",
@@ -2312,7 +2686,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/88_Screenshot_20261126_013251_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/88_Screenshot_20261126_013251_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/134_Screenshot_20261126_015953_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvSB_Limp",
@@ -2329,12 +2704,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 136,
+          "sequence": "BTN fold → SB limp 0.5",
+          "parent_id": "3wSB_Open",
+          "edge": "SB limp 0.5",
+          "visible_tail": "BTN fold → SB limp 0.5",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_020010_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 90,
           "sequence": "BTN fold → SB limp 0.5",
@@ -2386,7 +2775,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/90_Screenshot_20261126_013313_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/90_Screenshot_20261126_013313_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/136_Screenshot_20261126_020010_GTO Ranges+.jpg"
     },
     {
       "id": "3wSBvBB_ISO3",
@@ -2403,12 +2793,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 137,
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
+          "parent_id": "3wBBvSB_Limp",
+          "edge": "BB raise 3",
+          "visible_tail": "SB limp 0.5 → BB raise 3",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_020019_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 91,
           "sequence": "BTN fold → SB limp 0.5 → BB raise 3",
@@ -2460,7 +2864,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/91_Screenshot_20261126_013326_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/91_Screenshot_20261126_013326_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/137_Screenshot_20261126_020019_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvSB_LimpReraise9",
@@ -2477,7 +2882,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -2534,7 +2939,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/92_Screenshot_20261126_013333_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/92_Screenshot_20261126_013333_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "SB não oferece raise 9 após limp e BB raise 3 (print 137)"
+      }
     },
     {
       "id": "3wSBvBB_Shove_AfterLimpReraise9",
@@ -2551,7 +2959,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -2608,7 +3016,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/93_Screenshot_20261126_013341_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/93_Screenshot_20261126_013341_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "SB não oferece raise 9 após limp e BB raise 3 (print 137)"
+      }
     },
     {
       "id": "3wBBvSB_LimpShove",
@@ -2625,12 +3036,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 138,
+          "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 20",
+          "parent_id": "3wSBvBB_ISO3",
+          "edge": "SB shove 20",
+          "visible_tail": "BB raise 3 → SB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_020025_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 94,
           "sequence": "BTN fold → SB limp 0.5 → BB raise 3 → SB shove 23",
@@ -2682,7 +3107,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/94_Screenshot_20261126_013350_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/94_Screenshot_20261126_013350_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/138_Screenshot_20261126_020025_GTO Ranges+.jpg"
     },
     {
       "id": "3wSBvBB_ISOShove",
@@ -2699,12 +3125,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 139,
+          "sequence": "BTN fold → SB limp 0.5 → BB shove 20",
+          "parent_id": "3wBBvSB_Limp",
+          "edge": "BB shove 20",
+          "visible_tail": "SB limp 0.5 → BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_020037_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 95,
           "sequence": "BTN fold → SB limp 0.5 → BB shove 23",
@@ -2756,7 +3196,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/95_Screenshot_20261126_013407_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/95_Screenshot_20261126_013407_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/139_Screenshot_20261126_020037_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvSB_Open3",
@@ -2773,12 +3214,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 140,
+          "sequence": "BTN fold → SB raise 3",
+          "parent_id": "3wSB_Open",
+          "edge": "SB raise 3",
+          "visible_tail": "BTN fold → SB raise 3",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_020051_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 96,
           "sequence": "BTN fold → SB raise 3",
@@ -2830,7 +3285,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/96_Screenshot_20261126_013416_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/96_Screenshot_20261126_013416_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/140_Screenshot_20261126_020051_GTO Ranges+.jpg"
     },
     {
       "id": "3wSBvBB_3bet9",
@@ -2847,7 +3303,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -2904,7 +3360,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/97_Screenshot_20261126_013423_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/97_Screenshot_20261126_013423_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 9 após SB raise 3 e BTN fold (print 140)"
+      }
     },
     {
       "id": "3wBBvSB_OpenShove",
@@ -2921,12 +3380,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 142,
+          "sequence": "BTN fold → SB shove 20",
+          "parent_id": "3wSB_Open",
+          "edge": "SB shove 20",
+          "visible_tail": "BTN fold → SB shove 20",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_020104_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 100,
           "sequence": "BTN fold → SB shove 23",
@@ -2977,7 +3450,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/100_Screenshot_20261126_013459_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/100_Screenshot_20261126_013459_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/142_Screenshot_20261126_020104_GTO Ranges+.jpg"
     },
     {
       "id": "3wSBvBB_3betShove",
@@ -2994,12 +3468,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 141,
+          "sequence": "BTN fold → SB raise 3 → BB shove 20",
+          "parent_id": "3wBBvSB_Open3",
+          "edge": "BB shove 20",
+          "visible_tail": "SB raise 3 → BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_020056_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 3H.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 99,
           "sequence": "BTN fold → SB raise 3 → BB shove 23",
@@ -3050,7 +3538,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/99_Screenshot_20261126_013446_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/99_Screenshot_20261126_013446_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/141_Screenshot_20261126_020056_GTO Ranges+.jpg"
     },
     {
       "id": "3wBBvSB_4betShove",
@@ -3067,7 +3556,7 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "NOT_APPLICABLE",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
@@ -3123,7 +3612,10 @@
           }
         }
       },
-      "source_23": "sources/23bb/98_Screenshot_20261126_013430_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/98_Screenshot_20261126_013430_GTO Ranges+.jpg",
+      "not_applicable_reasons": {
+        "20": "BB não oferece raise 9 após SB raise 3 e BTN fold (print 140)"
+      }
     },
     {
       "id": "HUSB_Open",
@@ -3140,12 +3632,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 143,
+          "sequence": "Pote não aberto",
+          "parent_id": null,
+          "edge": null,
+          "visible_tail": "Pote não aberto",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015336_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 101,
           "sequence": "Pote não aberto",
@@ -3197,7 +3703,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/101_Screenshot_20261126_013822_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/101_Screenshot_20261126_013822_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/143_Screenshot_20261126_015336_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_Limp",
@@ -3214,12 +3721,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 144,
+          "sequence": "SB limp 0.5",
+          "parent_id": "HUSB_Open",
+          "edge": "SB limp 0.5",
+          "visible_tail": "SB limp 0.5",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015353_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 102,
           "sequence": "SB limp 0.5",
@@ -3271,7 +3792,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/102_Screenshot_20261126_013830_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/102_Screenshot_20261126_013830_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/144_Screenshot_20261126_015353_GTO Ranges+.jpg"
     },
     {
       "id": "HUSBvBB_ISO2p5",
@@ -3288,12 +3810,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 145,
+          "sequence": "SB limp 0.5 → BB raise 2.5",
+          "parent_id": "HUBBvSB_Limp",
+          "edge": "BB raise 2.5",
+          "visible_tail": "SB limp 0.5 → BB raise 2.5",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015359_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 103,
           "sequence": "SB limp 0.5 → BB raise 2.5",
@@ -3345,7 +3881,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/103_Screenshot_20261126_013838_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/103_Screenshot_20261126_013838_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/145_Screenshot_20261126_015359_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_LimpReraise7p5",
@@ -3362,12 +3899,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 146,
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
+          "parent_id": "HUSBvBB_ISO2p5",
+          "edge": "SB raise 7.5",
+          "visible_tail": "BB raise 2.5 → SB raise 7.5",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015409_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 104,
           "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5",
@@ -3419,7 +3970,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/104_Screenshot_20261126_013848_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/104_Screenshot_20261126_013848_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/146_Screenshot_20261126_015409_GTO Ranges+.jpg"
     },
     {
       "id": "HUSBvBB_Shove_AfterLimpReraise7p5",
@@ -3436,12 +3988,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "BLOCKED_AGGREGATE"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 147,
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 20",
+          "parent_id": "HUBBvSB_LimpReraise7p5",
+          "edge": "BB shove 20",
+          "visible_tail": "SB raise 7.5 → BB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015415_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 105,
           "sequence": "SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 23",
@@ -3493,7 +4059,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/105_Screenshot_20261126_013855_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/105_Screenshot_20261126_013855_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/147_Screenshot_20261126_015415_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_LimpShove",
@@ -3510,12 +4077,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 148,
+          "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 20",
+          "parent_id": "HUSBvBB_ISO2p5",
+          "edge": "SB shove 20",
+          "visible_tail": "BB raise 2.5 → SB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015424_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 106,
           "sequence": "SB limp 0.5 → BB raise 2.5 → SB shove 23",
@@ -3567,7 +4148,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/106_Screenshot_20261126_013918_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/106_Screenshot_20261126_013918_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/148_Screenshot_20261126_015424_GTO Ranges+.jpg"
     },
     {
       "id": "HUSBvBB_ISOShove",
@@ -3584,12 +4166,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 149,
+          "sequence": "SB limp 0.5 → BB shove 20",
+          "parent_id": "HUBBvSB_Limp",
+          "edge": "BB shove 20",
+          "visible_tail": "SB limp 0.5 → BB shove 20",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015433_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 107,
           "sequence": "SB limp 0.5 → BB shove 23",
@@ -3641,7 +4237,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/107_Screenshot_20261126_013932_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/107_Screenshot_20261126_013932_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/149_Screenshot_20261126_015433_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_Open2",
@@ -3658,12 +4255,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 150,
+          "sequence": "SB raise 2",
+          "parent_id": "HUSB_Open",
+          "edge": "SB raise 2",
+          "visible_tail": "SB raise 2",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015438_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 108,
           "sequence": "SB raise 2",
@@ -3715,7 +4326,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/108_Screenshot_20261126_013940_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/108_Screenshot_20261126_013940_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/150_Screenshot_20261126_015438_GTO Ranges+.jpg"
     },
     {
       "id": "HUSBvBB_3bet6",
@@ -3732,12 +4344,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 151,
+          "sequence": "SB raise 2 → BB raise 6",
+          "parent_id": "HUBBvSB_Open2",
+          "edge": "BB raise 6",
+          "visible_tail": "SB raise 2 → BB raise 6",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015443_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 109,
           "sequence": "SB raise 2 → BB raise 6",
@@ -3789,7 +4415,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/109_Screenshot_20261126_014003_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/109_Screenshot_20261126_014003_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/151_Screenshot_20261126_015443_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_4betShove",
@@ -3806,12 +4433,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 152,
+          "sequence": "SB raise 2 → BB raise 6 → SB shove 20",
+          "parent_id": "HUSBvBB_3bet6",
+          "edge": "SB shove 20",
+          "visible_tail": "BB raise 6 → SB shove 20",
+          "history_status": "PREFIX_RECONSTRUCTED_FROM_20BB_TREE",
+          "source_filename": "Screenshot_20261126_015451_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 110,
           "sequence": "SB raise 2 → BB raise 6 → SB shove 23",
@@ -3863,7 +4504,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/110_Screenshot_20261126_014008_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/110_Screenshot_20261126_014008_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/152_Screenshot_20261126_015451_GTO Ranges+.jpg"
     },
     {
       "id": "HUSBvBB_3betShove",
@@ -3880,12 +4522,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 153,
+          "sequence": "SB raise 2 → BB shove 20",
+          "parent_id": "HUBBvSB_Open2",
+          "edge": "BB shove 20",
+          "visible_tail": "SB raise 2 → BB shove 20",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015458_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 111,
           "sequence": "SB raise 2 → BB shove 23",
@@ -3937,7 +4593,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/111_Screenshot_20261126_014014_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/111_Screenshot_20261126_014014_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/153_Screenshot_20261126_015458_GTO Ranges+.jpg"
     },
     {
       "id": "HUBBvSB_OpenShove",
@@ -3954,12 +4611,26 @@
         "12": "MISSING",
         "15": "MISSING",
         "17": "MISSING",
-        "20": "MISSING",
+        "20": "RECEIVED_PENDING_EXTRACTION",
         "23": "RECEIVED_PENDING_EXTRACTION",
         "25": "DRAFT_REVIEW"
       },
       "active": false,
       "histories": {
+        "20": {
+          "print": 154,
+          "sequence": "SB shove 20",
+          "parent_id": "HUSB_Open",
+          "edge": "SB shove 20",
+          "visible_tail": "SB shove 20",
+          "history_status": "VISIBLE_HISTORY",
+          "source_filename": "Screenshot_20261126_015506_GTO Ranges+.jpg",
+          "original_archive": "Spins 20 HU.zip",
+          "extraction": {
+            "code": "NOT_CODED",
+            "notes": "Menus e histórico conferidos visualmente; frequências por mão ainda não extraídas."
+          }
+        },
         "23": {
           "print": 112,
           "sequence": "SB shove 23",
@@ -4011,7 +4682,8 @@
           }
         }
       },
-      "source_23": "sources/23bb/112_Screenshot_20261126_014021_GTO Ranges+.jpg"
+      "source_23": "sources/23bb/112_Screenshot_20261126_014021_GTO Ranges+.jpg",
+      "source_20": "sources/20bb/154_Screenshot_20261126_015506_GTO Ranges+.jpg"
     }
   ],
   "additional_families": [
