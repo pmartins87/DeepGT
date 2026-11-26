@@ -40,3 +40,6 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 
 ## Prints 55–56 — últimas charts HU 25 BB
 [CSV](../charts/draft_25bb/frequencies_25bb_55_56.csv) · [Predicados offline](../charts/draft_25bb/DeepGT_25BB_55_56_DRAFT.txt) · [Auditoria](../charts/draft_25bb/audit_55_56.json) · [Manifesto](../sources/25bb/manifest_55_56.csv). Print 55: SB raise 2 → BB shove, Hero SB, fold/call 75,29/24,70. Print 56: SB open shove, Hero BB, fold/call 79,21/20,79. 56/56 nós conhecidos capturados. Nenhuma alteração deliberada de combos.
+
+## 23 BB — prints 57–112
+56 imagens mapeadas, 44 origem 3-handed e 12 HU nativo. Histórico/legendas por nó no registro; extração local preliminar e ressalvas em [INGEST_23BB.md](INGEST_23BB.md). Ainda sem código de desenvolvimento.
