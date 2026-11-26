@@ -51,3 +51,5 @@ Ver registry e painel para as dez sequências dos prints 10–19. Frequências d
 Para este release, captura encerrada em 154 prints (25/23/20 BB); <=17 BB cobertos pelo R10m. Stage 1 contém 154 funções isoladas, sem ativação. Registry e painel históricos representam intake Pure, não validação do Stage 1. Ver [Stage 1](R10M_HIGH_STACK_STAGE1.md) e [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md). 22 nós não-call de 25 BB exigem paridade com referência anterior; não solicitar print 155.
 
 Stage 1 R2: 154 charts isoladas no padrão list_ + f$chart_; referência de 22 nós não-call 25 BB restaurada, overlay 33/JTs mantido. [Manifesto das funções](../charts/optimized_high_stack/manifest154_r2.csv) e [matrizes efetivas](../charts/optimized_high_stack/transfer154_r2.csv). Catálogo/registry histórico preservado; nenhum nó ativado.
+
+154 charts conectadas no candidato integrado: [manifesto de rotas](../charts/optimized_high_stack/route_manifest154.json). Integração estática não significa homologação nativa; matriz efetiva R2 preservada.
