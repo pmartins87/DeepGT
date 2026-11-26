@@ -106,3 +106,6 @@ Print 33 (25 BB, 3wSBvBB_ISO3), JTs: 60% call, 40% raise, 0% fold/shove por leit
 
 ## Stage 1 R3 — 2026-11-26
 Sincronizado com R10m blob 144f67309950b38e0dfea81892fecc75bad76b6c; somente notes e f$move_Call_vs_Over_Donk alteradas, todas as charts/RNG preservados. Ver [R3](DEEPGT_STAGE1_R3.md). Roteamento e validações nativas ainda pendentes.
+
+## DeepGT integrado — 2026-11-26
+Roteamento das 154 charts conectado a f$preflop; 33 sizings normais derivados dos históricos; RNG e frequências preservados. 2.433 seções, 154 casos canônicos, 9 limites, 350 mutações em modelo PASS; conferência remota concluída. Parser/replay nativo não realizado. Fora da árvore/indeterminado: R10m. Ver [relatório integrado](DEEPGT_INTEGRATED.md).
