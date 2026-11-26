@@ -97,3 +97,6 @@ R10m cd9a6d7eb8e85f6e27c355be6e640f5a39f89be8 + 154 funções isoladas (1429 se�
 G1 BLOQUEADO: 154/154 históricos com pai válido ou raiz, 0 duplicatas, 169 tokens por print; 9.766 células sem decisão. Nos 22 nós não-call de 25 BB, 2.966 células comparáveis, 813 divergências >1 pp, 60 >5 pp, 2 >20 pp e 17 anteriormente resolvidas agora ausentes. Stage 1 e Pure preservados. Próxima ação: restaurar paridade de referência Pure nos nós não-call, verificar fontes 23/20, recuperar candidato integral (conector retornou vazio). Sem validação nativa ou roteamento ativo. Ver [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md).
 
 Atualização: acesso ao Stage 1 e ao R10m recuperado via blob SHA; prefixo textual integral idêntico e 1429 seções únicas confirmados. Upload do código dispensado; G1 continua pendente de reconciliação das leituras.
+
+## DeepGT Stage 1 R1 — correção pontual autorizada
+Print 33 (25 BB, 3wSBvBB_ISO3), JTs: 60% call, 40% raise, 0% fold/shove por leitura visual do usuário. Aplicado em src/DeepGT_STAGE1_R1_OFFLINE.txt, blob 593fb21b34b5b24c96c54ac8aa62fc3acc923ea9; overlay charts/optimized_high_stack/manual_overrides.csv. Cópia remota conferida integralmente contra patch esperado de uma única regra; Stage 1 congelado. G1 permanece aberto para outras divergências; RNG de estudo fixo, nenhuma ativação.
