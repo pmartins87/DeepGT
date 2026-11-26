@@ -92,3 +92,6 @@ Optimized: critério experimental simplificado de ranking por equity absoluta HU
 
 ## R10m high-stack Stage 1 (2026-11-26)
 R10m cd9a6d7eb8e85f6e27c355be6e640f5a39f89be8 + 154 funções isoladas (1429 seções totais), 93 calls candidatos, 92 mudanças no modelo proxy. 113820 verificações modeladas; sem roteamento ativo. Próximo gate: integração de estado/sizing e validação nativa. Captura <=17 BB desnecessária neste release. src/DeepGT.txt e registry Pure anteriores intactos. Ver R10M_HIGH_STACK_STAGE1.md.
+
+## DeepGT — G1 auditoria de paridade (2026-11-26)
+G1 BLOQUEADO: 154/154 históricos com pai válido ou raiz, 0 duplicatas, 169 tokens por print; 9.766 células sem decisão. Nos 22 nós não-call de 25 BB, 2.966 células comparáveis, 813 divergências >1 pp, 60 >5 pp, 2 >20 pp e 17 anteriormente resolvidas agora ausentes. Stage 1 e Pure preservados. Próxima ação: restaurar paridade de referência Pure nos nós não-call, verificar fontes 23/20, recuperar candidato integral (conector retornou vazio). Sem validação nativa ou roteamento ativo. Ver [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md).
