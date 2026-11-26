@@ -35,3 +35,5 @@ A cada lote, converter a fonte sem ajustes deliberados de combos; preservar dado
 A topologia inicial distingue 3-handed de origem e HU nativo, mesmo com dois jogadores ativos. Usar scope no registry e prefixos HUSB/HUBB nos nós nativos; respeitar sizing da fonte por stack. Painel separa árvores e conserva numeração global.
 
 Escopo do release R10m: preflop <=17 BB e postflop R10m; >17 charts 20/23/25 com otimização de calls conforme ranking absoluto. Gate de identificação de história e bucket inicial ainda aberto; fallback R10m off-tree é recomendação não habilitada. Ver R10M_HIGH_STACK_STAGE1.md.
+
+Checkpoint G1: preservar Pure previamente codificado em nós não-call; divergências da releitura registradas em [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md). Não habilitar roteamento durante inconsistência de fonte. Captura encerrada para este release.
