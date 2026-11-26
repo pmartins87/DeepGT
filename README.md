@@ -1,6 +1,6 @@
 # DeepGT
 
-Fork estratégico incremental do DeepCrusher R10i para estudo e validação offline de charts preflop GTO em Spin & Go. O postflop, os roteadores e a infraestrutura R10i são preservados salvo mudança localizada, justificada e autorizada.
+Projeto de estudo e validação offline de estratégia híbrida em Spin & Go. Nome oficial: DeepGT. Base deste release: DeepCrusher R10m, integral no postflop e no preflop até 17 BB inclusive; charts de 20/23/25 BB acima de 17 BB, com ajuste experimental restrito ao call contra all-in. R10i e o candidato Pure anterior são históricos preservados. Nenhuma estratégia híbrida está homologada.
 
 ## Acompanhamento visual
 
@@ -14,9 +14,10 @@ Fork estratégico incremental do DeepCrusher R10i para estudo e validação offl
 - [Catálogo de charts](docs/CHARTS_CATALOG.md) — origem, frequências e cobertura.
 - [Histórico](docs/CHANGELOG.md) — alterações versionadas.
 - [Gate 01](docs/GATE_01_RNG.md) — desenho, riscos e validação offline.
-- [Baseline congelado](baseline/DeepCrusher_R10i.txt) e [candidato](src/DeepGT.txt).
+- [Stage 1 offline atual](src/DeepGT_R10m_STAGE1_OFFLINE.txt), [relatório de arquitetura](docs/R10M_HIGH_STACK_STAGE1.md) e [auditoria G1](docs/HIGH_STACK_GATE_G1_AUDIT.md).
+- [Baseline histórico R10i](baseline/DeepCrusher_R10i.txt) e [candidato Pure histórico](src/DeepGT.txt).
 
-- [Política de buckets e ingestão](docs/PREFLOP_POLICY.md) — decisão vinculante de 11 stacks e fluxo obrigatório.
+- [Política de buckets e ingestão](docs/PREFLOP_POLICY.md) — escopo atual de 3 charts de stack e fluxo obrigatório; histórico de grade preservado.
 - [Registro preflop](charts/PREFLOP_REGISTRY.json) — cobertura por nó e stack.
 - [Manifesto dos prints 25 BB](sources/25bb/manifest.csv) — hashes dos originais; upload binário pendente.
 
