@@ -35,3 +35,5 @@ Data inicial: 2026-11-24.
 20. Decisão explícita 2026-11-26: DeepGT passa a usar R10m como base de todo postflop e preflop <=17 BB; usar charts (17,20], (20,23], >23 apenas acima de 17 BB. Não é mais necessário capturar <=17 BB para este release. Call contra all-in por ranking absoluto HU e frequência de referência; demais decisões fonte. Preservar a versão Pure e histórico. Ver R10M_HIGH_STACK_STAGE1.md. Sem ativação até validação de roteamento, sizing e parser/replay.
 
 21. Nome oficial do projeto: DeepGT. R10m identifica somente o baseline. Preservar a referência Pure previamente codificada nos nós não-call até evidência documentada de melhor leitura; diferenças de raster não são alterações estratégicas autorizadas. Ver [auditoria G1](HIGH_STACK_GATE_G1_AUDIT.md). Não considerar célula cinza como fold; bloquear ativação enquanto a paridade estiver pendente.
+
+22. Preservar o padrão acordado: listas para ações puras e f$chart_ para lista + intervalos mistos, f$GT_Random único por decisão e guard f$GT_RandomReady. Não substituir mecanismo já acordado ao trocar baseline. Ações desconhecidas não equivalem a fold. Ver [Stage 1 R2](DEEPGT_STAGE1_R2.md).
