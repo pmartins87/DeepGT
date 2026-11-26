@@ -48,3 +48,5 @@ Experimento monotônico concluído, sem promoção (OPTIMIZED_MONOTONIC_STUDY.md
 Esclarecimento do usuário: a entrega experimental revisada deve selecionar o método por chart, sem impor MonoRobust ou qualquer política universal. O gate comum de avaliação é mantido. Priorizar auditoria dos nós com inversões e comparação local de candidatos, distinguindo seleção exploratória e homologação independente. Catálogo histórico v0.1 e Pure preservados; próximo print 57 permanece reservado.
 
 Entregue catálogo híbrido v0.2 de estudo (56/56, 8 modificadas; print 16 pendente), método individual, não vencedor geral. Ver OPTIMIZED_HYBRID_25BB_V02.md. Revisar pendência e diferenças entre famílias somente com evidência suficiente; não relaxar gate de promoção. Print 57/23 BB permanece reservado.
+
+23 BB recebido em arquivos compactados e mapeado integralmente: prints 57–112. Extração preliminar local concluída; revisão e codificação pendentes, sem ativação. Próximo print de captura 113 (20 BB); manter linha Optimized separada. Ver INGEST_23BB.md.
