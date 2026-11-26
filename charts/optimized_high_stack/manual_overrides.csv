@@ -1,0 +1,2 @@
+print,stack,hand,fold_pct,call_pct,raise_pct,shove_pct,source,status
+33,25,JTs,0,60,40,0,user_visual_estimate_2026-11-26,APPLIED_OFFLINE_R1
