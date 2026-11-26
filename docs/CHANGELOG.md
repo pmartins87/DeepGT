@@ -81,3 +81,5 @@ Nome oficial DeepGT. Verificada integridade referencial dos 154 históricos e co
 2026-11-26 — Stage 1 R1 offline: correção visual explicitamente autorizada de JTs no print 33 (60 call/40 raise), somente f$GTStudy_Action_033 alterada; overlay versionado, candidato anterior preservado e cópia remota conferida. Nenhuma promoção.
 
 2026-11-26 — Stage 1 R2: recuperação da infraestrutura RNG já acordada e conversão das 154 charts ao formato list_ + f$chart_, restauração de referência nos 22 nós não-call de 25 BB e overlay JTs mantido. 2.419 seções únicas, modelo e verificação remota 114.406 partições PASS, sem ativação. [Relatório](DEEPGT_STAGE1_R2.md).
+
+2026-11-26 — R3 offline: sincronização com R10m mais recente, overpair na defesa HU flop overdonk, notas upstream incorporadas. 2419 seções únicas; todo o conteúdo adicional DeepGT preservado. [Relatório](DEEPGT_STAGE1_R3.md).
