@@ -59,3 +59,5 @@ Novo escopo Optimized (2026-11-26): apenas realocação de combos por equity nas
 Correção do escopo Optimized: incluir calls contra all-in com terceiro ainda a agir; preservar demais ações. Frequência fixa permanece hipótese de comparação, não garantia GTO; decisão de implementar critérios finais após avaliação. Captura 17 BB print 155 inalterada.
 
 Critério simplificado definido pelo usuário: variante de estudo com frequência agregada de call original e ordenação pela equity HU contra mão uniforme derivada da tabela PreFlopEquities.zip, para calls preflop contra all-in terminais e não terminais; demais ações Pure. Sem reconstrução de ranges adversários como requisito para gerar ranking. Implementação pendente; ver OPTIMIZED_PROPOSAL.md. Captura 17 BB, print 155, inalterada.
+
+Novo release autorizado: R10m + charts 20/23/25 acima de 17 BB; cancelar captura abaixo/igual 17 para este escopo. Stage 1 offline publicado com 154 funções de estudo e R10m integral; faltam roteamento e validação nativa. Ver R10M_HIGH_STACK_STAGE1.md. Não considerar pronto para jogo.
