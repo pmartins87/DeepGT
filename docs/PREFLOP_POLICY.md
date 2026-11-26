@@ -41,3 +41,5 @@ Checkpoint G1: preservar Pure previamente codificado em nós não-call; divergê
 Stage 1 R2: formato de ação pura em lista e mistura em f$chart_, RNG por decisão reaproveitado; dados efetivos rastreados no manifesto e matrizes R2. Não converter indeterminado em fold. Sem alteração de grade/escopo ou autorização para ativação.
 
 R3: atualização upstream exclusivamente postflop e notas; política preflop, matrizes R2 e RNG não alterados.
+
+Integração autorizada solicitada pelo usuário: aplicar os três buckets altos e históricos registrados, sem mudanças nas frequências. Usar fallback R10m para estado não reconhecido ou célula indeterminada; manter <=17 BB e postflop originais. [Contrato implementado](DEEPGT_INTEGRATED.md).
