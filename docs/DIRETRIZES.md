@@ -39,3 +39,5 @@ Data inicial: 2026-11-24.
 22. Preservar o padrão acordado: listas para ações puras e f$chart_ para lista + intervalos mistos, f$GT_Random único por decisão e guard f$GT_RandomReady. Não substituir mecanismo já acordado ao trocar baseline. Ações desconhecidas não equivalem a fold. Ver [Stage 1 R2](DEEPGT_STAGE1_R2.md).
 
 Sincronização upstream R3: fixar SHA da revisão R10m, comparar por seção, preservar extensões DeepGT, não incorporar propostas sem código aprovado; ver [relatório](DEEPGT_STAGE1_R3.md).
+
+DeepGT integrado: reutilizar a arquitetura R10m para buckets e classificadores; memória mínima de stack inicial e nó anterior para distinguir histórias. Não modificar charts/size por inferência fora da árvore; fallback R10m. Manter relatório e manifesto como fonte de verdade. [Relatório](DEEPGT_INTEGRATED.md).
