@@ -4,7 +4,7 @@
 
 Numeração global, permanente, por ordem de recebimento (todos os stacks). Não intercalar cenários ainda sem print, nem renumerar ao preencher lacunas da árvore.
 
-**Último print registrado: 112. Próximo print novo: 113.**
+**Último print registrado: 154. Próximo print novo: 155.**
 
 | Print | Stack (BB) | Origem | Sequência anterior | Hero | Estado |
 |---:|---:|---|---|:---:|---|
@@ -120,6 +120,48 @@ Numeração global, permanente, por ordem de recebimento (todos os stacks). Não
 | 110 | 23 | HU nativo | SB raise 2 → BB raise 6 → SB shove 23 | BB | 🔵 Recebida, falta codificar |
 | 111 | 23 | HU nativo | SB raise 2 → BB shove 23 | SB | 🔵 Recebida, falta codificar |
 | 112 | 23 | HU nativo | SB shove 23 | BB | 🔵 Recebida, falta codificar |
+| 113 | 20 | 3-handed | Pote não aberto | BTN | 🔵 Recebida, falta codificar |
+| 114 | 20 | 3-handed | BTN raise 2 | SB | 🔵 Recebida, falta codificar |
+| 115 | 20 | 3-handed | BTN raise 2 → SB fold | BB | 🔵 Recebida, falta codificar |
+| 116 | 20 | 3-handed | BTN raise 2 → SB fold → BB raise 6 | BTN | 🔵 Recebida, falta codificar |
+| 117 | 20 | 3-handed | BTN raise 2 → SB fold → BB raise 6 → BTN shove 20 | BB | 🔵 Recebida, falta codificar |
+| 118 | 20 | 3-handed | BTN raise 2 → SB fold → BB shove 20 | BTN | 🔵 Recebida, falta codificar |
+| 119 | 20 | 3-handed | BTN raise 2 → SB call 1.5 | BB | 🔵 Recebida, falta codificar |
+| 120 | 20 | 3-handed | BTN raise 2 → SB call 1.5 → BB shove 20 | BTN | 🔵 Recebida, falta codificar |
+| 121 | 20 | 3-handed | BTN raise 2 → SB call 1.5 → BB shove 20 → BTN fold | SB | 🔵 Recebida, falta codificar |
+| 122 | 20 | 3-handed | BTN raise 2 → SB call 1.5 → BB shove 20 → BTN call 18 | SB | 🔵 Recebida, falta codificar |
+| 123 | 20 | 3-handed | BTN raise 2 → SB raise 6 | BB | 🔵 Recebida, falta codificar |
+| 124 | 20 | 3-handed | BTN raise 2 → SB raise 6 → BB fold | BTN | 🔵 Recebida, falta codificar |
+| 125 | 20 | 3-handed | BTN raise 2 → SB raise 6 → BB fold → BTN shove 20 | SB | 🔵 Recebida, falta codificar |
+| 126 | 20 | 3-handed | BTN raise 2 → SB raise 6 → BB shove 20 | BTN | 🔵 Recebida, falta codificar |
+| 127 | 20 | 3-handed | BTN raise 2 → SB raise 6 → BB shove 20 → BTN fold | SB | 🔵 Recebida, falta codificar |
+| 128 | 20 | 3-handed | BTN raise 2 → SB raise 6 → BB shove 20 → BTN call 18 | SB | 🔵 Recebida, falta codificar |
+| 129 | 20 | 3-handed | BTN raise 2 → SB shove 20 | BB | 🔵 Recebida, falta codificar |
+| 130 | 20 | 3-handed | BTN raise 2 → SB shove 20 → BB fold | BTN | 🔵 Recebida, falta codificar |
+| 131 | 20 | 3-handed | BTN raise 2 → SB shove 20 → BB call 19 | BTN | 🔵 Recebida, falta codificar |
+| 132 | 20 | 3-handed | BTN shove 20 | SB | 🔵 Recebida, falta codificar |
+| 133 | 20 | 3-handed | BTN shove 20 → SB fold | BB | 🔵 Recebida, falta codificar |
+| 134 | 20 | 3-handed | BTN shove 20 → SB call 19.5 | BB | 🔵 Recebida, falta codificar |
+| 135 | 20 | 3-handed | BTN fold | SB | 🔵 Recebida, falta codificar |
+| 136 | 20 | 3-handed | BTN fold → SB limp 0.5 | BB | 🔵 Recebida, falta codificar |
+| 137 | 20 | 3-handed | BTN fold → SB limp 0.5 → BB raise 3 | SB | 🔵 Recebida, falta codificar |
+| 138 | 20 | 3-handed | BTN fold → SB limp 0.5 → BB raise 3 → SB shove 20 | BB | 🔵 Recebida, falta codificar |
+| 139 | 20 | 3-handed | BTN fold → SB limp 0.5 → BB shove 20 | SB | 🔵 Recebida, falta codificar |
+| 140 | 20 | 3-handed | BTN fold → SB raise 3 | BB | 🔵 Recebida, falta codificar |
+| 141 | 20 | 3-handed | BTN fold → SB raise 3 → BB shove 20 | SB | 🔵 Recebida, falta codificar |
+| 142 | 20 | 3-handed | BTN fold → SB shove 20 | BB | 🔵 Recebida, falta codificar |
+| 143 | 20 | HU nativo | Pote não aberto | SB | 🔵 Recebida, falta codificar |
+| 144 | 20 | HU nativo | SB limp 0.5 | BB | 🔵 Recebida, falta codificar |
+| 145 | 20 | HU nativo | SB limp 0.5 → BB raise 2.5 | SB | 🔵 Recebida, falta codificar |
+| 146 | 20 | HU nativo | SB limp 0.5 → BB raise 2.5 → SB raise 7.5 | BB | 🔵 Recebida, falta codificar |
+| 147 | 20 | HU nativo | SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 20 | SB | 🔵 Recebida, falta codificar |
+| 148 | 20 | HU nativo | SB limp 0.5 → BB raise 2.5 → SB shove 20 | BB | 🔵 Recebida, falta codificar |
+| 149 | 20 | HU nativo | SB limp 0.5 → BB shove 20 | SB | 🔵 Recebida, falta codificar |
+| 150 | 20 | HU nativo | SB raise 2 | BB | 🔵 Recebida, falta codificar |
+| 151 | 20 | HU nativo | SB raise 2 → BB raise 6 | SB | 🔵 Recebida, falta codificar |
+| 152 | 20 | HU nativo | SB raise 2 → BB raise 6 → SB shove 20 | BB | 🔵 Recebida, falta codificar |
+| 153 | 20 | HU nativo | SB raise 2 → BB shove 20 | SB | 🔵 Recebida, falta codificar |
+| 154 | 20 | HU nativo | SB shove 20 | BB | 🔵 Recebida, falta codificar |
 
 ## 2. Matriz de cobertura
 
@@ -129,68 +171,68 @@ Codificada significa que a chart já está no arquivo de desenvolvimento, não q
 
 | Cenário | 25 | 23 | 20 | 17 | 15 | 12 | 10 | 8 | 6 | 4 | 2 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| BTN Open | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BTN | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN (SB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs BB 3bet | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN 4bet AI | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs BB shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs squeeze | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs squeeze | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB 4bet AI | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN + SB | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs squeeze (BTN call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB shove (BTN call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs SB shove (BB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs SB shove (BB call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BTN shove (squeeze) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN shove (SB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN shove (SB call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs BB shove (SB call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB shove (BTN fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB shove (BTN call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB open (BTN fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB 3bet | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs SB 3bet (BB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BTN 4bet shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs BB shove (SB 3bet) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB shove (BTN fold, SB 3bet) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB shove (BTN call, SB 3bet) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB shove (BTN open) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs SB shove (BB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BTN vs SB shove (BB call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BTN open shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN open shove (SB fold) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs BTN open shove (SB call) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB limp | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB iso 3 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB limp-reraise 9 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB shove (limp-reraise) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB limp-shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB iso shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB open 3 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB 3bet 9 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB open shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| SB vs BB 3bet shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| BB vs SB 4bet shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB open | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs limp | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs iso 2.5 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs limp-reraise 7.5 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs shove (limp-reraise) | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs limp-shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs iso shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs open 2 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs 3bet 6 | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs 4bet shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU SB vs 3bet shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| HU BB vs open shove | 🟢 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN Open | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN (SB fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs BB 3bet | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN 4bet AI | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs BB shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs squeeze | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs squeeze | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 4bet AI | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN + SB | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs squeeze (BTN call) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB shove (BTN call) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB fold) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB call) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN shove (squeeze) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN shove (SB fold) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN shove (SB call) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs BB shove (SB call) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN call) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB open (BTN fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 3bet | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB 3bet (BB fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN 4bet shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs BB shove (SB 3bet) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN fold, SB 3bet) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (BTN call, SB 3bet) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB shove (BTN open) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BTN vs SB shove (BB call) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BTN open shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN open shove (SB fold) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs BTN open shove (SB call) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB iso 3 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp-reraise 9 | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB shove (limp-reraise) | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB limp-shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB iso shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB open 3 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB 3bet 9 | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB open shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| SB vs BB 3bet shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| BB vs SB 4bet shove | 🟢 | 🔵 | — | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB open | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs limp | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs iso 2.5 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs limp-reraise 7.5 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs shove (limp-reraise) | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs limp-shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs iso shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs open 2 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs 3bet 6 | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs 4bet shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU SB vs 3bet shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| HU BB vs open shove | 🟢 | 🔵 | 🔵 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 
 | Stack | Codificadas | Falta print | Recebidas a codificar |
 |---:|---:|---:|---:|
 | 25 | 56 | 0 | 0 |
 | 23 | 0 | 0 | 56 |
-| 20 | 0 | 56 | 0 |
+| 20 | 0 | 0 | 42 |
 | 17 | 0 | 56 | 0 |
 | 15 | 0 | 56 | 0 |
 | 12 | 0 | 56 | 0 |
@@ -555,6 +597,148 @@ flowchart TD
   N8 -->|"BB shove 23"| N11
   N12["112 · HU BB vs open shove"]
   N1 -->|"SB shove 23"| N12
+  classDef coded fill:#d8f1dc,stroke:#438747,color:#222
+  classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
+  classDef received fill:#dbeafe,stroke:#3477bc,color:#222
+  class N1 received
+  class N2 received
+  class N3 received
+  class N4 received
+  class N5 received
+  class N6 received
+  class N7 received
+  class N8 received
+  class N9 received
+  class N10 received
+  class N11 received
+  class N12 received
+```
+
+### 20 BB — 3-handed de origem
+
+```mermaid
+flowchart TD
+  N1["113 · BTN Open"]
+  N2["114 · SB vs BTN"]
+  N1 -->|"BTN raise 2"| N2
+  N3["115 · BB vs BTN (SB fold)"]
+  N2 -->|"SB fold"| N3
+  N4["116 · BTN vs BB 3bet"]
+  N3 -->|"BB raise 6"| N4
+  N5["117 · BB vs BTN 4bet AI"]
+  N4 -->|"BTN shove 20"| N5
+  N6["118 · BTN vs BB shove"]
+  N3 -->|"BB shove 20"| N6
+  N7["119 · BB vs BTN + SB"]
+  N2 -->|"SB call 1.5"| N7
+  N8["120 · BTN vs BB shove (SB call)"]
+  N7 -->|"BB shove 20"| N8
+  N9["121 · SB vs BB shove (BTN fold)"]
+  N8 -->|"BTN fold"| N9
+  N10["122 · SB vs BB shove (BTN call)"]
+  N8 -->|"BTN call 18"| N10
+  N11["135 · SB open (BTN fold)"]
+  N1 -->|"BTN fold"| N11
+  N12["123 · BB vs SB 3bet"]
+  N2 -->|"SB raise 6"| N12
+  N13["124 · BTN vs SB 3bet (BB fold)"]
+  N12 -->|"BB fold"| N13
+  N14["125 · SB vs BTN 4bet shove"]
+  N13 -->|"BTN shove 20"| N14
+  N15["126 · BTN vs BB shove (SB 3bet)"]
+  N12 -->|"BB shove 20"| N15
+  N16["127 · SB vs BB shove (BTN fold, SB 3bet)"]
+  N15 -->|"BTN fold"| N16
+  N17["128 · SB vs BB shove (BTN call, SB 3bet)"]
+  N15 -->|"BTN call 18"| N17
+  N18["129 · BB vs SB shove (BTN open)"]
+  N2 -->|"SB shove 20"| N18
+  N19["130 · BTN vs SB shove (BB fold)"]
+  N18 -->|"BB fold"| N19
+  N20["131 · BTN vs SB shove (BB call)"]
+  N18 -->|"BB call 19"| N20
+  N21["132 · SB vs BTN open shove"]
+  N1 -->|"BTN shove 20"| N21
+  N22["133 · BB vs BTN open shove (SB fold)"]
+  N21 -->|"SB fold"| N22
+  N23["134 · BB vs BTN open shove (SB call)"]
+  N21 -->|"SB call 19.5"| N23
+  N24["136 · BB vs SB limp"]
+  N11 -->|"SB limp 0.5"| N24
+  N25["137 · SB vs BB iso 3"]
+  N24 -->|"BB raise 3"| N25
+  N26["138 · BB vs SB limp-shove"]
+  N25 -->|"SB shove 20"| N26
+  N27["139 · SB vs BB iso shove"]
+  N24 -->|"BB shove 20"| N27
+  N28["140 · BB vs SB open 3"]
+  N11 -->|"SB raise 3"| N28
+  N29["142 · BB vs SB open shove"]
+  N11 -->|"SB shove 20"| N29
+  N30["141 · SB vs BB 3bet shove"]
+  N28 -->|"BB shove 20"| N30
+  classDef coded fill:#d8f1dc,stroke:#438747,color:#222
+  classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
+  classDef received fill:#dbeafe,stroke:#3477bc,color:#222
+  class N1 received
+  class N2 received
+  class N3 received
+  class N4 received
+  class N5 received
+  class N6 received
+  class N7 received
+  class N8 received
+  class N9 received
+  class N10 received
+  class N11 received
+  class N12 received
+  class N13 received
+  class N14 received
+  class N15 received
+  class N16 received
+  class N17 received
+  class N18 received
+  class N19 received
+  class N20 received
+  class N21 received
+  class N22 received
+  class N23 received
+  class N24 received
+  class N25 received
+  class N26 received
+  class N27 received
+  class N28 received
+  class N29 received
+  class N30 received
+```
+
+### 20 BB — HU nativo
+
+```mermaid
+flowchart TD
+  N1["143 · HU SB open"]
+  N2["144 · HU BB vs limp"]
+  N1 -->|"SB limp 0.5"| N2
+  N3["145 · HU SB vs iso 2.5"]
+  N2 -->|"BB raise 2.5"| N3
+  N4["146 · HU BB vs limp-reraise 7.5"]
+  N3 -->|"SB raise 7.5"| N4
+  N5["147 · HU SB vs shove (limp-reraise)"]
+  N4 -->|"BB shove 20"| N5
+  N6["148 · HU BB vs limp-shove"]
+  N3 -->|"SB shove 20"| N6
+  N7["149 · HU SB vs iso shove"]
+  N2 -->|"BB shove 20"| N7
+  N8["150 · HU BB vs open 2"]
+  N1 -->|"SB raise 2"| N8
+  N9["151 · HU SB vs 3bet 6"]
+  N8 -->|"BB raise 6"| N9
+  N10["152 · HU BB vs 4bet shove"]
+  N9 -->|"SB shove 20"| N10
+  N11["153 · HU SB vs 3bet shove"]
+  N8 -->|"BB shove 20"| N11
+  N12["154 · HU BB vs open shove"]
+  N1 -->|"SB shove 20"| N12
   classDef coded fill:#d8f1dc,stroke:#438747,color:#222
   classDef pending fill:#f1f1f1,stroke:#777,stroke-dasharray:5 3,color:#222
   classDef received fill:#dbeafe,stroke:#3477bc,color:#222
