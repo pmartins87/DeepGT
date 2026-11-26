@@ -70,3 +70,5 @@
 2026-11-26: redefinido escopo de pesquisa Optimized para call terminal com frequência fixa e equity máxima; políticas anteriores arquivadas, sem alteração de código ou charts.
 
 2026-11-26: definido critério simplificado de estudo de calls contra all-in por equity absoluta HU e frequência original; tabela de 169 classes conferida, sem alteração de código ou charts.
+
+2026-11-26: nova especificação R10m e corte >17 BB; Stage 1 offline com 154 funções de estudo, 93 calls alvo e auditoria; sem roteamento ativo, sem mudança de Pure/registry. Captura restante não necessária para este release.
