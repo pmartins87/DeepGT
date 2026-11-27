@@ -76,3 +76,5 @@ Checkpoint R3: sincronização upstream concluída (base 144f67309950b38e0dfea81
 Checkpoint integrado: roteamento, snapshots e sizing implementados para teste autorizado; validação estática/modelada concluída nos casos registrados. G1 raster e G2/G3/G4/G5 nativos não homologados. Não reabrir definições estratégicas. Próximo: teste autorizado pelo usuário e diagnóstico de erros observados. [Relatório](DEEPGT_INTEGRATED.md).
 
 Checkpoint parser: primeira tentativa falhou por Unicode nos comentários; hotfix ASCII publicado e verificado remotamente. G4 permanece aberto até novo carregamento nativo offline. Adotar verificação ASCII pré-publicação obrigatória conforme DIRETRIZES.md; demais gates inalterados.
+
+Segundo checkpoint parser: sintaxe hand$ corrigida de forma global, confirmada na fonte OH e em modelo de classes. G4 permanece bloqueado ate novo carregamento nativo offline; exigir auditoria sintatica/semantica fonte-first antes de nova entrega. Demais gates preservados.
