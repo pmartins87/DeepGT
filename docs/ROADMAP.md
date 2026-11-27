@@ -78,3 +78,5 @@ Checkpoint integrado: roteamento, snapshots e sizing implementados para teste au
 Checkpoint parser: primeira tentativa falhou por Unicode nos comentários; hotfix ASCII publicado e verificado remotamente. G4 permanece aberto até novo carregamento nativo offline. Adotar verificação ASCII pré-publicação obrigatória conforme DIRETRIZES.md; demais gates inalterados.
 
 Segundo checkpoint parser: sintaxe hand$ corrigida de forma global, confirmada na fonte OH e em modelo de classes. G4 permanece bloqueado ate novo carregamento nativo offline; exigir auditoria sintatica/semantica fonte-first antes de nova entrega. Demais gates preservados.
+
+Notação offsuit nativa revisada e adotada; auditoria ampliada e parser offline permanecem pendentes. Sem mudança de política.
