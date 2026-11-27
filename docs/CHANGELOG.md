@@ -88,3 +88,6 @@ Nome oficial DeepGT. Verificada integridade referencial dos 154 históricos e co
 
 ## 2026-11-26 — hotfix ASCII
 Blob integrado 2b5807a787e5c642d2d549d8d519506424c10896, commit b1a7785499c67b66584edcb1efcade4d40871441. 299 caracteres Unicode em 142 linhas de comentários normalizados; nenhuma mudança executável. Repetir parser offline. Gate ASCII integral obrigatório.
+
+## 2026-11-26 — hotfix hand$
+Corrigidas 5678 expressoes de classe em 373 predicados de chart; 2661 suited e 3017 offsuit. Blob 9257350487bffd678c9db0604f03e6c8662788f2, commit 5db1e153d1c11db40ac2a95740b72ef0a0642e2d. Sem mudanca de frequencias, listas ou roteamento. Parser nativo pendente.
