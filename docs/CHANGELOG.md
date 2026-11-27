@@ -91,3 +91,6 @@ Blob integrado 2b5807a787e5c642d2d549d8d519506424c10896, commit b1a7785499c67b66
 
 ## 2026-11-26 — hotfix hand$
 Corrigidas 5678 expressoes de classe em 373 predicados de chart; 2661 suited e 3017 offsuit. Blob 9257350487bffd678c9db0604f03e6c8662788f2, commit 5db1e153d1c11db40ac2a95740b72ef0a0642e2d. Sem mudanca de frequencias, listas ou roteamento. Parser nativo pendente.
+
+## Notação nativa offsuit — 2026-11-26
+Revisão solicitada pelo usuário: a abreviatura existe no OH como `$XYo` (sem prefixo hand). CSymbolEngineCards::IsHand (linhas 26994–27064 do dump local) interpreta o/O como suited=2, rejeitando hole cards do mesmo naipe, e s/S como suited=1. EvaluateSymbol encaminha símbolos `$` a IsHand; o tokenizer reconhece `$` inicial como identificador. O engine hand$ é distinto e não reconhece o sufixo o como filtro de naipe. Substituídas 3017 expressões `(hand$XY && !issuited)` por `$XYo` em 300 seções de charts. Ambas são equivalentes em NLHE com cartas válidas; mantidas expressões suited e pares. Blob 10e49e9db803095e534064679ae94d76c46b8ff3, commit 1dca70781b3162ff497fec45f9dbdd0a66e2d89a. Releitura remota e transformação inversa reproduziram integralmente o blob anterior; ASCII, linhas, seções e política preservados. Parser nativo pendente; auditoria ampliada ainda não concluída.
