@@ -43,3 +43,5 @@ Sincronização upstream R3: fixar SHA da revisão R10m, comparar por seção, p
 DeepGT integrado: reutilizar a arquitetura R10m para buckets e classificadores; memória mínima de stack inicial e nó anterior para distinguir histórias. Não modificar charts/size por inferência fora da árvore; fallback R10m. Manter relatório e manifesto como fonte de verdade. [Relatório](DEEPGT_INTEGRATED.md).
 
 23. Gate obrigatório de publicação OH/PPL: verificar todo o arquivo (inclusive comentários) em ASCII padrão, sem BOM nem caracteres de controle além de TAB/CR/LF. Validar conteúdo remoto após upload; falha bloqueia entrega. Não confundir com parser nativo. Evidência: hotfix ASCII de 2026-11-26 em DEEPGT_INTEGRATED.md.
+
+24. Validar sintaxe e semantica dos novos simbolos/expressoes contra codigo-fonte e biblioteca da versao OH alvo, antes de publicar. Nao confundir classe de mao de uma tabela/lista (XYs/XYo) com expressao hand$: usar hand$XYsuited e (hand$XY && !issuited), respectivamente, e hand$XX para pares. Auditar o arquivo integral, testar preservacao da intencao e manter gate de parser nativo separado. Ver hotfix hand$ em DEEPGT_INTEGRATED.md.
