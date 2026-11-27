@@ -21246,7 +21246,7 @@ me_re_GTRandom
 // DeepGT: isolated chart predicates. No consumer in action callbacks; offline only.
 // RNG restored from previous DeepGT Gate 01; unresolved returns -1, never implicit fold.
 // C in transfer data means Call, Check or Limp depending on node.
-// Print 1; 25 BB; 3-handed origin; Hero BTN; Pote não aberto
+// Print 1; 25 BB; 3-handed origin; Hero BTN; Pote nao aberto
 // ARCHIVED_PURE_25. Unknown cells are not fold.
 ##list_BTN_OpenFold_25##
 Q3s Q2s J4s J3s J2s T5s T4s T3s T2s 95s 94s 93s
@@ -24676,7 +24676,7 @@ When f$chart_3wSB_Open_Raise_25 Return 2 Force
 When f$chart_3wSB_Open_Shove_25 Return 3 Force
 When Others Return -1 Force
 
-// Print 45; 25 BB; HU native; Hero SB; Pote não aberto
+// Print 45; 25 BB; HU native; Hero SB; Pote nao aberto
 // ARCHIVED_PURE_25. Unknown cells are not fold.
 ##list_HUSB_Open_Fold_25##
 82o 72o 62o 42o 32o
@@ -26151,7 +26151,7 @@ When f$chart_HUBBvSB_OpenShove_Raise_25 Return 2 Force
 When f$chart_HUBBvSB_OpenShove_Shove_25 Return 3 Force
 When Others Return -1 Force
 
-// Print 57; 23 BB; 3-handed origin; Hero BTN; Pote não aberto
+// Print 57; 23 BB; 3-handed origin; Hero BTN; Pote nao aberto
 // STAGE1_RASTER_ESTIMATE. Unknown cells are not fold.
 ##list_BTN_OpenFold_23##
 K2s Q3s Q2s J4s J3s J2s T5s T4s T3s T2s 95s 94s
@@ -29163,7 +29163,7 @@ When f$chart_3wBBvSB_OpenShove_Raise_23 Return 2 Force
 When f$chart_3wBBvSB_OpenShove_Shove_23 Return 3 Force
 When Others Return -1 Force
 
-// Print 101; 23 BB; HU native; Hero SB; Pote não aberto
+// Print 101; 23 BB; HU native; Hero SB; Pote nao aberto
 // STAGE1_RASTER_ESTIMATE. Unknown cells are not fold.
 ##list_HUSB_Open_Fold_23##
 82o 72o 62o 42o 32o
@@ -30439,7 +30439,7 @@ When f$chart_HUBBvSB_OpenShove_Raise_23 Return 2 Force
 When f$chart_HUBBvSB_OpenShove_Shove_23 Return 3 Force
 When Others Return -1 Force
 
-// Print 113; 20 BB; 3-handed origin; Hero BTN; Pote não aberto
+// Print 113; 20 BB; 3-handed origin; Hero BTN; Pote nao aberto
 // STAGE1_RASTER_ESTIMATE. Unknown cells are not fold.
 ##list_BTN_OpenFold_20##
 K2s Q3s Q2s J5s J4s J3s J2s T5s T4s T3s T2s 95s
@@ -32652,7 +32652,7 @@ When f$chart_3wBBvSB_OpenShove_Raise_20 Return 2 Force
 When f$chart_3wBBvSB_OpenShove_Shove_20 Return 3 Force
 When Others Return -1 Force
 
-// Print 143; 20 BB; HU native; Hero SB; Pote não aberto
+// Print 143; 20 BB; HU native; Hero SB; Pote nao aberto
 // STAGE1_RASTER_ESTIMATE. Unknown cells are not fold.
 ##list_HUSB_Open_Fold_20##
 82o 72o 62o 42o 32o
@@ -34039,311 +34039,311 @@ When Others Return false Force
 ##f$GT_ChartNode##
 // Authorized private/simulation testing only. Exact history match; otherwise R10m.
 When !f$GT_ValidGeometry || f$GT_StackBucket = 0 Return 0 Force
-// 1 | 25BB | Pote não aberto
+// 1 | 25BB | Pote nao aberto
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_BTNPlaying && currentbet_dealerchair = 0 && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 1 Force
 // 2 | 25BB | BTN raise 2
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Normal && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 2 Force
-// 3 | 25BB | BTN raise 2 → SB fold
+// 3 | 25BB | BTN raise 2 -> SB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 3 Force
-// 4 | 25BB | BTN raise 2 → SB fold → BB raise 6
+// 4 | 25BB | BTN raise 2 -> SB fold -> BB raise 6
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 4 Force
-// 5 | 25BB | BTN raise 2 → SB fold → BB raise 6 → BTN shove
+// 5 | 25BB | BTN raise 2 -> SB fold -> BB raise 6 -> BTN shove
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 3 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 5 Force
-// 6 | 25BB | BTN raise 2 → SB fold → BB shove
+// 6 | 25BB | BTN raise 2 -> SB fold -> BB shove
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 6 Force
-// 7 | 25BB | BTN raise 2 → SB call → BB raise 8
+// 7 | 25BB | BTN raise 2 -> SB call -> BB raise 8
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 7 Force
-// 8 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN fold
+// 8 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 8 Force
-// 9 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN fold → SB shove
+// 9 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN fold -> SB shove
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 43 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 9 Force
-// 10 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN call 6
+// 10 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN call 6
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 10 Force
-// 11 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25
+// 11 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN call 6 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 43 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 11 Force
-// 12 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB fold
+// 12 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN call 6 -> SB shove 25 -> BB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 7 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_BBPlaying Return 12 Force
-// 13 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN call 6 → SB shove 25 → BB call 17
+// 13 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN call 6 -> SB shove 25 -> BB call 17
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 7 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = currentbet_smallblindchair Return 13 Force
-// 14 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN shove 25
+// 14 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 2 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 14 Force
-// 15 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB fold
+// 15 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN shove 25 -> SB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 43 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 15 Force
-// 16 | 25BB | BTN raise 2 → SB call → BB raise 8 → BTN shove 25 → SB call 23
+// 16 | 25BB | BTN raise 2 -> SB call -> BB raise 8 -> BTN shove 25 -> SB call 23
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 43 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = currentbet_dealerchair && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 16 Force
-// 17 | 25BB | BTN raise 2 → SB call → BB shove 25
+// 17 | 25BB | BTN raise 2 -> SB call -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 17 Force
-// 18 | 25BB | BTN raise 2 → SB call → BB shove 25 → BTN fold
+// 18 | 25BB | BTN raise 2 -> SB call -> BB shove 25 -> BTN fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 18 Force
-// 19 | 25BB | BTN raise 2 → SB call → BB shove 25 → BTN call 23
+// 19 | 25BB | BTN raise 2 -> SB call -> BB shove 25 -> BTN call 23
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 19 Force
-// 20 | 25BB | BTN raise 2 → SB raise 6
+// 20 | 25BB | BTN raise 2 -> SB raise 6
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 20 Force
-// 21 | 25BB | BTN raise 2 → SB raise 6 → BB fold
+// 21 | 25BB | BTN raise 2 -> SB raise 6 -> BB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 21 Force
-// 22 | 25BB | BTN raise 2 → SB raise 6 → BB fold → BTN shove 25
+// 22 | 25BB | BTN raise 2 -> SB raise 6 -> BB fold -> BTN shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 22 Force
-// 23 | 25BB | BTN raise 2 → SB raise 6 → BB shove 25
+// 23 | 25BB | BTN raise 2 -> SB raise 6 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 2 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 23 Force
-// 24 | 25BB | BTN raise 2 → SB raise 6 → BB shove 25 → BTN fold
+// 24 | 25BB | BTN raise 2 -> SB raise 6 -> BB shove 25 -> BTN fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 24 Force
-// 25 | 25BB | BTN raise 2 → SB raise 6 → BB shove 25 → BTN call 23
+// 25 | 25BB | BTN raise 2 -> SB raise 6 -> BB shove 25 -> BTN call 23
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 2 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 25 Force
-// 26 | 25BB | BTN raise 2 → SB shove 25
+// 26 | 25BB | BTN raise 2 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 26 Force
-// 27 | 25BB | BTN raise 2 → SB shove 25 → BB fold
+// 27 | 25BB | BTN raise 2 -> SB shove 25 -> BB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_BBPlaying Return 27 Force
-// 28 | 25BB | BTN raise 2 → SB shove 25 → BB call 24
+// 28 | 25BB | BTN raise 2 -> SB shove 25 -> BB call 24
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 1 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = currentbet_smallblindchair Return 28 Force
 // 29 | 25BB | BTN shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 29 Force
-// 30 | 25BB | BTN shove 25 → SB fold
+// 30 | 25BB | BTN shove 25 -> SB fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 30 Force
-// 31 | 25BB | BTN shove 25 → SB call 24.5
+// 31 | 25BB | BTN shove 25 -> SB call 24.5
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = currentbet_dealerchair && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 31 Force
-// 32 | 25BB | BTN fold → SB limp 0.5
+// 32 | 25BB | BTN fold -> SB limp 0.5
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 32 Force
-// 33 | 25BB | BTN fold → SB limp 0.5 → BB raise 3
+// 33 | 25BB | BTN fold -> SB limp 0.5 -> BB raise 3
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 44 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 33 Force
-// 34 | 25BB | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9
+// 34 | 25BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB raise 9
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 32 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (9 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 34 Force
-// 35 | 25BB | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 25
+// 35 | 25BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB raise 9 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 33 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (9 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 35 Force
-// 36 | 25BB | BTN fold → SB limp 0.5 → BB raise 3 → SB shove 25
+// 36 | 25BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 32 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 36 Force
-// 37 | 25BB | BTN fold → SB limp 0.5 → BB shove 25
+// 37 | 25BB | BTN fold -> SB limp 0.5 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 44 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 37 Force
-// 38 | 25BB | BTN fold → SB raise 3
+// 38 | 25BB | BTN fold -> SB raise 3
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MID && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 38 Force
-// 39 | 25BB | BTN fold → SB raise 3 → BB raise 9
+// 39 | 25BB | BTN fold -> SB raise 3 -> BB raise 9
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 44 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (9 * f$bblind_BKP) && balance_bigblindchair > 0 Return 39 Force
-// 40 | 25BB | BTN fold → SB raise 3 → BB raise 9 → SB shove 25
+// 40 | 25BB | BTN fold -> SB raise 3 -> BB raise 9 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 38 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (9 * f$bblind_BKP) && balance_bigblindchair > 0 Return 40 Force
-// 41 | 25BB | BTN fold → SB raise 3 → BB shove 25
+// 41 | 25BB | BTN fold -> SB raise 3 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 44 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 41 Force
-// 42 | 25BB | BTN fold → SB shove 25
+// 42 | 25BB | BTN fold -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 42 Force
-// 43 | 25BB | BTN raise 2 → SB call
+// 43 | 25BB | BTN raise 2 -> SB call
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 43 Force
 // 44 | 25BB | BTN fold
 When f$GT_Stack_25 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 44 Force
-// 45 | 25BB | Pote não aberto
+// 45 | 25BB | Pote nao aberto
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 45 Force
 // 46 | 25BB | SB limp 0.5
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 46 Force
-// 47 | 25BB | SB limp 0.5 → BB raise 2.5
+// 47 | 25BB | SB limp 0.5 -> BB raise 2.5
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 45 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 47 Force
-// 48 | 25BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5
+// 48 | 25BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 46 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 48 Force
-// 49 | 25BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 25
+// 49 | 25BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 47 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 49 Force
-// 50 | 25BB | SB limp 0.5 → BB raise 2.5 → SB shove 25
+// 50 | 25BB | SB limp 0.5 -> BB raise 2.5 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 46 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 50 Force
-// 51 | 25BB | SB limp 0.5 → BB shove 25
+// 51 | 25BB | SB limp 0.5 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 45 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 51 Force
 // 52 | 25BB | SB raise 2
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Normal && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 52 Force
-// 53 | 25BB | SB raise 2 → BB raise 6
+// 53 | 25BB | SB raise 2 -> BB raise 6
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 45 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 53 Force
-// 54 | 25BB | SB raise 2 → BB raise 6 → SB shove 25
+// 54 | 25BB | SB raise 2 -> BB raise 6 -> SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 52 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 54 Force
-// 55 | 25BB | SB raise 2 → BB shove 25
+// 55 | 25BB | SB raise 2 -> BB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 45 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 55 Force
 // 56 | 25BB | SB shove 25
 When f$GT_Stack_25 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 56 Force
-// 57 | 23BB | Pote não aberto
+// 57 | 23BB | Pote nao aberto
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_BTNPlaying && currentbet_dealerchair = 0 && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 57 Force
 // 58 | 23BB | BTN raise 2
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Normal && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 58 Force
-// 59 | 23BB | BTN raise 2 → SB fold
+// 59 | 23BB | BTN raise 2 -> SB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 59 Force
-// 60 | 23BB | BTN raise 2 → SB fold → BB raise 6
+// 60 | 23BB | BTN raise 2 -> SB fold -> BB raise 6
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 60 Force
-// 61 | 23BB | BTN raise 2 → SB fold → BB raise 6 → BTN shove 23
+// 61 | 23BB | BTN raise 2 -> SB fold -> BB raise 6 -> BTN shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 59 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 61 Force
-// 62 | 23BB | BTN raise 2 → SB fold → BB shove 23
+// 62 | 23BB | BTN raise 2 -> SB fold -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 62 Force
-// 63 | 23BB | BTN raise 2 → SB call 1.5
+// 63 | 23BB | BTN raise 2 -> SB call 1.5
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 63 Force
-// 64 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8
+// 64 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 64 Force
-// 65 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN fold
+// 65 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 65 Force
-// 66 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN fold → SB shove 23
+// 66 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN fold -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 63 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 66 Force
-// 67 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6
+// 67 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN call 6
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 67 Force
-// 68 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23
+// 68 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN call 6 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 63 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 68 Force
-// 69 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23 → BB fold
+// 69 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN call 6 -> SB shove 23 -> BB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 64 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_BBPlaying Return 69 Force
-// 70 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN call 6 → SB shove 23 → BB call 15
+// 70 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN call 6 -> SB shove 23 -> BB call 15
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 64 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (8 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = currentbet_smallblindchair Return 70 Force
-// 71 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23
+// 71 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 2 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 71 Force
-// 72 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23 → SB fold
+// 72 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN shove 23 -> SB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 63 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 72 Force
-// 73 | 23BB | BTN raise 2 → SB call 1.5 → BB raise 8 → BTN shove 23 → SB call 21
+// 73 | 23BB | BTN raise 2 -> SB call 1.5 -> BB raise 8 -> BTN shove 23 -> SB call 21
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 63 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = currentbet_dealerchair && f$GT_BBPlaying && currentbet_bigblindchair = (8 * f$bblind_BKP) && balance_bigblindchair > 0 Return 73 Force
-// 74 | 23BB | BTN raise 2 → SB call 1.5 → BB shove 23
+// 74 | 23BB | BTN raise 2 -> SB call 1.5 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 74 Force
-// 75 | 23BB | BTN raise 2 → SB call 1.5 → BB shove 23 → BTN fold
+// 75 | 23BB | BTN raise 2 -> SB call 1.5 -> BB shove 23 -> BTN fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 75 Force
-// 76 | 23BB | BTN raise 2 → SB call 1.5 → BB shove 23 → BTN call 21
+// 76 | 23BB | BTN raise 2 -> SB call 1.5 -> BB shove 23 -> BTN call 21
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 76 Force
-// 77 | 23BB | BTN raise 2 → SB raise 6
+// 77 | 23BB | BTN raise 2 -> SB raise 6
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 77 Force
-// 78 | 23BB | BTN raise 2 → SB raise 6 → BB fold
+// 78 | 23BB | BTN raise 2 -> SB raise 6 -> BB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 78 Force
-// 79 | 23BB | BTN raise 2 → SB raise 6 → BB fold → BTN shove 23
+// 79 | 23BB | BTN raise 2 -> SB raise 6 -> BB fold -> BTN shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 79 Force
-// 80 | 23BB | BTN raise 2 → SB raise 6 → BB shove 23
+// 80 | 23BB | BTN raise 2 -> SB raise 6 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 2 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 80 Force
-// 81 | 23BB | BTN raise 2 → SB raise 6 → BB shove 23 → BTN fold
+// 81 | 23BB | BTN raise 2 -> SB raise 6 -> BB shove 23 -> BTN fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 81 Force
-// 82 | 23BB | BTN raise 2 → SB raise 6 → BB shove 23 → BTN call 21
+// 82 | 23BB | BTN raise 2 -> SB raise 6 -> BB shove 23 -> BTN call 21
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 58 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 82 Force
-// 83 | 23BB | BTN raise 2 → SB shove 23
+// 83 | 23BB | BTN raise 2 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 83 Force
-// 84 | 23BB | BTN raise 2 → SB shove 23 → BB fold
+// 84 | 23BB | BTN raise 2 -> SB shove 23 -> BB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_BBPlaying Return 84 Force
-// 85 | 23BB | BTN raise 2 → SB shove 23 → BB call 22
+// 85 | 23BB | BTN raise 2 -> SB shove 23 -> BB call 22
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 57 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = currentbet_smallblindchair Return 85 Force
 // 86 | 23BB | BTN shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 86 Force
-// 87 | 23BB | BTN shove 23 → SB fold
+// 87 | 23BB | BTN shove 23 -> SB fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 87 Force
-// 88 | 23BB | BTN shove 23 → SB call 22.5
+// 88 | 23BB | BTN shove 23 -> SB call 22.5
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = currentbet_dealerchair && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 88 Force
 // 89 | 23BB | BTN fold
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 89 Force
-// 90 | 23BB | BTN fold → SB limp 0.5
+// 90 | 23BB | BTN fold -> SB limp 0.5
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 90 Force
-// 91 | 23BB | BTN fold → SB limp 0.5 → BB raise 3
+// 91 | 23BB | BTN fold -> SB limp 0.5 -> BB raise 3
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 89 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 91 Force
-// 92 | 23BB | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9
+// 92 | 23BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB raise 9
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 90 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (9 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 92 Force
-// 93 | 23BB | BTN fold → SB limp 0.5 → BB raise 3 → SB raise 9 → BB shove 23
+// 93 | 23BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB raise 9 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 91 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (9 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 93 Force
-// 94 | 23BB | BTN fold → SB limp 0.5 → BB raise 3 → SB shove 23
+// 94 | 23BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 90 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 94 Force
-// 95 | 23BB | BTN fold → SB limp 0.5 → BB shove 23
+// 95 | 23BB | BTN fold -> SB limp 0.5 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 89 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 95 Force
-// 96 | 23BB | BTN fold → SB raise 3
+// 96 | 23BB | BTN fold -> SB raise 3
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MID && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 96 Force
-// 97 | 23BB | BTN fold → SB raise 3 → BB raise 9
+// 97 | 23BB | BTN fold -> SB raise 3 -> BB raise 9
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 89 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (9 * f$bblind_BKP) && balance_bigblindchair > 0 Return 97 Force
-// 98 | 23BB | BTN fold → SB raise 3 → BB raise 9 → SB shove 23
+// 98 | 23BB | BTN fold -> SB raise 3 -> BB raise 9 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 96 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (9 * f$bblind_BKP) && balance_bigblindchair > 0 Return 98 Force
-// 99 | 23BB | BTN fold → SB raise 3 → BB shove 23
+// 99 | 23BB | BTN fold -> SB raise 3 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 89 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 99 Force
-// 100 | 23BB | BTN fold → SB shove 23
+// 100 | 23BB | BTN fold -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 100 Force
-// 101 | 23BB | Pote não aberto
+// 101 | 23BB | Pote nao aberto
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 101 Force
 // 102 | 23BB | SB limp 0.5
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 102 Force
-// 103 | 23BB | SB limp 0.5 → BB raise 2.5
+// 103 | 23BB | SB limp 0.5 -> BB raise 2.5
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 101 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 103 Force
-// 104 | 23BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5
+// 104 | 23BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 102 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 104 Force
-// 105 | 23BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 23
+// 105 | 23BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 103 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 105 Force
-// 106 | 23BB | SB limp 0.5 → BB raise 2.5 → SB shove 23
+// 106 | 23BB | SB limp 0.5 -> BB raise 2.5 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 102 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 106 Force
-// 107 | 23BB | SB limp 0.5 → BB shove 23
+// 107 | 23BB | SB limp 0.5 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 101 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 107 Force
 // 108 | 23BB | SB raise 2
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Normal && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 108 Force
-// 109 | 23BB | SB raise 2 → BB raise 6
+// 109 | 23BB | SB raise 2 -> BB raise 6
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 101 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 109 Force
-// 110 | 23BB | SB raise 2 → BB raise 6 → SB shove 23
+// 110 | 23BB | SB raise 2 -> BB raise 6 -> SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 108 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 110 Force
-// 111 | 23BB | SB raise 2 → BB shove 23
+// 111 | 23BB | SB raise 2 -> BB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 101 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 111 Force
 // 112 | 23BB | SB shove 23
 When f$GT_Stack_23 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 112 Force
-// 113 | 20BB | Pote não aberto
+// 113 | 20BB | Pote nao aberto
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_BTNPlaying && currentbet_dealerchair = 0 && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 113 Force
 // 114 | 20BB | BTN raise 2
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Normal && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 114 Force
-// 115 | 20BB | BTN raise 2 → SB fold
+// 115 | 20BB | BTN raise 2 -> SB fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 115 Force
-// 116 | 20BB | BTN raise 2 → SB fold → BB raise 6
+// 116 | 20BB | BTN raise 2 -> SB fold -> BB raise 6
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 116 Force
-// 117 | 20BB | BTN raise 2 → SB fold → BB raise 6 → BTN shove 20
+// 117 | 20BB | BTN raise 2 -> SB fold -> BB raise 6 -> BTN shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 115 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 117 Force
-// 118 | 20BB | BTN raise 2 → SB fold → BB shove 20
+// 118 | 20BB | BTN raise 2 -> SB fold -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && !f$GT_SBPlaying && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 118 Force
-// 119 | 20BB | BTN raise 2 → SB call 1.5
+// 119 | 20BB | BTN raise 2 -> SB call 1.5
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MNR && f$dealer_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 119 Force
-// 120 | 20BB | BTN raise 2 → SB call 1.5 → BB shove 20
+// 120 | 20BB | BTN raise 2 -> SB call 1.5 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 120 Force
-// 121 | 20BB | BTN raise 2 → SB call 1.5 → BB shove 20 → BTN fold
+// 121 | 20BB | BTN raise 2 -> SB call 1.5 -> BB shove 20 -> BTN fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 114 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 121 Force
-// 122 | 20BB | BTN raise 2 → SB call 1.5 → BB shove 20 → BTN call 18
+// 122 | 20BB | BTN raise 2 -> SB call 1.5 -> BB shove 20 -> BTN call 18
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 114 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 122 Force
-// 123 | 20BB | BTN raise 2 → SB raise 6
+// 123 | 20BB | BTN raise 2 -> SB raise 6
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 123 Force
-// 124 | 20BB | BTN raise 2 → SB raise 6 → BB fold
+// 124 | 20BB | BTN raise 2 -> SB raise 6 -> BB fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 124 Force
-// 125 | 20BB | BTN raise 2 → SB raise 6 → BB fold → BTN shove 20
+// 125 | 20BB | BTN raise 2 -> SB raise 6 -> BB fold -> BTN shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 114 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && !f$GT_BBPlaying Return 125 Force
-// 126 | 20BB | BTN raise 2 → SB raise 6 → BB shove 20
+// 126 | 20BB | BTN raise 2 -> SB raise 6 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 2 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 126 Force
-// 127 | 20BB | BTN raise 2 → SB raise 6 → BB shove 20 → BTN fold
+// 127 | 20BB | BTN raise 2 -> SB raise 6 -> BB shove 20 -> BTN fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 114 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 127 Force
-// 128 | 20BB | BTN raise 2 → SB raise 6 → BB shove 20 → BTN call 18
+// 128 | 20BB | BTN raise 2 -> SB raise 6 -> BB shove 20 -> BTN call 18
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 114 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_BTNPlaying && currentbet_dealerchair = currentbet_bigblindchair && f$GT_SBPlaying && currentbet_smallblindchair = (6 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 128 Force
-// 129 | 20BB | BTN raise 2 → SB shove 20
+// 129 | 20BB | BTN raise 2 -> SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 2 && f$FirstAction && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 129 Force
-// 130 | 20BB | BTN raise 2 → SB shove 20 → BB fold
+// 130 | 20BB | BTN raise 2 -> SB shove 20 -> BB fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_BBPlaying Return 130 Force
-// 131 | 20BB | BTN raise 2 → SB shove 20 → BB call 19
+// 131 | 20BB | BTN raise 2 -> SB shove 20 -> BB call 19
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = dealerchair && f$inBTN && !f$inSB && !f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 113 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && f$GT_BTNPlaying && currentbet_dealerchair = (2 * f$bblind_BKP) && balance_dealerchair > 0 && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = currentbet_smallblindchair Return 131 Force
 // 132 | 20BB | BTN shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$sb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 132 Force
-// 133 | 20BB | BTN shove 20 → SB fold
+// 133 | 20BB | BTN shove 20 -> SB fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && !f$GT_SBPlaying && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 133 Force
-// 134 | 20BB | BTN shove 20 → SB call 19.5
+// 134 | 20BB | BTN shove 20 -> SB call 19.5
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$dealer_lastraised && f$GT_BTNPlaying && f$GT_BTNAllin && balance_dealerchair = 0 && currentbet_dealerchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_SBPlaying && currentbet_smallblindchair = currentbet_dealerchair && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 134 Force
 // 135 | 20BB | BTN fold
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 135 Force
-// 136 | 20BB | BTN fold → SB limp 0.5
+// 136 | 20BB | BTN fold -> SB limp 0.5
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 136 Force
-// 137 | 20BB | BTN fold → SB limp 0.5 → BB raise 3
+// 137 | 20BB | BTN fold -> SB limp 0.5 -> BB raise 3
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 135 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 137 Force
-// 138 | 20BB | BTN fold → SB limp 0.5 → BB raise 3 → SB shove 20
+// 138 | 20BB | BTN fold -> SB limp 0.5 -> BB raise 3 -> SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 136 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (3 * f$bblind_BKP) && balance_bigblindchair > 0 Return 138 Force
-// 139 | 20BB | BTN fold → SB limp 0.5 → BB shove 20
+// 139 | 20BB | BTN fold -> SB limp 0.5 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 135 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 139 Force
-// 140 | 20BB | BTN fold → SB raise 3
+// 140 | 20BB | BTN fold -> SB raise 3
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_MID && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 140 Force
-// 141 | 20BB | BTN fold → SB raise 3 → BB shove 20
+// 141 | 20BB | BTN fold -> SB raise 3 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 135 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && !f$GT_BTNPlaying && f$GT_SBPlaying && currentbet_smallblindchair = (3 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 141 Force
-// 142 | 20BB | BTN fold → SB shove 20
+// 142 | 20BB | BTN fold -> SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 3 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_3H && !f$GT_BTNPlaying && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 142 Force
-// 143 | 20BB | Pote não aberto
+// 143 | 20BB | Pote nao aberto
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$UnplayedPot && f$GT_SBPlaying && currentbet_smallblindchair = f$sblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 143 Force
 // 144 | 20BB | SB limp 0.5
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 0 && f$FirstAction && f$bb_got_Limped && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 144 Force
-// 145 | 20BB | SB limp 0.5 → BB raise 2.5
+// 145 | 20BB | SB limp 0.5 -> BB raise 2.5
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 143 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 145 Force
-// 146 | 20BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5
+// 146 | 20BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 144 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 146 Force
-// 147 | 20BB | SB limp 0.5 → BB raise 2.5 → SB raise 7.5 → BB shove 20
+// 147 | 20BB | SB limp 0.5 -> BB raise 2.5 -> SB raise 7.5 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 3 && me_re_GTPrevNode = 145 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (7.5 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 147 Force
-// 148 | 20BB | SB limp 0.5 → BB raise 2.5 → SB shove 20
+// 148 | 20BB | SB limp 0.5 -> BB raise 2.5 -> SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 144 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (2.5 * f$bblind_BKP) && balance_bigblindchair > 0 Return 148 Force
-// 149 | 20BB | SB limp 0.5 → BB shove 20
+// 149 | 20BB | SB limp 0.5 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 143 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Call && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = f$bblind_BKP && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 149 Force
 // 150 | 20BB | SB raise 2
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Normal && f$sb_lastraised_2H && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 150 Force
-// 151 | 20BB | SB raise 2 → BB raise 6
+// 151 | 20BB | SB raise 2 -> BB raise 6
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 143 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 151 Force
-// 152 | 20BB | SB raise 2 → BB raise 6 → SB shove 20
+// 152 | 20BB | SB raise 2 -> BB raise 6 -> SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 150 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = (6 * f$bblind_BKP) && balance_bigblindchair > 0 Return 152 Force
-// 153 | 20BB | SB raise 2 → BB shove 20
+// 153 | 20BB | SB raise 2 -> BB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = smallblindchair && f$inSB && f$GT_DecisionIndex = 2 && me_re_GTPrevNode = 143 && f$RaisesSinceLastPlay_BKP = 1 && !f$FirstAction && f$BotsLastAction_BKP = Bet && f$bb_lastraised && f$GT_SBPlaying && currentbet_smallblindchair = (2 * f$bblind_BKP) && balance_smallblindchair > 0 && f$GT_BBPlaying && f$GT_BBAllin && balance_bigblindchair = 0 && currentbet_bigblindchair >= (me_re_GTInitialStack * f$bblind_BKP) Return 153 Force
 // 154 | 20BB | SB shove 20
 When f$GT_Stack_20 && nplayersdealt = 2 && userchair = bigblindchair && f$inBB && f$GT_DecisionIndex = 1 && me_re_GTPrevNode = 0 && f$RaisesSinceLastPlay_BKP = 1 && f$FirstAction && f$bb_vs_Open_Raise_Over && f$sb_lastraised_2H && f$GT_SBPlaying && f$GT_SBAllin && balance_smallblindchair = 0 && currentbet_smallblindchair >= (me_re_GTInitialStack * f$bblind_BKP) && f$GT_BBPlaying && currentbet_bigblindchair = f$bblind_BKP && balance_bigblindchair > 0 Return 154 Force
