@@ -80,3 +80,7 @@ Checkpoint parser: primeira tentativa falhou por Unicode nos comentários; hotfi
 Segundo checkpoint parser: sintaxe hand$ corrigida de forma global, confirmada na fonte OH e em modelo de classes. G4 permanece bloqueado ate novo carregamento nativo offline; exigir auditoria sintatica/semantica fonte-first antes de nova entrega. Demais gates preservados.
 
 Notação offsuit nativa revisada e adotada; auditoria ampliada e parser offline permanecem pendentes. Sem mudança de política.
+
+
+### Auditoria de classificadores R10m (2026-11-26)
+Inventário de 154 rotas concluído em [R10M_CLASSIFIER_ROUTE_AUDIT.md](R10M_CLASSIFIER_ROUTE_AUDIT.md). Não há 4-bet non-all-in nas árvores atuais; não criar classificador de 4-bet normal/over. Reuso prioritário dos classificadores R10m, preservando committed somente nos contextos originais; conflitos canônicos comprovados nos sizings de squeeze, 3-bet 9 BB e limp-reraise, além de cold 3bet sem helper direto. Over não implica all-in literal. Não alterar política, thresholds, código ou charts até resolver as incompatibilidades da matriz e aprovar a implementação. Auditoria de inventário concluída; cobertura comportamental e parser/replay pendentes. Blob executável permanece 10e49e9db803095e534064679ae94d76c46b8ff3.
