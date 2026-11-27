@@ -74,3 +74,5 @@ Checkpoint R2: RNG acordado restaurado, 154 charts no padrão listas/predicados,
 Checkpoint R3: sincronização upstream concluída (base 144f67309950b38e0dfea81892fecc75bad76b6c). Gates R2 não dispensados; próximo teste parser offline. [Relatório](DEEPGT_STAGE1_R3.md).
 
 Checkpoint integrado: roteamento, snapshots e sizing implementados para teste autorizado; validação estática/modelada concluída nos casos registrados. G1 raster e G2/G3/G4/G5 nativos não homologados. Não reabrir definições estratégicas. Próximo: teste autorizado pelo usuário e diagnóstico de erros observados. [Relatório](DEEPGT_INTEGRATED.md).
+
+Checkpoint parser: primeira tentativa falhou por Unicode nos comentários; hotfix ASCII publicado e verificado remotamente. G4 permanece aberto até novo carregamento nativo offline. Adotar verificação ASCII pré-publicação obrigatória conforme DIRETRIZES.md; demais gates inalterados.
