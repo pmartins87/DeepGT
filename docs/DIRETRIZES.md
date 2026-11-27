@@ -41,3 +41,5 @@ Data inicial: 2026-11-24.
 Sincronização upstream R3: fixar SHA da revisão R10m, comparar por seção, preservar extensões DeepGT, não incorporar propostas sem código aprovado; ver [relatório](DEEPGT_STAGE1_R3.md).
 
 DeepGT integrado: reutilizar a arquitetura R10m para buckets e classificadores; memória mínima de stack inicial e nó anterior para distinguir histórias. Não modificar charts/size por inferência fora da árvore; fallback R10m. Manter relatório e manifesto como fonte de verdade. [Relatório](DEEPGT_INTEGRATED.md).
+
+23. Gate obrigatório de publicação OH/PPL: verificar todo o arquivo (inclusive comentários) em ASCII padrão, sem BOM nem caracteres de controle além de TAB/CR/LF. Validar conteúdo remoto após upload; falha bloqueia entrega. Não confundir com parser nativo. Evidência: hotfix ASCII de 2026-11-26 em DEEPGT_INTEGRATED.md.
