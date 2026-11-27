@@ -85,3 +85,6 @@ Nome oficial DeepGT. Verificada integridade referencial dos 154 históricos e co
 2026-11-26 — R3 offline: sincronização com R10m mais recente, overpair na defesa HU flop overdonk, notas upstream incorporadas. 2419 seções únicas; todo o conteúdo adicional DeepGT preservado. [Relatório](DEEPGT_STAGE1_R3.md).
 
 2026-11-26 — DeepGT integrado: 154 rotas, 154 dispatches, 33 sizings; f$preflop conectado às charts, legado preservado; stack efetivo congelado na primeira decisão, histórico anterior armazenado. [Relatório](DEEPGT_INTEGRATED.md).
+
+## 2026-11-26 — hotfix ASCII
+Blob integrado 2b5807a787e5c642d2d549d8d519506424c10896, commit b1a7785499c67b66584edcb1efcade4d40871441. 299 caracteres Unicode em 142 linhas de comentários normalizados; nenhuma mudança executável. Repetir parser offline. Gate ASCII integral obrigatório.
